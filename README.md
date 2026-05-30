@@ -1,46 +1,63 @@
 <div align="center">
-<br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Nunito&weight=700&size=52&duration=1&pause=99999&color=0A0A0A&center=true&vCenter=true&repeat=false&width=700&height=80&lines=Yuvaraj+Vodiboina." alt="Yuvaraj Vodiboina." />
+```
+~/yuvaraj $ whoami
+```
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=32&duration=1&pause=99999&color=FFFFFF&center=true&vCenter=true&width=435&lines=Yuvaraj+Vodiboina" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=32&duration=1&pause=99999&color=000000&center=true&vCenter=true&width=435&lines=Yuvaraj+Vodiboina" />
+  <img alt="Yuvaraj Vodiboina" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=32&duration=1&pause=99999&color=000000&center=true&vCenter=true&width=435&lines=Yuvaraj+Vodiboina" />
+</picture>
 
-[![](https://img.shields.io/badge/Portfolio-1a1a1a?style=flat-square&logo=dev.to&logoColor=white)](https://yuvarajvodiboina.in)&nbsp;
-[![](https://img.shields.io/badge/LinkedIn-1a1a1a?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg==&logoColor=white)](https://linkedin.com/in/yuvarajvodiboina)&nbsp;
-[![](https://img.shields.io/badge/Medium-1a1a1a?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@yuvarajvodiboina)&nbsp;
-[![](https://img.shields.io/badge/Gmail-1a1a1a?style=flat-square&logo=gmail&logoColor=white)](mailto:yuvarajv952@gmail.com)
+```
+Frontend Engineer · Bengaluru, India
+```
+
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=html5&logoColor=white)](https://yourportfolio.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2EyLjA2MiAyLjA2MiAwIDAgMS0yLjA2My0yLjA2NSAyLjA2NCAyLjA2NCAwIDEgMSAyLjA2MyAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMGgtMTkuNUMxLjIzNiAwIDAgMS4yMjQgMCAyLjcyOXYxOC41NDJDMCAyMi43NzcgMS4yMzUgMjQgMi43MjUgMjRoMTkuNDk1QzIzLjc2NSAyNCAyNSAyMi43NzcgMjUgMjEuMjcxVjIuNzI5QzI1IDEuMjI0IDIzLjc2NSAwIDIyLjIyNiAwaDAtLjAwMXoiLz48L3N2Zz4=&logoColor=white)](https://linkedin.com/in/yuvarajvodiboina)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@yuvarajvodiboina)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:yuvarajvodiboina@gmail.com)
 
 </div>
 
-<br>
 
 ```typescript
 const yuvaraj = {
-  role     : "Web Developer @ Truedune Beauty",
-  location : "Bengaluru, India",
-  stack    : ["React", "TypeScript", "Next.js", "Kotlin"],
+  role      : "Frontend Engineer @ Truedune Beauty",
+  location  : "Bengaluru, India",
+  stack     : ["React", "TypeScript", "Next.js", "Kotlin", "Tailwind CSS"],
 
-  shipped  : {
-    chrome   : "4 extensions on the Web Store",
-    android  : "2 apps on the Play Store",
-    web      : "10+ products shipped",
-    research : ["IJRSI", "IJRAR"],
+  shipped   : {
+    chrome  : "4 extensions on the Web Store",
+    android : "2 apps on the Play Store",
+    web     : "10+ products shipped",
   },
 
-  building : ["Nivra — Android focus app", "SaaS (stealth)"],
-  seeking  : "SDE 1 — Bengaluru · Remote",
+  building  : ["Nivra - Android focus app", "micro-SaaS (in progress)"],
+  seeking   : "SDE 1 - Bengaluru / Remote",
 
   offscreen : {
-    gaming : ["Gran Turismo 7", "Valorant"],
-    setup  : ["PC", "PS5"],
-    motto  : "ship during the week, race on weekends",
+    gaming  : ["Gran Turismo 7", "Valorant"],
+    setup   : ["PC", "PS5"],
+    motto   : "ship during the week, race on weekends",
   },
 };
 ```
 
-<br>
+
+**[1]** Y. Vodiboina, *"Traffic Management and Congestion Mitigation Using Artificial Intelligence"*  
+IJRAR - International Journal of Research and Analytical Reviews, Jan. 2025.
+
+**[2]** Y. Vodiboina, *"The Impact of UI/UX Design on User Trust and Task Completion in Civic Tech Platforms"*  
+IJRSI - International Journal of Research and Scientific Innovation, Sep. 2025.
+
 
 <div align="center">
-<sub>open to sde 1 &nbsp;·&nbsp; bengaluru / remote &nbsp;·&nbsp; let's talk</sub>
-<br><br>
+
+```
+~/yuvaraj $ exit
+```
+
 </div>
