@@ -47,10 +47,7 @@ const yuvaraj = {
 ```
 
 
-**[1]** Y. Vodiboina, *"Traffic Management and Congestion Mitigation Using Artificial Intelligence"*  
-IJRAR - International Journal of Research and Analytical Reviews, Jan. 2025.
-
-**[2]** Y. Vodiboina, *"The Impact of UI/UX Design on User Trust and Task Completion in Civic Tech Platforms"*  
+**[1]** Y. Vodiboina, *"The Impact of UI/UX Design on User Trust and Task Completion in Civic Tech Platforms"*  
 IJRSI - International Journal of Research and Scientific Innovation, Sep. 2025.
 
 
