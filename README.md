@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/header-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/header-dark.svg" alt="Yuvaraj Vodiboina. Frontend engineer and independent product developer. Web interfaces, Chrome extensions, and Android apps." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v9/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v9/header-light.svg">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v9/header-dark.svg" alt="Yuvaraj Vodiboina. Software engineer and independent product developer. Web interfaces, Chrome extensions, and Android apps." width="100%">
 </picture>
 
 <p align="center">
@@ -11,7 +11,7 @@
   <a href="mailto:yvodiboina@gmail.com"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/icon-mail.svg" width="18" height="18" alt=""> <b>Email</b></a>
 </p>
 
-I'm Yuvaraj, a frontend engineer building web interfaces, Chrome extensions, and Android apps at **[CodeHorizon](https://codehorizon.in/)**. My work spans design, platform integration, and releases.
+I'm Yuvaraj, a software engineer building web products, Chrome extensions, and Android apps at **[CodeHorizon](https://codehorizon.in/)**. My work spans design, platform integration, and releases.
 
 <a href="https://codehorizon.in/products/">
 <picture>
