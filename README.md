@@ -1,60 +1,77 @@
-<div align="center">
-
-```
-~/yuvaraj $ whoami
-```
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=32&duration=1&pause=99999&color=FFFFFF&center=true&vCenter=true&width=435&lines=Yuvaraj+Vodiboina" />
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=32&duration=1&pause=99999&color=000000&center=true&vCenter=true&width=435&lines=Yuvaraj+Vodiboina" />
-  <img alt="Yuvaraj Vodiboina" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=32&duration=1&pause=99999&color=000000&center=true&vCenter=true&width=435&lines=Yuvaraj+Vodiboina" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/profile-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/profile-light.svg">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/profile-dark.svg" alt="Yuvaraj Vodiboina — Frontend Engineer & Independent Product Builder. Web, browser extensions, and Android. Bengaluru, India." width="100%">
 </picture>
 
-```
-Frontend Engineer · Bengaluru, India
-```
+<p align="center">
+  <a href="https://yuvarajvodiboina.in"><b>Portfolio ↗</b></a> &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/yuvarajvodiboina">LinkedIn</a> &nbsp; · &nbsp;
+  <a href="mailto:yuvarajvodiboina@gmail.com">Email</a>
+</p>
 
+I build practical software for everyday problems, from Shopify storefront audits to calmer browsing and on-device Android tools. My work spans design, implementation, release, and upkeep.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=html5&logoColor=white)](https://yourportfolio.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2EyLjA2MiAyLjA2MiAwIDAgMS0yLjA2My0yLjA2NSAyLjA2NCAyLjA2NCAwIDEgMSAyLjA2MyAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMGgtMTkuNUMxLjIzNiAwIDAgMS4yMjQgMCAyLjcyOXYxOC41NDJDMCAyMi43NzcgMS4yMzUgMjQgMi43MjUgMjRoMTkuNDk1QzIzLjc2NSAyNCAyNSAyMi43NzcgMjUgMjEuMjcxVjIuNzI5QzI1IDEuMjI0IDIzLjc2NSAwIDIyLjIyNiAwaDAtLjAwMXoiLz48L3N2Zz4=&logoColor=white)](https://linkedin.com/in/yuvarajvodiboina)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@yuvarajvodiboina)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:yuvarajvodiboina@gmail.com)
+Previously **Frontend Engineer at Truedune Beauty** · Oct 2025 – Aug 2026.
 
-</div>
+### Production work
 
+- **Checkout completion: 35% → 48%.** Rebuilt checkout with Razorpay Magic Checkout, prefilled addresses, and a shorter payment flow.
+- **Largest Contentful Paint: 24% lower.** Resolved render-blocking resources, deferred non-critical scripts, and optimized asset delivery.
+- Owned storefront and marketing interfaces in **React, Next.js, and TypeScript**, alongside Shopify integrations and a React Native mobile app.
 
-```typescript
-const yuvaraj = {
-  role      : "Frontend Engineer @ Truedune Beauty",
-  location  : "Bengaluru, India",
-  stack     : ["React", "TypeScript", "Next.js", "Kotlin", "Tailwind CSS"],
+### Selected builds
 
-  shipped   : {
-    chrome  : "4 extensions on the Web Store",
-    android : "2 apps on the Play Store",
-    web     : "10+ products shipped",
-  },
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>01 / ShopGrade</h3>
+<p><sub>SHOPIFY · CHROME EXTENSION</sub></p>
+<p>Audits public Shopify storefronts and turns performance, mobile, trust, and SEO findings into a prioritized report with evidence and next actions.</p>
+<p><code>JavaScript</code> <code>Manifest V3</code> <code>Chrome APIs</code></p>
+<p><a href="https://shopgrade.in"><b>Explore product ↗</b></a></p>
+</td>
+<td width="50%" valign="top">
+<h3>02 / TubeFocus</h3>
+<p><sub>FOCUS · CHROME EXTENSION</sub></p>
+<p>Removes YouTube distractions and keeps a focus timer running through browser suspension using service workers, <code>chrome.alarms</code>, and persisted state.</p>
+<p><code>JavaScript</code> <code>Manifest V3</code> <code>Service Workers</code></p>
+<p><a href="https://chromewebstore.google.com/detail/ghmoajebamiileeffdiplohlbgnhnadl"><b>Chrome Web Store ↗</b></a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>03 / SecureVault</h3>
+<p><sub>ON-DEVICE FILE VAULT · ANDROID</sub></p>
+<p>A functional calculator with an encrypted file vault. Uses Android Keystore, biometric unlock, and MVVM with Coroutines and StateFlow.</p>
+<p><code>Kotlin</code> <code>Jetpack Compose</code> <code>Android Keystore</code></p>
+<p><a href="https://play.google.com/store/apps/details?id=com.codehorizon.calculator"><b>Google Play ↗</b></a></p>
+</td>
+<td width="50%" valign="top">
+<h3>04 / Kalpa Corporate Artz</h3>
+<p><sub>CLIENT WEBSITE · REACT</sub></p>
+<p>Built a company website from Figma to production, with automated delivery through GitHub Actions and edge hosting on Cloudflare Pages.</p>
+<p><code>React</code> <code>GitHub Actions</code> <code>Cloudflare Pages</code></p>
+<p><a href="https://kalpacorporateartz.com"><b>Visit website ↗</b></a></p>
+</td>
+</tr>
+</table>
 
-  building  : ["Nivra - Android focus app", "micro-SaaS (in progress)"],
-  seeking   : "SDE 1 - Bengaluru / Remote",
+**Also shipped:** [TabCluster](https://chromewebstore.google.com/detail/faligjbhpbmnajkdpcefhebinddmbmbo) — groups browser tabs by domain, restores session state, and handles pinned tabs and focused-window constraints.
 
-  offscreen : {
-    gaming  : ["Gran Turismo 7", "Valorant"],
-    setup   : ["PC", "PS5"],
-    motto   : "ship during the week, race on weekends",
-  },
-};
-```
+### Tools I work with
 
+| Web & commerce | Browser platform | Android |
+| :--- | :--- | :--- |
+| React · Next.js · TypeScript | Manifest V3 · Chrome APIs | Kotlin · Jetpack Compose |
+| Tailwind CSS · Shopify Liquid | Service Workers · Web APIs | Coroutines · StateFlow · Room |
+| Node.js · Firebase · REST APIs | Tabs · Tab Groups · Storage | Android Keystore · MVVM |
 
-**[1]** Y. Vodiboina, *"The Impact of UI/UX Design on User Trust and Task Completion in Civic Tech Platforms"*  
-IJRSI - International Journal of Research and Scientific Innovation, Sep. 2025.
+<details>
+<summary><b>Research & offscreen</b></summary>
 
+Published *“The Impact of UI/UX Design on User Trust and Task Completion in Civic Tech Platforms”* in IJRSI, September 2025.
 
-<div align="center">
+Away from code: Gran Turismo 7 and Valorant.
 
-```
-~/yuvaraj $ exit
-```
-
-</div>
+</details>
