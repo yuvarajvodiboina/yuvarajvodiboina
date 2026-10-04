@@ -8,7 +8,7 @@
   <a href="https://codehorizon.in/"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/icon-horizon.svg" width="18" height="18" alt=""> <b>CodeHorizon</b></a> &nbsp; / &nbsp;
   <a href="https://yuvarajvodiboina.in/"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/icon-web.svg" width="18" height="18" alt=""> <b>Portfolio</b></a> &nbsp; / &nbsp;
   <a href="https://www.linkedin.com/in/yuvarajvodiboina/"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/icon-network.svg" width="18" height="18" alt=""> <b>LinkedIn</b></a> &nbsp; / &nbsp;
-  <a href="mailto:yuvarajvodiboina@gmail.com"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/icon-mail.svg" width="18" height="18" alt=""> <b>Email</b></a>
+  <a href="mailto:yvodiboina@gmail.com"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/icon-mail.svg" width="18" height="18" alt=""> <b>Email</b></a>
 </p>
 
 I’m Yuvaraj, a frontend engineer and the developer behind **[CodeHorizon](https://codehorizon.in/)**. I build browser extensions and Android apps, from the interface and platform APIs to store releases and ongoing updates.
