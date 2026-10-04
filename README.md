@@ -17,6 +17,8 @@ My projects have taught me to pay attention to the details behind the interface:
 
 <a href="https://codehorizon.in/products/">
 <picture>
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/proof-mobile-dark.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/proof-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/proof-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/proof-light.svg">
   <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/proof-dark.svg" alt="Four live Chrome extensions and two Android apps. Kalpa Corporate Artz client website. Nicked and Speaker Cleaner in testing." width="100%">
@@ -28,6 +30,8 @@ My projects have taught me to pay attention to the details behind the interface:
 The links below lead to working products, store listings, and project pages with screenshots.
 
 <p><picture>
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/shopgrade-mobile-dark.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/shopgrade-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/shopgrade-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/shopgrade-light.svg">
   <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/shopgrade-dark.svg" alt="ShopGrade / LIVE / CHROME EXTENSION + WEB" width="100%">
@@ -38,6 +42,8 @@ The links below lead to working products, store listings, and project pages with
 <p><sub>JavaScript / Manifest V3 / Web APIs</sub><br><a href="https://codehorizon.in/products/shopgrade/"><b>Project details</b></a> &nbsp; / &nbsp; <a href="https://chromewebstore.google.com/detail/shopgrade/aenccbnkkimncdjikjgapconaegnmbeo">Chrome Web Store</a></p>
 
 <p><picture>
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/kalpa-mobile-dark.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/kalpa-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/kalpa-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/kalpa-light.svg">
   <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/kalpa-dark.svg" alt="Kalpa Corporate Artz / LIVE WEBSITE / CLIENT WEBSITE / NEXT.JS" width="100%">
@@ -48,6 +54,8 @@ The links below lead to working products, store listings, and project pages with
 <p><sub>Next.js / React / TypeScript / Figma</sub><br><a href="https://kalpacorporateartz.com/"><b>Visit the website</b></a></p>
 
 <p><picture>
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/tubefocus-mobile-dark.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/tubefocus-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/tubefocus-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/tubefocus-light.svg">
   <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/tubefocus-dark.svg" alt="TubeFocus / LIVE / CHROME / NAVIGATION + STATE" width="100%">
@@ -58,6 +66,8 @@ The links below lead to working products, store listings, and project pages with
 <p><sub>JavaScript / Chrome Storage / MutationObserver</sub><br><a href="https://codehorizon.in/products/tubefocus/"><b>Project details</b></a> &nbsp; / &nbsp; <a href="https://chromewebstore.google.com/detail/ghmoajebamiileeffdiplohlbgnhnadl">Chrome Web Store</a></p>
 
 <p><picture>
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/securevault-mobile-dark.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/securevault-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/securevault-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/securevault-light.svg">
   <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/securevault-dark.svg" alt="SecureVault / LIVE / ANDROID / ENCRYPTION + UX" width="100%">
