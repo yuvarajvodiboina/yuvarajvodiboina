@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/header-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/header-dark.svg" alt="Yuvaraj Vodiboina. Frontend engineer and independent product developer. Web interfaces, Chrome extensions, and Android apps." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/header-light.svg">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/header-dark.svg" alt="Yuvaraj Vodiboina. Frontend engineer and independent product developer. Web interfaces, Chrome extensions, and Android apps." width="100%">
 </picture>
 
 <p align="center">
@@ -17,9 +17,9 @@ My projects have taught me to pay attention to the details behind the interface:
 
 <a href="https://codehorizon.in/products/">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/proof-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/proof-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/proof-dark.svg" alt="Four live Chrome extensions and two Android apps. Kalpa Corporate Artz client website. Nicked and Speaker Cleaner in testing." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/proof-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/proof-light.svg">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/proof-dark.svg" alt="Four live Chrome extensions and two Android apps. Kalpa Corporate Artz client website. Nicked and Speaker Cleaner in testing." width="100%">
 </picture>
 </a>
 
@@ -31,9 +31,9 @@ The links below lead to working products, store listings, and project pages with
 <tr>
 <td width="50%" valign="top">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/shopgrade-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/shopgrade-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/shopgrade-dark.svg" alt="ShopGrade / LIVE / CHROME EXTENSION + WEB" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/shopgrade-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/shopgrade-light.svg">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/shopgrade-dark.svg" alt="ShopGrade / LIVE / CHROME EXTENSION + WEB" width="100%">
 </picture>
 <p>Shopify storefront audits with reports agencies can share with clients.</p>
 <p><b>The challenge</b><br>Useful recommendations have to come from public storefront evidence, without access to orders or traffic data.</p>
@@ -43,9 +43,9 @@ The links below lead to working products, store listings, and project pages with
 </td>
 <td width="50%" valign="top">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/kalpa-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/kalpa-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/kalpa-dark.svg" alt="Kalpa Corporate Artz / LIVE WEBSITE / CLIENT WEBSITE / NEXT.JS" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/kalpa-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/kalpa-light.svg">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/kalpa-dark.svg" alt="Kalpa Corporate Artz / LIVE WEBSITE / CLIENT WEBSITE / NEXT.JS" width="100%">
 </picture>
 <p>An art studio website for exploring artwork and arranging a consultation.</p>
 <p><b>The challenge</b><br>The gallery and consultation journey needed clear paths from browsing to making an enquiry.</p>
@@ -57,9 +57,9 @@ The links below lead to working products, store listings, and project pages with
 <tr>
 <td width="50%" valign="top">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/tubefocus-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/tubefocus-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/tubefocus-dark.svg" alt="TubeFocus / LIVE / CHROME / NAVIGATION + STATE" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/tubefocus-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/tubefocus-light.svg">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/tubefocus-dark.svg" alt="TubeFocus / LIVE / CHROME / NAVIGATION + STATE" width="100%">
 </picture>
 <p>A calmer YouTube interface with configurable hiding rules and timed focus sessions.</p>
 <p><b>The challenge</b><br>YouTube navigates without a full reload, while an extension popup exists only while it is open.</p>
@@ -69,9 +69,9 @@ The links below lead to working products, store listings, and project pages with
 </td>
 <td width="50%" valign="top">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/securevault-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/securevault-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/securevault-dark.svg" alt="SecureVault / LIVE / ANDROID / ENCRYPTION + UX" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/securevault-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/securevault-light.svg">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/securevault-dark.svg" alt="SecureVault / LIVE / ANDROID / ENCRYPTION + UX" width="100%">
 </picture>
 <p>An encrypted Android file vault behind a working calculator.</p>
 <p><b>The challenge</b><br>File privacy depends on protected keys, predictable locking, and an unlock flow people can understand.</p>
