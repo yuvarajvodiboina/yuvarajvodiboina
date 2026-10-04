@@ -1,137 +1,115 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/header-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/header-dark.svg" alt="Yuvaraj Vodiboina | Frontend engineer and independent product builder at CodeHorizon. Web interfaces, browser tools, and Android apps." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/header-light.svg">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/header-dark.svg" alt="Yuvaraj Vodiboina. Frontend engineer and independent product developer. Web interfaces, Chrome extensions, and Android apps." width="100%">
 </picture>
 
 <p align="center">
-  <a href="https://codehorizon.in/"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/icon-horizon.svg" width="18" height="18" alt=""> <b>CodeHorizon</b></a> &nbsp; / &nbsp;
   <a href="https://yuvarajvodiboina.in/"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/icon-web.svg" width="18" height="18" alt=""> <b>Portfolio</b></a> &nbsp; / &nbsp;
+  <a href="https://codehorizon.in/"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/icon-horizon.svg" width="18" height="18" alt=""> <b>CodeHorizon</b></a> &nbsp; / &nbsp;
   <a href="https://www.linkedin.com/in/yuvarajvodiboina/"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/icon-network.svg" width="18" height="18" alt=""> <b>LinkedIn</b></a> &nbsp; / &nbsp;
   <a href="mailto:yvodiboina@gmail.com"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/icon-mail.svg" width="18" height="18" alt=""> <b>Email</b></a>
 </p>
 
-I’m Yuvaraj, a frontend engineer and the developer behind **[CodeHorizon](https://codehorizon.in/)**. I build browser extensions and Android apps, from the interface and platform APIs to store releases and ongoing updates.
+I'm Yuvaraj, a frontend engineer and the developer behind **[CodeHorizon](https://codehorizon.in/)**. I build web interfaces, Chrome extensions, and Android apps, taking the work from design and platform integration through release and subsequent updates.
 
-The interesting work is in the details: keeping focus settings intact after navigation, reopening saved tabs, wrapping text selections, and making small tools useful offline.
+My projects have taught me to pay attention to the details behind the interface: state after navigation, selections across DOM nodes, encrypted storage, and what happens when the network is unavailable.
 
 <a href="https://codehorizon.in/products/">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/proof-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/proof-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/proof-dark.svg" alt="CodeHorizon catalogue: six live products, two Android apps in testing. Open the product pages and store listings." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/proof-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/proof-light.svg">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/proof-dark.svg" alt="Four live Chrome extensions and two Android apps. Kalpa Corporate Artz client website. Nicked and Speaker Cleaner in testing." width="100%">
 </picture>
 </a>
 
-## Products and the problems behind them
+## Selected work and engineering decisions
 
-Each product below is live. The project pages include screenshots and product details; the store links let you try the released apps.
+The links below lead to working products, store listings, and project pages with screenshots.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/shopgrade-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/shopgrade-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/shopgrade-dark.svg" alt="ShopGrade | Live | CHROME EXTENSION + WEB" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/shopgrade-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/shopgrade-light.svg">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/shopgrade-dark.svg" alt="ShopGrade / LIVE / CHROME EXTENSION + WEB" width="100%">
 </picture>
-<p><b>ShopGrade</b> &nbsp; <sub>LIVE</sub></p>
-<p><b>Challenge</b><br>An audit needs a clear next action, even though a public storefront cannot reveal orders, traffic, or actual conversion data.</p>
-<p><b>How I handled it</b><br>I combined storefront signals and performance checks into a report with evidence and next actions, without requiring admin access. Added sharing and export for client handoffs.</p>
-<p><sub>JavaScript / Manifest V3 / Chrome APIs</sub></p>
+<p>Shopify storefront audits with reports agencies can share with clients.</p>
+<p><b>The challenge</b><br>Useful recommendations have to come from public storefront evidence, without access to orders or traffic data.</p>
+<p><b>What I implemented</b><br>I organized observable signals into evidence and prioritized actions. Added report sharing, branded exports, and client presentation decks.</p>
+<p><sub>JavaScript / Manifest V3 / Web APIs</sub></p>
 <p><a href="https://codehorizon.in/products/shopgrade/"><b>Project details</b></a> &nbsp; / &nbsp; <a href="https://chromewebstore.google.com/detail/shopgrade/aenccbnkkimncdjikjgapconaegnmbeo">Chrome Web Store</a></p>
 </td>
 <td width="50%" valign="top">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/securevault-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/securevault-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/securevault-dark.svg" alt="SecureVault | Live | ANDROID / LOCAL FILE VAULT" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/kalpa-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/kalpa-light.svg">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/kalpa-dark.svg" alt="Kalpa Corporate Artz / LIVE WEBSITE / CLIENT WEBSITE / NEXT.JS" width="100%">
 </picture>
-<p><b>SecureVault</b> &nbsp; <sub>LIVE</sub></p>
-<p><b>Challenge</b><br>File privacy needs encryption, protected keys, and predictable unlock and lock behavior.</p>
-<p><b>How I handled it</b><br>I used AES-256-GCM and Android Keystore, with biometric unlock, passcode fallback, and inactivity locking behind a working calculator.</p>
-<p><sub>Kotlin / Jetpack Compose / Android Keystore</sub></p>
-<p><a href="https://codehorizon.in/products/securevault/"><b>Project details</b></a> &nbsp; / &nbsp; <a href="https://play.google.com/store/apps/details?id=com.codehorizon.calculator">Google Play</a></p>
+<p>An art studio website for exploring artwork and arranging a consultation.</p>
+<p><b>The challenge</b><br>The gallery and consultation journey needed clear paths from browsing to making an enquiry.</p>
+<p><b>What I implemented</b><br>I took the Figma designs into Next.js and React, organized artwork by style, and built a guided booking flow.</p>
+<p><sub>Next.js / React / TypeScript / Figma</sub></p>
+<p><a href="https://kalpacorporateartz.com/"><b>Visit the website</b></a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/tubefocus-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/tubefocus-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/tubefocus-dark.svg" alt="TubeFocus | Live | CHROME / FOCUS + NAVIGATION" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/tubefocus-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/tubefocus-light.svg">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/tubefocus-dark.svg" alt="TubeFocus / LIVE / CHROME / NAVIGATION + STATE" width="100%">
 </picture>
-<p><b>TubeFocus</b> &nbsp; <sub>LIVE</sub></p>
-<p><b>Challenge</b><br>YouTube changes pages without a reload. Closing the extension popup should not reset a focus session.</p>
-<p><b>How I handled it</b><br>I stored the session end timestamp in Chrome storage, checked expiry in the content script, and reapplied hiding rules after YouTube navigation.</p>
+<p>A calmer YouTube interface with configurable hiding rules and timed focus sessions.</p>
+<p><b>The challenge</b><br>YouTube navigates without a full reload, while an extension popup exists only while it is open.</p>
+<p><b>What I implemented</b><br>I stored an absolute session end time in Chrome storage. The content script checks expiry and reapplies the hiding rules after navigation.</p>
 <p><sub>JavaScript / Chrome Storage / MutationObserver</sub></p>
 <p><a href="https://codehorizon.in/products/tubefocus/"><b>Project details</b></a> &nbsp; / &nbsp; <a href="https://chromewebstore.google.com/detail/ghmoajebamiileeffdiplohlbgnhnadl">Chrome Web Store</a></p>
 </td>
 <td width="50%" valign="top">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/tabcluster-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/tabcluster-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/tabcluster-dark.svg" alt="TabCluster | Live | CHROME / TABS + WORKSPACES" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/securevault-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/securevault-light.svg">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v3/securevault-dark.svg" alt="SecureVault / LIVE / ANDROID / ENCRYPTION + UX" width="100%">
 </picture>
-<p><b>TabCluster</b> &nbsp; <sub>LIVE</sub></p>
-<p><b>Challenge</b><br>A useful saved workspace needs data that survives the current set of browser tab IDs.</p>
-<p><b>How I handled it</b><br>I grouped tabs by domain, added a preview, and stored URLs and titles locally so saved workspaces could be reopened later.</p>
-<p><sub>JavaScript / Tabs API / Tab Groups API</sub></p>
-<p><a href="https://codehorizon.in/products/tabcluster/"><b>Project details</b></a> &nbsp; / &nbsp; <a href="https://chromewebstore.google.com/detail/faligjbhpbmnajkdpcefhebinddmbmbo">Chrome Web Store</a></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/notilo-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/notilo-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/notilo-dark.svg" alt="Notilo | Live | CHROME / SELECTION + NOTES" width="100%">
-</picture>
-<p><b>Notilo</b> &nbsp; <sub>LIVE</sub></p>
-<p><b>Challenge</b><br>A text selection can cross several DOM nodes, making a simple highlight wrapper fail.</p>
-<p><b>How I handled it</b><br>I used Selection and Range APIs with an extract-and-wrap fallback. Saved notes per page and matched stored text to restore highlights on revisit.</p>
-<p><sub>JavaScript / Selection API / Range API</sub></p>
-<p><a href="https://codehorizon.in/products/notilo/"><b>Project details</b></a> &nbsp; / &nbsp; <a href="https://chromewebstore.google.com/detail/ocgkllkcodafimnkheijpachancljmdk">Chrome Web Store</a></p>
-</td>
-<td width="50%" valign="top">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/companion-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/companion-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/companion-dark.svg" alt="Companion AI | Live | ANDROID / OFFLINE QUOTES" width="100%">
-</picture>
-<p><b>Companion AI</b> &nbsp; <sub>LIVE</sub></p>
-<p><b>Challenge</b><br>Saved quotes and daily reminders need to remain useful when a network request is unavailable.</p>
-<p><b>How I handled it</b><br>I kept quotes and favourites locally, drew reminder content from a cache, and scheduled background work with WorkManager.</p>
-<p><sub>Kotlin / Room / WorkManager</sub></p>
-<p><a href="https://codehorizon.in/products/companion-ai/"><b>Project details</b></a> &nbsp; / &nbsp; <a href="https://play.google.com/store/apps/details?id=com.codehorizon.companion">Google Play</a></p>
+<p>An encrypted Android file vault behind a working calculator.</p>
+<p><b>The challenge</b><br>File privacy depends on protected keys, predictable locking, and an unlock flow people can understand.</p>
+<p><b>What I implemented</b><br>I used AES-256-GCM and Android Keystore, with biometric unlock, passcode fallback, and inactivity locking. Recent work clarified the passcode setup wording.</p>
+<p><sub>Kotlin / Jetpack Compose / Android Keystore</sub></p>
+<p><a href="https://codehorizon.in/products/securevault/"><b>Project details</b></a> &nbsp; / &nbsp; <a href="https://play.google.com/store/apps/details?id=com.codehorizon.calculator">Google Play</a></p>
 </td>
 </tr>
 </table>
 
-## Currently in testing
+## More released tools
 
-| Product | What it does | Status |
+| Project | The problem and implementation |
+| :--- | :--- |
+| **[TabCluster](https://codehorizon.in/products/tabcluster/)**<br>[Chrome Web Store](https://chromewebstore.google.com/detail/faligjbhpbmnajkdpcefhebinddmbmbo) | Saved workspaces need to survive the original tabs. I stored URLs and titles locally for reopening, grouped tabs by domain, and added a preview before grouping. |
+| **[Notilo](https://codehorizon.in/products/notilo/)**<br>[Chrome Web Store](https://chromewebstore.google.com/detail/ocgkllkcodafimnkheijpachancljmdk) | Text selections can cross DOM nodes. I used Selection and Range APIs with an extract-and-wrap fallback, saved notes per page, and used stored text to restore highlights on revisit. |
+| **[Companion AI](https://codehorizon.in/products/companion-ai/)**<br>[Google Play](https://play.google.com/store/apps/details?id=com.codehorizon.companion) | Quotes, favourites, and reminders need to remain useful offline. I used Room for local data and WorkManager to schedule reminders from cached content. |
+
+## What I'm working on
+
+**[Nicked](https://codehorizon.in/products/nicked/)** is a daily cricket guessing game with six attempts and a timed Run Chase mode. **[Speaker Cleaner](https://codehorizon.in/products/speaker-cleaner/)** is a tone-based Android utility. Both are currently in Google Play testing.
+
+Recent release work includes branded client decks and sharing controls in ShopGrade, plus clearer passcode setup in SecureVault. The [CodeHorizon changelog](https://codehorizon.in/changelog/) records the releases and what changed.
+
+## Tools I use
+
+| Web interfaces | Browser platform | Android |
 | :--- | :--- | :--- |
-| [Speaker Cleaner](https://codehorizon.in/products/speaker-cleaner/) | An Android utility for playing speaker-cleaning tones. | In testing |
-| [Nicked](https://codehorizon.in/products/nicked/) | A daily cricket guessing game with six attempts. | In testing |
-
-Release notes and product updates live in the [CodeHorizon changelog](https://codehorizon.in/changelog/).
-
-## Where I spend my time
-
-| Interfaces | Browser platform | Android |
-| :--- | :--- | :--- |
-| React / Next.js / TypeScript | Manifest V3 / Chrome APIs | Kotlin / Jetpack Compose |
-| Tailwind CSS / REST APIs | DOM / Selection / Range | Coroutines / StateFlow |
-| Node.js / Firebase | Tabs / Tab Groups / Storage | Room / WorkManager / Keystore |
+| React, Next.js, TypeScript | JavaScript, Manifest V3 | Kotlin, Jetpack Compose |
+| Figma, Tailwind CSS, REST APIs | Chrome APIs, DOM, Selection, Range | Room, WorkManager, Android Keystore |
 
 <details>
-<summary><b>More background</b></summary>
+<summary><b>Earlier experience and public work</b></summary>
 
-Previously a frontend engineer at Truedune Beauty, working on e-commerce interfaces and integrations. I also built [Kalpa Corporate Artz](https://kalpacorporateartz.com/) from Figma to production in React, with GitHub Actions and Cloudflare Pages.
+Previously a frontend engineer at Truedune Beauty, working on e-commerce interfaces and integrations.
 
-Outside code: Gran Turismo 7 and Valorant.
+My public Android work includes [AxionAOSP for Xiaomi Pad 6](https://github.com/yuvarajvodiboina/axion-pipa), with the published community build, device integration notes, installation documentation, and upstream credits.
 
 </details>
 
-<p align="center"><sub>Product work at <a href="https://codehorizon.in/">codehorizon.in</a> / More background at <a href="https://yuvarajvodiboina.in/">yuvarajvodiboina.in</a></sub></p>
+<p align="center"><sub>Explore the <a href="https://codehorizon.in/products/">product catalogue</a>, read the <a href="https://codehorizon.in/changelog/">release history</a>, or visit my <a href="https://yuvarajvodiboina.in/">portfolio</a>.</sub></p>
