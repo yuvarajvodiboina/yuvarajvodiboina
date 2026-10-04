@@ -40,12 +40,14 @@ I'm Yuvaraj, a software engineer building web products, Chrome extensions, and A
   <a href="https://codehorizon.in/products/tubefocus/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/link-tubefocus-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/link-tubefocus-light.svg"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/link-tubefocus-dark.svg" alt="Open TubeFocus" width="145" height="30"></picture></a>
 </p>
 
+**[Read the engineering case studies](https://github.com/yuvarajvodiboina/engineering-case-studies)** · Architecture, tradeoffs, and verification.
+
 <details id="project-notes">
 <summary><b>Project notes and availability</b></summary>
 
-- **ShopGrade**: released Chrome extension with an Appwrite backend. [Chrome Web Store](https://chromewebstore.google.com/detail/shopgrade/aenccbnkkimncdjikjgapconaegnmbeo).
-- **Nicked**: Android game in testing. Daily answers use a frozen schedule and version-stable shuffle; gameplay state is saved with DataStore. [Project page](https://codehorizon.in/products/nicked/).
-- **SecureVault**: released Android app with encrypted file storage and biometric or passcode unlock. [Google Play](https://play.google.com/store/apps/details?id=com.codehorizon.calculator).
+- **ShopGrade**: released Chrome extension with an Appwrite backend. [Chrome Web Store](https://chromewebstore.google.com/detail/shopgrade/aenccbnkkimncdjikjgapconaegnmbeo) · [Case study](https://github.com/yuvarajvodiboina/engineering-case-studies/blob/main/case-studies/shopgrade.md).
+- **Nicked**: Android game in testing. Daily answers use a frozen schedule and version-stable shuffle; daily game progress is saved with DataStore. [Project page](https://codehorizon.in/products/nicked/) · [Case study](https://github.com/yuvarajvodiboina/engineering-case-studies/blob/main/case-studies/nicked.md).
+- **SecureVault**: released Android app with encrypted file storage and biometric or passcode unlock. [Google Play](https://play.google.com/store/apps/details?id=com.codehorizon.calculator) · [Case study](https://github.com/yuvarajvodiboina/engineering-case-studies/blob/main/case-studies/securevault.md).
 - **TubeFocus**: released Chrome extension. Session end times persist in Chrome storage and hiding rules are reapplied during YouTube navigation. [Chrome Web Store](https://chromewebstore.google.com/detail/ghmoajebamiileeffdiplohlbgnhnadl).
 
 </details>
