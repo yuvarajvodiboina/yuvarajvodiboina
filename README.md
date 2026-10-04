@@ -79,11 +79,14 @@ The links below lead to working products, store listings, and project pages with
 
 ## More released tools
 
-| Project | The problem and implementation |
-| :--- | :--- |
-| **[TabCluster](https://codehorizon.in/products/tabcluster/)**<br>[Web Store](https://chromewebstore.google.com/detail/faligjbhpbmnajkdpcefhebinddmbmbo) | Saved workspaces need to survive the original tabs. I stored URLs and titles locally for reopening, grouped tabs by domain, and added a preview before grouping. |
-| **[Notilo](https://codehorizon.in/products/notilo/)**<br>[Web Store](https://chromewebstore.google.com/detail/ocgkllkcodafimnkheijpachancljmdk) | Text selections can cross DOM nodes. I used Selection and Range APIs with an extract-and-wrap fallback, saved notes per page, and used stored text to restore highlights on revisit. |
-| **[Companion AI](https://codehorizon.in/products/companion-ai/)**<br>[Google Play](https://play.google.com/store/apps/details?id=com.codehorizon.companion) | Quotes, favourites, and reminders need to remain useful offline. I used Room for local data and WorkManager to schedule reminders from cached content. |
+<table>
+<thead><tr><th width="24%" align="left">Project</th><th align="left">The problem and implementation</th></tr></thead>
+<tbody>
+<tr><td width="24%" valign="top"><b><a href="https://codehorizon.in/products/tabcluster/">TabCluster</a></b><br><a href="https://chromewebstore.google.com/detail/faligjbhpbmnajkdpcefhebinddmbmbo">Web Store</a></td><td valign="top">Saved workspaces need to survive the original tabs. I stored URLs and titles locally for reopening, grouped tabs by domain, and added a preview before grouping.</td></tr>
+<tr><td width="24%" valign="top"><b><a href="https://codehorizon.in/products/notilo/">Notilo</a></b><br><a href="https://chromewebstore.google.com/detail/ocgkllkcodafimnkheijpachancljmdk">Web Store</a></td><td valign="top">Text selections can cross DOM nodes. I used Selection and Range APIs with an extract-and-wrap fallback, saved notes per page, and used stored text to restore highlights on revisit.</td></tr>
+<tr><td width="24%" valign="top"><b><a href="https://codehorizon.in/products/companion-ai/">Companion AI</a></b><br><a href="https://play.google.com/store/apps/details?id=com.codehorizon.companion">Google Play</a></td><td valign="top">Quotes, favourites, and reminders need to remain useful offline. I used Room for local data and WorkManager to schedule reminders from cached content.</td></tr>
+</tbody>
+</table>
 
 ## What I'm working on
 
