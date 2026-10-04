@@ -11,62 +11,72 @@
   <a href="mailto:yvodiboina@gmail.com"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/icon-mail.svg" width="18" height="18" alt=""> <b>Email</b></a>
 </p>
 
-I'm Yuvaraj, a frontend engineer building web interfaces, Chrome extensions, and Android apps at **[CodeHorizon](https://codehorizon.in/)**. My work spans design, platform integration, and releases.
+I'm Yuvaraj, a frontend engineer building web interfaces, Chrome extensions, and mobile apps at **[CodeHorizon](https://codehorizon.in/)**. My work spans design, platform integration, and releases.
 
 <a href="https://codehorizon.in/products/">
 <picture>
-  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/proof-mobile-dark.svg">
-  <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v5/proof-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/proof-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/proof-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v4/proof-dark.svg" alt="Four live Chrome extensions and two Android apps. Kalpa Corporate Artz client website. Nicked and Speaker Cleaner in testing." width="100%">
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/proof-mobile-dark.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/proof-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/proof-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/proof-light.svg">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/proof-dark.svg" alt="Six released products. Nicked and Speaker Cleaner in testing. Web and mobile engineering." width="100%">
 </picture>
 </a>
 
 ## Selected work
 
 <picture>
-  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/selected-work-mobile-dark.svg">
-  <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/selected-work-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/selected-work-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/selected-work-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/selected-work-dark.svg" alt="ShopGrade: Without access to sales data, I turned public storefront signals into prioritized recommendations, shareable reports, and branded client decks. Kalpa Corporate Artz: To connect gallery browsing with enquiries, I translated Figma designs into Next.js and built a guided consultation flow. TubeFocus: To survive closed popups and YouTube navigation, I stored the session end time in Chrome storage and reapplied hiding rules. SecureVault: I used AES-256-GCM and Android Keystore to protect files, with biometric unlock, passcode fallback, and automatic locking after inactivity." width="100%">
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/selected-work-mobile-dark.svg">
+  <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/selected-work-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/selected-work-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/selected-work-light.svg">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/selected-work-dark.svg" alt="ShopGrade: I made report credits and audit access atomic, so retried requests cannot charge twice or leave paid reports half provisioned. Nicked: I froze the daily answer schedule to keep puzzles consistent across releases, persisted game state, and paused Run Chase when backgrounded. Orbit: I tied offers, reservations, and orders together with Firestore transactions, then separated public profiles from private buyer and seller data. WorkoutStrike: I queued individual HealthKit writes to preserve rapid updates, deduplicated imported samples, and synced local SwiftData with cloud backups." width="100%">
 </picture>
 
 <p align="center">
-  <a href="https://codehorizon.in/products/shopgrade/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/link-shopgrade-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/link-shopgrade-light.svg"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/link-shopgrade-dark.svg" alt="Open ShopGrade" width="145" height="30"></picture></a>
-  <a href="https://kalpacorporateartz.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/link-kalpa-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/link-kalpa-light.svg"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/link-kalpa-dark.svg" alt="Open Kalpa Corporate Artz" width="145" height="30"></picture></a>
-  <a href="https://codehorizon.in/products/tubefocus/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/link-tubefocus-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/link-tubefocus-light.svg"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/link-tubefocus-dark.svg" alt="Open TubeFocus" width="145" height="30"></picture></a>
-  <a href="https://codehorizon.in/products/securevault/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/link-securevault-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/link-securevault-light.svg"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v6/link-securevault-dark.svg" alt="Open SecureVault" width="145" height="30"></picture></a>
+  <a href="https://codehorizon.in/products/shopgrade/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/link-shopgrade-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/link-shopgrade-light.svg"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/link-shopgrade-dark.svg" alt="Open ShopGrade" width="145" height="30"></picture></a>
+  <a href="https://codehorizon.in/products/nicked/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/link-nicked-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/link-nicked-light.svg"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/link-nicked-dark.svg" alt="Open Nicked" width="145" height="30"></picture></a>
+  <a href="#project-notes"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/link-orbit-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/link-orbit-light.svg"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/link-orbit-dark.svg" alt="Open Orbit" width="145" height="30"></picture></a>
+  <a href="#project-notes"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/link-workoutstrike-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/link-workoutstrike-light.svg"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v7/link-workoutstrike-dark.svg" alt="Open WorkoutStrike" width="145" height="30"></picture></a>
 </p>
 
-<details>
-<summary><b>Store listings and project links</b></summary>
+<details id="project-notes">
+<summary><b>Project notes and availability</b></summary>
 
-- **[ShopGrade](https://codehorizon.in/products/shopgrade/)** / [Chrome Web Store](https://chromewebstore.google.com/detail/shopgrade/aenccbnkkimncdjikjgapconaegnmbeo)
-- **[Kalpa Corporate Artz](https://kalpacorporateartz.com/)**
-- **[TubeFocus](https://codehorizon.in/products/tubefocus/)** / [Chrome Web Store](https://chromewebstore.google.com/detail/ghmoajebamiileeffdiplohlbgnhnadl)
-- **[SecureVault](https://codehorizon.in/products/securevault/)** / [Google Play](https://play.google.com/store/apps/details?id=com.codehorizon.calculator)
+- **ShopGrade**: released Chrome extension with an Appwrite backend. [Chrome Web Store](https://chromewebstore.google.com/detail/shopgrade/aenccbnkkimncdjikjgapconaegnmbeo).
+- **Nicked**: Android game in testing. Daily answers use a frozen schedule and version-stable shuffle; gameplay state is saved with DataStore. [Project page](https://codehorizon.in/products/nicked/).
+- **Orbit**: private marketplace build. Firestore transactions coordinate reservations and checkout; rules scope data to buyers, sellers, and staff. Payments are simulated.
+- **WorkoutStrike**: private iOS build. Local SwiftData, HealthKit, and Firestore share a sync pipeline that queues individual writes and recovers missed updates through backfill.
 
 </details>
 
-## Other released tools
+## More work
 
-- **[TabCluster](https://codehorizon.in/products/tabcluster/)**: persisted workspaces, domain grouping, and a preview before grouping. [Web Store](https://chromewebstore.google.com/detail/faligjbhpbmnajkdpcefhebinddmbmbo)
-- **[Notilo](https://codehorizon.in/products/notilo/)**: handled selections across DOM nodes and restored saved highlights on revisit. [Web Store](https://chromewebstore.google.com/detail/ocgkllkcodafimnkheijpachancljmdk)
-- **[Companion AI](https://codehorizon.in/products/companion-ai/)**: offline quotes and favourites with Room, plus cached reminders through WorkManager. [Google Play](https://play.google.com/store/apps/details?id=com.codehorizon.companion)
+| Project | Engineering focus |
+| :--- | :--- |
+| [SecureVault](https://codehorizon.in/products/securevault/) · [Google Play](https://play.google.com/store/apps/details?id=com.codehorizon.calculator) | AES-256-GCM file encryption, Android Keystore, biometric unlock, and inactivity locking. |
+| [TubeFocus](https://codehorizon.in/products/tubefocus/) · [Web Store](https://chromewebstore.google.com/detail/ghmoajebamiileeffdiplohlbgnhnadl) | Persistent focus sessions across closed popups and YouTube navigation. |
+| [TabCluster](https://codehorizon.in/products/tabcluster/) · [Web Store](https://chromewebstore.google.com/detail/faligjbhpbmnajkdpcefhebinddmbmbo) | Saved workspaces, domain grouping, and a preview before changes. |
+| [Notilo](https://codehorizon.in/products/notilo/) · [Web Store](https://chromewebstore.google.com/detail/ocgkllkcodafimnkheijpachancljmdk) | Cross-node text selections, saved notes, and restored highlights. |
+| [Companion AI](https://codehorizon.in/products/companion-ai/) · [Google Play](https://play.google.com/store/apps/details?id=com.codehorizon.companion) | Room-backed offline content and cached WorkManager reminders. |
+| [Kalpa Corporate Artz](https://kalpacorporateartz.com/) | Figma to Next.js, artwork browsing, and consultation enquiries. |
+| [Speaker Cleaner](https://codehorizon.in/products/speaker-cleaner/) · In testing | Tone generation, haptics, and volume restoration. |
 
-**In testing:** [Nicked](https://codehorizon.in/products/nicked/), a cricket guessing game, and [Speaker Cleaner](https://codehorizon.in/products/speaker-cleaner/), a tone-based Android utility.
+## Public work
 
-**Core tools:** React, Next.js, TypeScript, Figma, Tailwind CSS, Chrome APIs, Kotlin, Jetpack Compose.
+- **[AxionAOSP for Xiaomi Pad 6](https://github.com/yuvarajvodiboina/axion-pipa)**: Android 15 community build, device integration notes, downloads, and installation documentation with upstream credits.
+- **Device and recovery configurations**: [Xiaomi Pad 6](https://github.com/yuvarajvodiboina/android_device_xiaomi_pipa), [POCO X2 / Redmi K30](https://github.com/yuvarajvodiboina/device_xiaomi_phoenix), and [TWRP recovery](https://github.com/yuvarajvodiboina/twrp_device_xiaomi_phoenix).
+- **[Chat Room](https://github.com/yuvarajvodiboina/Chat_Room)**: Flask and Socket.IO chat. **[IdentiFlash](https://github.com/yuvarajvodiboina/identi_flash)**: Java Android utility with a downloadable demo.
 
 <details>
-<summary><b>Earlier experience and public work</b></summary>
+<summary><b>Earlier experiments and experience</b></summary>
+
+Python projects: [Space Shooter](https://github.com/yuvarajvodiboina/Space-Shooter), [Flappy Bird](https://github.com/yuvarajvodiboina/flappy_bird), [pencil sketches](https://github.com/yuvarajvodiboina/pencil_sketch), [calendar GUI](https://github.com/yuvarajvodiboina/calender_gui), [messaging automation](https://github.com/yuvarajvodiboina/whats_automate), and [country/carrier lookup](https://github.com/yuvarajvodiboina/country_carrier).
 
 Previously a frontend engineer at Truedune Beauty, working on e-commerce interfaces and integrations.
 
-My public Android work includes [AxionAOSP for Xiaomi Pad 6](https://github.com/yuvarajvodiboina/axion-pipa), with device integration notes, installation documentation, and upstream credits.
-
 </details>
+
+**Tools across these projects:** React, Next.js, TypeScript, Figma, Chrome APIs, Kotlin, Jetpack Compose, SwiftUI, Firebase, Appwrite.
 
 <p align="center"><sub><a href="https://codehorizon.in/products/">Product catalogue</a> / <a href="https://codehorizon.in/changelog/">Release history</a> / <a href="https://yuvarajvodiboina.in/">Portfolio</a></sub></p>
