@@ -23,6 +23,8 @@ I'm Yuvaraj, a software engineer building web products, Chrome extensions, and A
 </picture>
 </a>
 
+Released work includes past projects. **Notilo is no longer live**; its [engineering case study](https://codehorizon.in/products/notilo/) remains available.
+
 ## Selected work
 
 <picture>
@@ -50,6 +52,8 @@ I'm Yuvaraj, a software engineer building web products, Chrome extensions, and A
 - **SecureVault**: released Android app with encrypted file storage and biometric or passcode unlock. [Google Play](https://play.google.com/store/apps/details?id=com.codehorizon.calculator) · [Case study](https://github.com/yuvarajvodiboina/engineering-case-studies/blob/main/case-studies/securevault.md).
 - **TubeFocus**: released Chrome extension. Session end times persist in Chrome storage and hiding rules are reapplied during YouTube navigation. [Chrome Web Store](https://chromewebstore.google.com/detail/ghmoajebamiileeffdiplohlbgnhnadl).
 
+- **Notilo**: a past Chrome extension I built and published for web highlights and local notes. No longer live or available for new installations. [Case study](https://codehorizon.in/products/notilo/).
+
 </details>
 
 ## More work
@@ -57,7 +61,7 @@ I'm Yuvaraj, a software engineer building web products, Chrome extensions, and A
 | Project | Engineering focus |
 | :--- | :--- |
 | [TabCluster](https://codehorizon.in/products/tabcluster/) · [Web Store](https://chromewebstore.google.com/detail/faligjbhpbmnajkdpcefhebinddmbmbo) | Saved workspaces, domain grouping, and a preview before changes. |
-| [Notilo](https://codehorizon.in/products/notilo/) · [Web Store](https://chromewebstore.google.com/detail/ocgkllkcodafimnkheijpachancljmdk) | Cross-node text selections, saved notes, and restored highlights. |
+| [Notilo case study](https://codehorizon.in/products/notilo/) · Not currently live | I built cross-node text selections, saved notes and restored highlights. Previously published as a Chrome extension. |
 | [Companion AI](https://codehorizon.in/products/companion-ai/) · [Google Play](https://play.google.com/store/apps/details?id=com.codehorizon.companion) | Room-backed offline content and cached WorkManager reminders. |
 | [Kalpa Corporate Artz](https://kalpacorporateartz.com/) | Figma to Next.js, artwork browsing, and consultation enquiries. |
 | [Speaker Cleaner](https://codehorizon.in/products/speaker-cleaner/) · In testing | Tone generation, haptics, and volume restoration. |
