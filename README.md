@@ -19,7 +19,7 @@ I'm Yuvaraj, a software engineer building web products, Chrome extensions, and A
   <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/proof-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/proof-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/proof-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/proof-dark.svg" alt="Six released products. Nicked and Speaker Cleaner in testing. Web and mobile engineering." width="100%">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/proof-dark.svg" alt="Seven released products. Nicked in testing. Web and mobile engineering." width="100%">
 </picture>
 </a>
 
@@ -64,7 +64,7 @@ Released work includes past projects. **Notilo is no longer live**; its [enginee
 | [Notilo case study](https://codehorizon.in/products/notilo/) · Not currently live | I built cross-node text selections, saved notes and restored highlights. Previously published as a Chrome extension. |
 | [Companion AI](https://codehorizon.in/products/companion-ai/) · [Google Play](https://play.google.com/store/apps/details?id=com.codehorizon.companion) | Room-backed offline content and cached WorkManager reminders. |
 | [Kalpa Corporate Artz](https://kalpacorporateartz.com/) | Figma to Next.js, artwork browsing, and consultation enquiries. |
-| [Speaker Cleaner](https://codehorizon.in/products/speaker-cleaner/) · In testing | Tone generation, haptics, and volume restoration. |
+| [Speaker Cleaner](https://codehorizon.in/products/speaker-cleaner/) · [Google Play](https://play.google.com/store/apps/details?id=com.speakercleaner.watereject.fixsound) | Tone generation, haptics, and volume restoration. |
 
 ## Public work
 
