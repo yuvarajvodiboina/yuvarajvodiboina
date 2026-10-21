@@ -20,6 +20,8 @@ I'm a software engineer in Hyderabad who builds web apps, Chrome extensions and 
 
 **Case studies:** [ShopGrade](https://yuvarajvodiboina.in/work/shopgrade/) · [SecureVault](https://yuvarajvodiboina.in/work/securevault/) · [TubeFocus](https://yuvarajvodiboina.in/work/tubefocus/) · [Nicked](https://yuvarajvodiboina.in/work/nicked/) · [engineering notes](https://github.com/yuvarajvodiboina/engineering-case-studies)
 
+**Where's all the code?** In private repos, mostly: about 98% of my contributions this past year. Code written for employers and clients stays with them, and CodeHorizon's products are closed source, so think of this page as the trailer. The case studies are the film, and I'm happy to walk through real code in an interview.
+
 **Experience**
 - **Founder and Software Engineer, CodeHorizon** · Oct 2024 to now. Nine products designed, built and published, with payments, ads and store releases.
 - **Frontend Engineer, Truedune Beauty** · Bengaluru, Oct 2025 to Aug 2026. React, Next.js and TypeScript storefront, a reworked single-click checkout and six A/B tests.
