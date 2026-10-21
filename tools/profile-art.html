@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <title>Profile README artwork</title>
+  <!--
+    Every image in the profile README, drawn as one page. tools/capture.mjs opens it at 1600 px
+    (desktop) and 820 px (phones) and saves each card to assets/v10/. Fonts, screenshots, icons and
+    the portrait come from the CodeHorizon site, expected next to this repo (../codehorizon); the
+    facts follow yuvaraj-portfolio/cv.mjs and codehorizon's src/data. Colours match its main.css.
+    Everything is set in Google Sans, which has no italic, so emphasis is upright orange.
+  -->
+  <style>
+    @font-face{font-family:'Google Sans';font-weight:400 700;src:url('../../codehorizon/public/assets/fonts/google-sans-latin.woff2') format('woff2')}
+    :root{
+      --paper:#f2efe9;--paper-2:#e8e3d9;--card:#fbfaf7;--ink:#111014;--ink-2:#2b2a31;--muted:#5d5c65;
+      --line:rgba(17,16,20,.11);--line-2:rgba(17,16,20,.22);--sun:#ea4511;--sun-text:#cc3a08;--sun-soft:#ffd9c7;
+      --lilac:#e9e2fb;--mint:#d9f0d9;--peach:#ffe1cf;--butter:#fff0b8;--sky:#dbe8ff;
+      --pad:56px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;background:transparent}
+    body{width:100vw;display:flex;flex-direction:column;gap:40px;font-family:'Google Sans',sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+    .card{position:relative;width:100%;border-radius:36px;overflow:hidden;background:var(--paper);padding:var(--pad);isolation:isolate}
+    .card:after{content:'';position:absolute;inset:0;border-radius:36px;box-shadow:inset 0 0 0 1px rgba(17,16,20,.08);pointer-events:none}
+    .label{font-family:'Google Sans',sans-serif;font-size:14px;letter-spacing:2px;text-transform:uppercase;color:var(--ink-2)}
+    .mono{font-family:'Google Sans',sans-serif}
+    em{font-style:normal;font-weight:500;color:var(--sun-text)}
+    h1,h2{font-family:'Google Sans',sans-serif;font-weight:400;margin:0;letter-spacing:-.035em;line-height:.98}
+    h2{font-size:78px}
+    .pill{display:inline-flex;align-items:center;height:40px;padding:0 18px;border-radius:40px;font-size:16px;font-weight:500;border:1px solid var(--line-2)}
+    .pill.ink{background:var(--ink);color:#fff;border-color:var(--ink)}
+    .head{display:flex;justify-content:space-between;align-items:flex-end;gap:48px;margin-bottom:44px}
+    .head .label{display:block;margin-bottom:22px}
+    .head p{max-width:470px;margin:0 0 6px;font-size:21px;line-height:1.5;color:var(--ink-2)}
+
+    /* ---------- Hero ---------- */
+    #hero{padding-bottom:0}
+    .silk{position:absolute;left:0;top:0;width:100%;height:100%;z-index:-1;pointer-events:none}
+    .hero-top{display:flex;justify-content:space-between;align-items:center}
+    .hero-main{display:grid;grid-template-columns:1fr 400px;gap:64px;align-items:end;padding:70px 0 64px}
+    #hero h1{font-size:98px;font-weight:400;letter-spacing:-.045em;line-height:1}
+    #hero h1 em{font-weight:500}
+    .lede{font-size:27px;line-height:1.45;color:var(--ink-2);max-width:860px;margin:34px 0 0}
+    .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+    .chips span{font-family:'Google Sans',sans-serif;font-size:14px;letter-spacing:1px;text-transform:uppercase;padding:10px 14px;border-radius:30px;background:rgba(251,250,247,.75);border:1px solid var(--line)}
+    .portrait{position:relative;margin:0 0 6px}
+    .portrait .photo{border-radius:28px;overflow:hidden;aspect-ratio:1/1.08;box-shadow:0 40px 70px -34px rgba(70,30,5,.5),0 0 0 1px rgba(17,16,20,.08)}
+    .portrait .photo img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block}
+    .portrait figcaption{display:flex;justify-content:space-between;margin-top:14px;font-size:15px;color:var(--ink-2)}
+    .portrait figcaption span:last-child{font-family:'Google Sans',sans-serif;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);padding-top:2px}
+    .badge{position:absolute;right:-30px;top:-30px;width:140px;height:140px;border-radius:50%;background:var(--sun);display:grid;place-items:center;box-shadow:0 24px 40px -20px rgba(160,50,0,.6)}
+    .badge svg.ring{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-20deg)}
+    .badge text{font:500 10.5px 'Google Sans',sans-serif;letter-spacing:.12em;text-transform:uppercase;fill:var(--ink)}
+    .badge .logo{width:46px;height:46px}
+    .band{position:relative;margin:0 calc(var(--pad) * -1);background:var(--sun);overflow:hidden;display:grid;grid-template-columns:repeat(4,1fr);padding:0 var(--pad)}
+    .band:before{content:'';position:absolute;width:1100px;height:1100px;border-radius:50%;left:50%;top:70px;transform:translateX(-50%);background:radial-gradient(circle,#ff9a62 0%,#f4692c 45%,transparent 70%);opacity:.85}
+    .stat{position:relative;padding:34px 28px 38px 0;border-right:1px solid rgba(17,16,20,.18);margin-right:28px}
+    .stat:last-child{border-right:0;margin-right:0}
+    .stat b{display:block;font-family:'Google Sans',sans-serif;font-weight:400;font-size:96px;line-height:.9;letter-spacing:-.04em;color:var(--ink)}
+    .stat span{display:block;margin-top:14px;font-size:19px;line-height:1.35;color:#2a1007;max-width:250px}
+
+    /* ---------- Selected work ---------- */
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    .pc{background:var(--card);border-radius:30px;padding:12px;box-shadow:0 0 0 1px var(--line),0 30px 50px -40px rgba(60,30,10,.35)}
+    .panel{position:relative;height:360px;border-radius:22px;overflow:hidden;background:var(--bg)}
+    .panel .wide{position:absolute;left:50%;top:44px;width:84%;transform:translateX(-50%);border-radius:14px;box-shadow:0 30px 50px -24px rgba(20,10,0,.45),0 0 0 1px rgba(17,16,20,.08)}
+    .panel .tall{position:absolute;top:40px;width:36%;border-radius:22px;box-shadow:0 30px 50px -22px rgba(0,0,0,.45),0 0 0 1px rgba(17,16,20,.08)}
+    .panel .t1{left:12%;transform:rotate(-5deg)}
+    .panel .t2{right:12%;top:62px;transform:rotate(5deg)}
+    .info{padding:24px 18px 14px}
+    .row{display:flex;align-items:center;gap:16px}
+    .row img{width:52px;height:52px;border-radius:14px}
+    .row h3{font-family:'Google Sans',sans-serif;font-size:40px;font-weight:500;letter-spacing:-.02em;margin:0;line-height:1}
+    .row .label{font-size:13px;letter-spacing:1.5px;margin-top:6px;color:var(--muted)}
+    .row .pill{margin-left:auto;height:34px;font-size:14px;padding:0 14px}
+    .pill.live{background:var(--ink);color:#fff;border-color:var(--ink)}
+    .pill.test{background:var(--butter);border-color:#e9d58a}
+    .proof{font-size:22px;line-height:1.45;color:var(--ink-2);margin:20px 0 18px;min-height:96px}
+    .proof strong{color:var(--ink);font-weight:500}
+    .stack{display:flex;flex-wrap:wrap;gap:8px}
+    .stack span{font-family:'Google Sans',sans-serif;font-size:13.5px;letter-spacing:1px;text-transform:uppercase;padding:8px 12px;border-radius:20px;border:1px solid var(--line-2);color:var(--ink-2)}
+    .also{display:flex;align-items:center;gap:28px;margin-top:30px;padding:22px 28px;border-radius:24px;background:var(--card);box-shadow:0 0 0 1px var(--line)}
+    .also .label{margin-right:8px}
+    .also div{display:flex;align-items:center;gap:12px;font-size:20px;font-weight:500}
+    .also div small{display:block;font-weight:400;font-size:15.5px;color:var(--muted)}
+    .also img{width:40px;height:40px;border-radius:11px}
+
+    /* ---------- Experience ---------- */
+    .xp{display:grid;grid-template-columns:400px 1fr;gap:64px}
+    .xp-intro p{font-size:21px;line-height:1.5;color:var(--ink-2);margin:26px 0 0}
+    .roles{border-top:1px solid var(--line-2)}
+    .role{display:grid;grid-template-columns:190px 1fr;gap:28px;padding:24px 0;border-bottom:1px solid var(--line)}
+    .role .when{font-family:'Google Sans',sans-serif;font-size:14px;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);padding-top:9px;line-height:1.6}
+    .role h4{font-family:'Google Sans',sans-serif;font-size:32px;font-weight:400;letter-spacing:-.02em;margin:0;line-height:1.1;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+    .role h4 b{font-weight:500}
+    .role h4 .at{color:var(--muted);font-weight:400}
+    .role h4 .pill{height:30px;font-size:13px;padding:0 12px;background:var(--sun);color:#fff;border-color:var(--sun)}
+    .role p{margin:8px 0 0;font-size:20px;line-height:1.5;color:var(--ink-2)}
+    .role .where{font-family:'Google Sans',sans-serif;font-size:13px;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);margin-top:6px;display:block}
+    .facts{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:44px}
+    .fact{border-radius:24px;padding:24px 24px 26px;background:var(--bg,var(--card));box-shadow:inset 0 0 0 1px rgba(17,16,20,.07)}
+    .fact .label{font-size:12px;letter-spacing:1.5px;color:var(--muted);display:block;margin-bottom:16px}
+    .fact b{display:block;font-family:'Google Sans',sans-serif;font-size:26px;font-weight:500;letter-spacing:-.01em;line-height:1.15}
+    .fact span{display:block;font-size:18px;line-height:1.45;color:var(--ink-2);margin-top:8px}
+
+    /* ---------- Toolkit ---------- */
+    .tray{border-radius:30px;padding:18px;background:#e2dccf;box-shadow:inset 0 2px 0 rgba(255,255,255,.6),0 40px 60px -40px rgba(60,30,10,.5),0 0 0 1px rgba(17,16,20,.06)}
+    .krow{display:flex;gap:10px;margin-bottom:10px}
+    .krow:last-child{margin-bottom:0}
+    .key{flex:1;min-height:92px;border-radius:14px;padding:13px 15px;display:flex;flex-direction:column;justify-content:space-between;background:var(--kc);font-size:19px;font-weight:500;color:var(--ink);
+      box-shadow:inset 0 -5px 0 rgba(17,16,20,.12),inset 0 1px 0 rgba(255,255,255,.7),0 2px 0 rgba(17,16,20,.08)}
+    .key.group{flex:0 0 250px;background:#1d1c21;color:#fff;box-shadow:inset 0 -5px 0 rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.12)}
+    .key.group b{font-family:'Google Sans',sans-serif;font-size:24px;font-weight:500;letter-spacing:-.01em}
+    .key.group small{font-family:'Google Sans',sans-serif;font-size:10.5px;letter-spacing:1.4px;text-transform:uppercase;color:rgba(255,255,255,.55)}
+    .key small.u{font-family:'Google Sans',sans-serif;font-size:10px;letter-spacing:1.2px;text-transform:uppercase;color:rgba(17,16,20,.45)}
+
+    /* ---------- Contact ---------- */
+    #contact{padding:64px var(--pad) 60px}
+    #contact:before{content:'';position:absolute;width:900px;height:900px;border-radius:50%;right:-260px;top:120px;background:radial-gradient(circle,#ffb27a 0%,#ff8a4c 38%,var(--sun) 70%,transparent 71%);z-index:-1}
+    #contact h2{font-size:80px;font-weight:400;letter-spacing:-.045em;max-width:900px}
+    #contact h2 em{font-weight:500}
+    .mail{display:inline-flex;align-items:center;gap:18px;margin-top:40px;font-family:'Google Sans',sans-serif;font-size:46px;font-weight:400;letter-spacing:-.02em;border-bottom:2px solid var(--ink);padding-bottom:8px}
+    .mail svg{width:34px;height:34px}
+    .links{display:flex;gap:14px;margin-top:44px;flex-wrap:wrap}
+    .links span{display:inline-flex;flex-direction:column;gap:6px;padding:16px 22px;border-radius:20px;background:rgba(251,250,247,.85);box-shadow:inset 0 0 0 1px var(--line);font-size:20px;font-weight:500}
+    .links span small{font-family:'Google Sans',sans-serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);font-weight:400}
+    .reply{margin-top:30px;font-size:20px;color:var(--ink-2)}
+
+    /* ---------- Phones: drawn at 560 px, so the text stays readable at phone size ---------- */
+    @media (max-width:900px){
+      :root{--pad:26px}
+      body{gap:28px}
+      .card,.card:after{border-radius:28px}
+      .label{font-size:12px;letter-spacing:1.6px}
+      h2{font-size:40px}
+      .head{flex-direction:column;align-items:flex-start;gap:16px;margin-bottom:26px}
+      .head .label{margin-bottom:14px}
+      .head p{font-size:18px}
+      .hero-top .label{font-size:11px;letter-spacing:1.2px;max-width:330px;line-height:1.5}
+      .pill{height:34px;font-size:14px;padding:0 14px}
+      .hero-main{grid-template-columns:1fr;gap:30px;padding:30px 0 34px}
+      .portrait{order:-1;width:250px}
+      .portrait figcaption{flex-direction:column;gap:4px}
+      .badge{width:96px;height:96px;right:-22px;top:-20px}
+      .badge text{font-size:10px}
+      .badge .logo{width:32px;height:32px}
+      #hero h1{font-size:50px}
+      .lede{font-size:19px;margin-top:22px}
+      .chips{gap:8px;margin-top:22px}
+      .chips span{font-size:12px;padding:8px 11px}
+      .band{grid-template-columns:1fr 1fr}
+      .stat{border-right:0;margin-right:0;padding:24px 14px 26px 0;border-bottom:1px solid rgba(17,16,20,.18)}
+      .stat:nth-child(odd){border-right:1px solid rgba(17,16,20,.18);margin-right:16px}
+      .stat:nth-last-child(-n+2){border-bottom:0}
+      .stat b{font-size:62px}
+      .stat span{font-size:15px;margin-top:10px}
+      .grid{grid-template-columns:1fr;gap:18px}
+      .pc{border-radius:24px;padding:9px}
+      .panel{height:250px;border-radius:18px}
+      .panel .wide{top:30px;width:88%}
+      .info{padding:18px 12px 10px}
+      .row{gap:12px}
+      .row img{width:42px;height:42px;border-radius:11px}
+      .row h3{font-size:29px}
+      .row .label{font-size:11px;margin-top:4px}
+      .row .pill{height:28px;font-size:12px;padding:0 10px}
+      .proof{font-size:17.5px;min-height:0;margin:14px 0}
+      .stack{gap:6px}
+      .stack span{font-size:11px;padding:6px 9px}
+      .also{flex-wrap:wrap;gap:14px 20px;padding:18px 20px;margin-top:18px}
+      .also .label{width:100%}
+      .also div{font-size:16px}
+      .also div small{font-size:13px}
+      .also img{width:34px;height:34px}
+      .xp{grid-template-columns:1fr;gap:20px}
+      .xp-intro h2{margin-top:14px!important}
+      .xp-intro p{font-size:17px;margin-top:16px}
+      .role{grid-template-columns:1fr;gap:4px;padding:18px 0}
+      .role .when{padding-top:0;font-size:12px}
+      .role .when br{display:none}
+      .role h4{font-size:24px;gap:6px 10px}
+      .role h4 .pill{height:24px;font-size:11px;padding:0 9px}
+      .role .where{font-size:11px}
+      .role p{font-size:16.5px}
+      .facts{grid-template-columns:1fr 1fr;gap:10px;margin-top:26px}
+      .fact{border-radius:18px;padding:16px 16px 18px}
+      .fact .label{font-size:10.5px;margin-bottom:10px}
+      .fact b{font-size:18px}
+      .fact span{font-size:14px}
+      .tray{border-radius:22px;padding:10px}
+      .krow{flex-wrap:wrap;gap:7px;margin-bottom:7px}
+      .key{flex:0 0 calc((100% - 14px) / 3);min-height:62px;border-radius:11px;padding:10px 11px;font-size:14.5px}
+      .key.group{flex:0 0 100%;min-height:52px;flex-direction:row;align-items:center}
+      .key.group b{font-size:19px}
+      .key.group small{font-size:10px}
+      #contact{padding:40px var(--pad) 150px}
+      #contact h2{font-size:42px;margin-top:16px!important}
+      #contact:before{width:460px;height:460px;right:-170px;top:auto;bottom:-330px}
+      .mail{font-size:26px;margin-top:28px;gap:12px}
+      .mail svg{width:24px;height:24px}
+      .links{gap:8px;margin-top:28px}
+      .links span{font-size:15px;padding:12px 14px;border-radius:16px}
+      .links span small{font-size:10px}
+      .reply{font-size:15px;margin-top:22px}
+    }
+  </style>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <linearGradient id="sunG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb27a"/><stop offset=".5" stop-color="#ff8a4c"/><stop offset="1" stop-color="#ff6f6f"/></linearGradient>
+      <clipPath id="logoClip"><path d="M4.5 22.5a11.5 11.5 0 0 1 23 0Z"/></clipPath>
+      <symbol id="logo" viewBox="0 0 32 32"><g clip-path="url(#logoClip)"><rect x="0" y="9" width="32" height="8.4" fill="url(#sunG)"/><rect x="0" y="18.4" width="32" height="1.7" fill="url(#sunG)"/><rect x="0" y="21.1" width="32" height="1.4" fill="url(#sunG)"/></g><path d="M2.5 25.5h27" stroke="#111014" stroke-width="2" stroke-linecap="round" fill="none"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- Hero -->
+  <section class="card" id="hero">
+    <svg class="silk" data-silk aria-hidden="true"></svg>
+    <div class="hero-top">
+      <span class="label">Yuvaraj Vodiboina / Software engineer / Hyderabad, India</span>
+      <span class="pill ink">Open to remote</span>
+    </div>
+    <div class="hero-main">
+      <div>
+        <h1>Hi, I'm Yuvaraj.<br><em>I make the whole thing.</em></h1>
+        <p class="lede">Software engineer building web apps, Chrome extensions and Android apps end to end, from the Figma file to the store listing.</p>
+        <div class="chips"><span>React</span><span>Next.js</span><span>TypeScript</span><span>Kotlin</span><span>Jetpack Compose</span><span>Manifest V3</span></div>
+      </div>
+      <figure class="portrait">
+        <div class="photo"><img src="../../codehorizon/public/assets/img/founder.webp" alt=""></div>
+        <span class="badge">
+          <svg class="ring" viewBox="0 0 120 120"><defs><path id="badgeRing" d="M60 60m-45 0a45 45 0 1 1 90 0a45 45 0 1 1-90 0"/></defs><text><textPath href="#badgeRing" textLength="282">Engineer · Designer · Founder ·</textPath></text></svg>
+          <svg class="logo"><use href="#logo"/></svg>
+        </span>
+        <figcaption><span>Yuvaraj Vodiboina</span><span>Founder, CodeHorizon</span></figcaption>
+      </figure>
+    </div>
+    <div class="band">
+      <div class="stat"><b>6</b><span>Live products on the Chrome Web Store and Google Play</span></div>
+      <div class="stat"><b>18</b><span>Releases in the last twelve months</span></div>
+      <div class="stat"><b>542</b><span>Automated tests behind ShopGrade</span></div>
+      <div class="stat"><b>2024</b><span>Shipping my own products since</span></div>
+    </div>
+  </section>
+
+  <!-- Selected work -->
+  <section class="card" id="work">
+    <div class="head">
+      <div><span class="label">(01) Selected work</span><h2>Built, tested <em>and shipped.</em></h2></div>
+      <p>Four of my own products, each designed, engineered and published by me. Every one has a full case study.</p>
+    </div>
+    <div class="grid">
+      <article class="pc" style="--bg:#ffe4d4">
+        <div class="panel"><img class="wide" src="../../codehorizon/public/assets/img/shots/shopgrade/shopgrade-1.webp" alt=""></div>
+        <div class="info">
+          <div class="row"><img src="../../codehorizon/public/assets/img/icons/shopgrade.png" alt=""><div><h3>ShopGrade</h3><div class="label">Chrome extension + web app</div></div><span class="pill live">Live</span></div>
+          <p class="proof">Audits any public Shopify store into a prioritised list of fixes. <strong>One server function gates every report</strong> and spends a credit in a single database transaction. <strong>542 automated tests.</strong></p>
+          <div class="stack"><span>TypeScript</span><span>React</span><span>Manifest V3</span><span>Appwrite</span><span>Paddle</span></div>
+        </div>
+      </article>
+      <article class="pc" style="--bg:#101b33">
+        <div class="panel"><img class="tall t1" src="../../codehorizon/public/assets/img/shots/securevault/securevault-7.10-1.webp" alt=""><img class="tall t2" src="../../codehorizon/public/assets/img/shots/securevault/securevault-7.10-2.webp" alt=""></div>
+        <div class="info">
+          <div class="row"><img src="../../codehorizon/public/assets/img/icons/securevault.png" alt=""><div><h3>SecureVault</h3><div class="label">Android app</div></div><span class="pill live">Live on Google Play</span></div>
+          <p class="proof">An encrypted vault behind a working calculator. <strong>AES-256-GCM with keys in the Android Keystore</strong>, encrypted filenames, PBKDF2-hashed passcodes and biometric unlock.</p>
+          <div class="stack"><span>Kotlin</span><span>Jetpack Compose</span><span>Android Keystore</span><span>Biometrics</span></div>
+        </div>
+      </article>
+      <article class="pc" style="--bg:#e4eec2">
+        <div class="panel"><img class="wide" src="../../codehorizon/public/assets/img/shots/tubefocus/7.0.2-01-focus-recipes-1280x800.webp" alt=""></div>
+        <div class="info">
+          <div class="row"><img src="../../codehorizon/public/assets/img/icons/tubefocus-7.0.2.png" alt=""><div><h3>TubeFocus</h3><div class="label">Chrome extension</div></div><span class="pill live">Live</span></div>
+          <p class="proof">YouTube focus controls whose <strong>timers keep running after Chrome suspends the service worker</strong>. 39 regression tests and 24 checks in real Chrome.</p>
+          <div class="stack"><span>JavaScript</span><span>Manifest V3</span><span>Service workers</span><span>Playwright</span></div>
+        </div>
+      </article>
+      <article class="pc" style="--bg:#d9f0c9">
+        <div class="panel"><img class="tall t1" src="../../codehorizon/public/assets/img/shots/nicked/nicked-0.3.0-1.webp" alt=""><img class="tall t2" src="../../codehorizon/public/assets/img/shots/nicked/nicked-0.3.0-2.webp" alt=""></div>
+        <div class="info">
+          <div class="row"><img src="../../codehorizon/public/assets/img/icons/nicked.png" alt=""><div><h3>Nicked</h3><div class="label">Android game</div></div><span class="pill test">In closed testing</span></div>
+          <p class="proof">A daily cricket quiz with typo-tolerant search over <strong>403 cricketers</strong>. A SplitMix64 schedule stays in step with the Python data pipeline <strong>through a golden test.</strong></p>
+          <div class="stack"><span>Kotlin</span><span>Jetpack Compose</span><span>DataStore</span><span>Python</span></div>
+        </div>
+      </article>
+    </div>
+    <div class="also">
+      <span class="label">Also shipped</span>
+      <div><img src="../../codehorizon/public/assets/img/icons/css-class-highlighter-4.1.0.png" alt=""><span>CSS Class Highlighter<small>Chrome extension</small></span></div>
+      <div><img src="../../codehorizon/public/assets/img/icons/companion.png" alt=""><span>Companion AI<small>Android, 100+ downloads</small></span></div>
+      <div><img src="../../codehorizon/public/assets/img/icons/speaker-cleaner.png" alt=""><span>Speaker Cleaner<small>Android</small></span></div>
+      <div><img src="../../codehorizon/public/assets/img/icons/kalpa.png" alt=""><span>Kalpa Corporate Artz<small>Client website</small></span></div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="card" id="experience">
+    <div class="xp">
+      <div class="xp-intro">
+        <span class="label">(02) Experience</span>
+        <h2 style="margin-top:22px">Where I've <em>worked.</em></h2>
+        <p>Most recently a Frontend Engineer at Truedune Beauty. Founder of CodeHorizon since October 2024, where I ship my own products to the Chrome Web Store and Google Play.</p>
+      </div>
+      <div class="roles">
+        <div class="role"><div class="when">Oct 2024 <br>to Present</div><div><h4><b>Founder and Software Engineer</b><span class="at">CodeHorizon</span><span class="pill">Now</span></h4><span class="where">Self-employed / Remote</span><p>Designed, built and shipped nine products as a one-person studio, six live on the Chrome Web Store and Google Play. I own every release: listings, privacy policies, Play Billing, Paddle and AdMob.</p></div></div>
+        <div class="role"><div class="when">Oct 2025 <br>to Aug 2026</div><div><h4><b>Frontend Engineer</b><span class="at">Truedune Beauty</span></h4><span class="where">Full-time / Bengaluru</span><p>Built the web storefront in React, Next.js and TypeScript, reworked checkout with Magic Checkout and single-click buy, ran six A/B tests and contributed to the React Native app.</p></div></div>
+        <div class="role"><div class="when">Sep 2025 <br>to Nov 2025</div><div><h4><b>Web Developer</b><span class="at">Kalpa Corporate Artz</span></h4><span class="where">Contract</span><p>Designed the company website in Figma and built it in Next.js, deployed to Cloudflare Pages with GitHub Actions.</p></div></div>
+        <div class="role"><div class="when">May 2024 <br>to Oct 2024</div><div><h4><b>Frontend Engineer Intern</b><span class="at">Intern Stump</span></h4><span class="where">Remote</span><p>Turned Figma wireframes into accessible React and TypeScript components tested with Jest, and cut initial render time with code-splitting.</p></div></div>
+        <div class="role"><div class="when">Apr 2023 <br>to Sep 2023</div><div><h4><b>Web Development Intern</b><span class="at">MSsquare Technologies</span></h4><span class="where">Remote</span><p>Front-end interfaces in HTML, CSS, JavaScript and Bootstrap, with page speed and technical SEO work.</p></div></div>
+      </div>
+    </div>
+    <div class="facts">
+      <div class="fact" style="--bg:var(--lilac)"><span class="label">Education</span><b>B.Tech, Computer Science and Engineering</b><span>Avanthi Institute of Engineering &amp; Technology, JNTU-GV, 2019 to 2024</span></div>
+      <div class="fact" style="--bg:var(--mint)"><span class="label">Certificates</span><b>Google UX Design</b><span>January 2025</span><b style="margin-top:14px">Docker Foundations</b><span>October 2025</span></div>
+      <div class="fact" style="--bg:var(--peach)"><span class="label">Research</span><b>Published paper on UI/UX and user trust</b></div>
+      <div class="fact" style="--bg:var(--butter)"><span class="label">Based in</span><b>Hyderabad, India</b><span>IST, UTC+5:30. Open to remote roles.</span></div>
+    </div>
+  </section>
+
+  <!-- Toolkit -->
+  <section class="card" id="stack">
+    <div class="head">
+      <div><span class="label">(03) Toolkit</span><h2>The stack <em>behind the work.</em></h2></div>
+      <p>Web, browser and Android under one roof, plus the backend and testing that keep releases safe.</p>
+    </div>
+    <div class="tray">
+      <div class="krow" style="--kc:#e9e2fb"><div class="key group"><b>Languages</b><small>What I write in</small></div><div class="key">TypeScript</div><div class="key">JavaScript</div><div class="key">Kotlin</div><div class="key">Java</div><div class="key">Python</div><div class="key">SQL</div></div>
+      <div class="krow" style="--kc:#ffe1cf"><div class="key group"><b>Web</b><small>Sites, stores, apps</small></div><div class="key">React</div><div class="key">Next.js</div><div class="key">Node.js</div><div class="key">React Native</div><div class="key">Tailwind CSS</div><div class="key">Shopify Liquid</div></div>
+      <div class="krow" style="--kc:#d9f0d9"><div class="key group"><b>Android</b><small>Native apps</small></div><div class="key">Jetpack Compose</div><div class="key">Coroutines</div><div class="key">Hilt</div><div class="key">Room</div><div class="key">WorkManager</div><div class="key">Keystore</div></div>
+      <div class="krow" style="--kc:#fff0b8"><div class="key group"><b>Browser</b><small>Chrome extensions</small></div><div class="key">Manifest V3</div><div class="key">Service workers</div><div class="key">Content scripts</div><div class="key">Chrome APIs</div><div class="key">Shadow DOM</div><div class="key">Web Store</div></div>
+      <div class="krow" style="--kc:#dbe8ff"><div class="key group"><b>Backend</b><small>And the cloud</small></div><div class="key">Appwrite</div><div class="key">Firebase</div><div class="key">Cloudflare Workers</div><div class="key">PostgreSQL</div><div class="key">Flask</div><div class="key">Docker</div></div>
+      <div class="krow" style="--kc:#f7f4ee"><div class="key group" style="background:var(--sun)"><b>Quality</b><small style="color:rgba(255,255,255,.75)">And design</small></div><div class="key">Jest</div><div class="key">Playwright</div><div class="key">Lighthouse</div><div class="key">GitHub Actions</div><div class="key">WCAG</div><div class="key">Figma</div></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="card" id="contact">
+    <span class="label">(04) Contact</span>
+    <h2 style="margin-top:26px">Open to remote <em>software engineering roles.</em></h2>
+    <div class="mail">yvodiboina@gmail.com <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></div>
+    <div class="links">
+      <span><small>Portfolio</small>yuvarajvodiboina.in</span>
+      <span><small>Résumé</small>One-page PDF</span>
+      <span><small>LinkedIn</small>in/yuvarajvodiboina</span>
+      <span><small>Studio</small>codehorizon.in</span>
+    </div>
+    <p class="reply">I read every message myself and reply within a day or two.</p>
+  </section>
+
+  <script>
+    // A still frame of the CodeHorizon "silk horizon": threads of a twisting ribbon in sunrise colours.
+    for (const svg of document.querySelectorAll('[data-silk]')) {
+      const card = svg.parentElement, w = card.offsetWidth, h = card.offsetHeight, ns = 'http://www.w3.org/2000/svg';
+      svg.setAttribute('viewBox', `0 0 ${w} ${h}`);
+      svg.innerHTML = `<defs><linearGradient id="silkG" x1="0" x2="1" y1="0" y2="0">
+        <stop offset="0" stop-color="#ffb27a" stop-opacity="0"/><stop offset=".18" stop-color="#ffb27a"/><stop offset=".45" stop-color="#ff7a45"/>
+        <stop offset=".7" stop-color="#ff6f8a"/><stop offset=".92" stop-color="#a98bff"/><stop offset="1" stop-color="#a98bff" stop-opacity="0"/></linearGradient></defs>`;
+      const mobile = w < 900, threads = 72, y0 = h * (mobile ? .5 : .52), amp = h * (mobile ? .07 : .1);
+      for (let i = 0; i < threads; i++) {
+        const t = i / (threads - 1) - .5;
+        let d = '';
+        for (let x = -40; x <= w + 40; x += 8) {
+          const p = x / w;
+          const twist = Math.sin(p * Math.PI * 2.1 + .4);
+          const y = y0 + amp * Math.sin(p * Math.PI * 1.6 + .9) + t * (mobile ? 120 : 170) * twist + t * t * 40 * Math.sin(p * 9);
+          d += (x === -40 ? 'M' : 'L') + x.toFixed(1) + ' ' + y.toFixed(1);
+        }
+        const path = document.createElementNS(ns, 'path');
+        path.setAttribute('d', d);
+        path.setAttribute('fill', 'none');
+        path.setAttribute('stroke', 'url(#silkG)');
+        path.setAttribute('stroke-width', '1.1');
+        path.setAttribute('opacity', (.22 + .4 * (1 - Math.abs(t) * 2)).toFixed(2));
+        svg.append(path);
+      }
+    }
+  </script>
+</body>
+</html>
