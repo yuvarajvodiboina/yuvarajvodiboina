@@ -1,5 +1,5 @@
 // Draws the profile README images: opens tools/profile-art.html in headless Chrome at desktop and
-// phone widths and saves every card to assets/v11/ as WebP (Chrome encodes them, so no packages).
+// phone widths and saves every card to assets/v12/ as WebP (Chrome encodes them, so no packages).
 // A new version folder per redesign keeps GitHub's image cache from serving the old pictures.
 // usage: node tools/capture.mjs   (set CHROME to the browser binary if it is not in the usual place)
 import { spawn } from 'node:child_process';
@@ -9,7 +9,7 @@ import { join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
 const ROOT = resolve(import.meta.dirname, '..');
-const OUT = join(ROOT, 'assets/v11');
+const OUT = join(ROOT, 'assets/v12');
 const PAGE = pathToFileURL(join(ROOT, 'tools/profile-art.html')).href;
 const CARDS = ['hero', 'work'];
 // Every card comes out 1800 px wide, whatever width it is drawn at: rendered at `scale`, then shrunk
@@ -20,11 +20,11 @@ const DEVTOOLS = 9339;
 
 const CHROME = process.env.CHROME || ['/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', '/usr/bin/google-chrome', '/usr/bin/chromium'].find(existsSync);
 if (!CHROME) throw new Error('Chrome not found; set CHROME to its binary');
-if (!existsSync(join(ROOT, '../codehorizon/public/assets/fonts'))) throw new Error('expected the codehorizon repo next to this one, for fonts and screenshots');
+if (!existsSync(join(ROOT, '../../yuvaraj-portfolio/assets/fonts'))) throw new Error('expected yuvaraj-portfolio beside the folder this repo is in, for fonts and screens');
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const profile = mkdtempSync(join(tmpdir(), 'profile-art-'));
-// File access lets the page load the fonts and images from the codehorizon checkout beside it.
+// File access lets the page load the fonts and screens from the portfolio checkout.
 const chrome = spawn(CHROME, ['--headless=new', `--remote-debugging-port=${DEVTOOLS}`, `--user-data-dir=${profile}`, '--hide-scrollbars',
   '--allow-file-access-from-files', '--no-first-run', '--no-default-browser-check', 'about:blank'], { stdio: 'ignore' });
 
@@ -57,7 +57,8 @@ try {
     await send('Emulation.setDeviceMetricsOverride', { width: size.width, height: 1000, deviceScaleFactor: size.scale, mobile: false });
     await send('Page.navigate', { url: PAGE });
     await sleep(1500);
-    await run('document.fonts.ready.then(() => true)');
+    // The page sizes my name to the sheet once its fonts are in, then marks itself ready.
+    await run(`new Promise(r => { const t = setInterval(() => { if (document.documentElement.dataset.ready) { clearInterval(t); r(true); } }, 50); })`);
     const height = await run('document.documentElement.scrollHeight');
     await send('Emulation.setDeviceMetricsOverride', { width: size.width, height, deviceScaleFactor: size.scale, mobile: false });
     await sleep(500);
@@ -67,7 +68,7 @@ try {
       const { data } = await send('Page.captureScreenshot', { format: 'webp', quality: 88, clip });
       const name = `${card}${size.suffix}.webp`;
       writeFileSync(join(OUT, name), Buffer.from(data, 'base64'));
-      console.log(`assets/v11/${name}  ${Math.round(Buffer.byteLength(data, 'base64') / 1024)} KB`);
+      console.log(`assets/v12/${name}  ${Math.round(Buffer.byteLength(data, 'base64') / 1024)} KB`);
     }
   }
   ws.close();

@@ -5,226 +5,204 @@
   <meta name="robots" content="noindex">
   <title>Profile README artwork</title>
   <!--
-    The two images in the profile README: the hero and the selected-work strip. tools/capture.mjs
-    opens this page at desktop and phone widths and saves each card to assets/v11/. Recruiters give
-    a profile well under two minutes, so everything else in the README stays as plain text.
-    Fonts, screenshots, icons and the portrait come from the CodeHorizon site, expected next to this
-    repo (../codehorizon); the facts follow yuvaraj-portfolio/cv.mjs and codehorizon's src/data.
-    Everything is set in Google Sans, which has no italic, so emphasis is upright orange.
+    The two images in the profile README, in the style of yuvarajvodiboina.in: the red poster hero
+    with a black numbers band, and the selected-work strip. tools/capture.mjs opens this page at
+    desktop and phone widths and saves each card to assets/v12/. Recruiters give a profile well under
+    two minutes, so everything else in the README stays as plain text.
+    Fonts and product screens come from the portfolio, expected at ../../../yuvaraj-portfolio (beside
+    the folder this repo is in); colours and type follow its styles.css, facts its cv.mjs and the
+    CodeHorizon product data.
   -->
   <style>
-    @font-face{font-family:'Google Sans';font-weight:400 700;src:url('../../codehorizon/public/assets/fonts/google-sans-latin.woff2') format('woff2')}
+    @font-face{font-family:'Plus Jakarta Sans';font-weight:200 800;src:url('../../../yuvaraj-portfolio/assets/fonts/plus-jakarta-sans-latin-wght.woff2') format('woff2')}
+    @font-face{font-family:'IBM Plex Mono';font-weight:400;src:url('../../../yuvaraj-portfolio/assets/fonts/ibm-plex-mono-latin-400-normal.woff2') format('woff2')}
+    @font-face{font-family:'IBM Plex Mono';font-weight:500;src:url('../../../yuvaraj-portfolio/assets/fonts/ibm-plex-mono-latin-500-normal.woff2') format('woff2')}
     :root{
-      --paper:#f2efe9;--card:#fbfaf7;--ink:#111014;--ink-2:#2b2a31;--muted:#5d5c65;
-      --line:rgba(17,16,20,.11);--line-2:rgba(17,16,20,.22);--sun:#ea4511;--sun-text:#cc3a08;--butter:#fff0b8;
-      --pad:56px;
+      --red:#EE4A22;--paper:#F2EDE3;--ink:#121110;--white:#FBFAF6;--accent:#D7380F;
+      --fg-2:rgb(18 17 16 / .7);--rule:rgb(18 17 16 / .14);--rule-2:rgb(18 17 16 / .34);
+      --sans:'Plus Jakarta Sans',system-ui,sans-serif;--mono:'IBM Plex Mono',ui-monospace,monospace;
+      --g:56px;
     }
     *{box-sizing:border-box}
     html,body{margin:0;background:transparent}
-    body{width:100vw;display:flex;flex-direction:column;align-items:flex-start;gap:40px;font-family:'Google Sans',sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
-    .card{position:relative;width:100%;border-radius:36px;overflow:hidden;background:var(--paper);padding:var(--pad);isolation:isolate}
-    .card:after{content:'';position:absolute;inset:0;border-radius:36px;box-shadow:inset 0 0 0 1px rgba(17,16,20,.08);pointer-events:none}
-    .label{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:var(--ink-2)}
-    em{font-style:normal;font-weight:500;color:var(--sun-text)}
-    h1,h2{font-weight:400;margin:0;letter-spacing:-.035em;line-height:1}
-    .pill{display:inline-flex;align-items:center;height:40px;padding:0 18px;border-radius:40px;font-size:16px;font-weight:500;border:1px solid var(--line-2);white-space:nowrap}
-    .pill.ink{background:var(--ink);color:#fff;border-color:var(--ink)}
+    body{width:100vw;display:flex;flex-direction:column;align-items:flex-start;gap:40px;font-family:var(--sans);color:var(--ink);-webkit-font-smoothing:antialiased}
+    .card{position:relative;width:100%;border-radius:24px;overflow:hidden;isolation:isolate}
+    .mono{font-family:var(--mono)}
 
-    /* ---------- Hero ---------- */
-    #hero{padding-bottom:0}
-    .silk{position:absolute;left:0;top:0;width:100%;height:100%;z-index:-1;pointer-events:none}
-    .hero-top{display:flex;justify-content:space-between;align-items:center;gap:24px}
-    .hero-main{display:grid;grid-template-columns:1fr 400px;gap:64px;align-items:end;padding:70px 0 64px}
-    #hero h1{font-size:98px;letter-spacing:-.045em}
-    .lede{font-size:27px;line-height:1.45;color:var(--ink-2);max-width:880px;margin:34px 0 0}
-    .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
-    .chips span{font-size:14px;letter-spacing:1px;text-transform:uppercase;padding:10px 14px;border-radius:30px;background:rgba(251,250,247,.75);border:1px solid var(--line)}
-    .portrait{position:relative;margin:0 0 6px}
-    .portrait .photo{border-radius:28px;overflow:hidden;aspect-ratio:1/1.08;box-shadow:0 40px 70px -34px rgba(70,30,5,.5),0 0 0 1px rgba(17,16,20,.08)}
-    .portrait .photo img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block}
-    .portrait figcaption{display:flex;justify-content:space-between;margin-top:14px;font-size:15px;color:var(--ink-2)}
-    .portrait figcaption span:last-child{font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);padding-top:2px}
-    .badge{position:absolute;right:-30px;top:-30px;width:140px;height:140px;border-radius:50%;background:var(--sun);display:grid;place-items:center;box-shadow:0 24px 40px -20px rgba(160,50,0,.6)}
-    .badge svg.ring{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-20deg)}
-    .badge text{font:500 10.5px 'Google Sans',sans-serif;letter-spacing:.12em;text-transform:uppercase;fill:var(--ink)}
-    .badge .logo{width:46px;height:46px}
-    .band{position:relative;margin:0 calc(var(--pad) * -1);background:var(--sun);overflow:hidden;display:grid;grid-template-columns:repeat(4,1fr);padding:0 var(--pad)}
-    .band:before{content:'';position:absolute;width:1100px;height:1100px;border-radius:50%;left:50%;top:70px;transform:translateX(-50%);background:radial-gradient(circle,#ff9a62 0%,#f4692c 45%,transparent 70%);opacity:.85}
-    .stat{position:relative;padding:34px 28px 38px 0;border-right:1px solid rgba(17,16,20,.18);margin-right:28px}
-    .stat:last-child{border-right:0;margin-right:0}
-    .stat b{display:block;font-weight:400;font-size:96px;line-height:.9;letter-spacing:-.04em}
-    .stat span{display:block;margin-top:14px;font-size:19px;line-height:1.35;color:#2a1007;max-width:250px}
+    /* ---------- Hero: the red poster ---------- */
+    .poster{position:relative;background:var(--red);padding:30px var(--g) 46px}
+    /* trim marks at the sheet's corners, as on the portfolio */
+    .marks{position:absolute;inset:16px;pointer-events:none;--l:16px;--o:22px;
+      background:
+        linear-gradient(var(--ink),var(--ink)) left 0 top var(--o) / var(--l) 1.5px,
+        linear-gradient(var(--ink),var(--ink)) left var(--o) top 0 / 1.5px var(--l),
+        linear-gradient(var(--ink),var(--ink)) right 0 top var(--o) / var(--l) 1.5px,
+        linear-gradient(var(--ink),var(--ink)) right var(--o) top 0 / 1.5px var(--l),
+        linear-gradient(var(--ink),var(--ink)) left 0 bottom var(--o) / var(--l) 1.5px,
+        linear-gradient(var(--ink),var(--ink)) left var(--o) bottom 0 / 1.5px var(--l),
+        linear-gradient(var(--ink),var(--ink)) right 0 bottom var(--o) / var(--l) 1.5px,
+        linear-gradient(var(--ink),var(--ink)) right var(--o) bottom 0 / 1.5px var(--l);
+      background-repeat:no-repeat}
+    .top{display:flex;justify-content:space-between;align-items:center;margin:10px 0 26px}
+    .wordmark{font:800 17px/1 var(--sans);letter-spacing:-.01em;text-transform:uppercase}
+    .site{font:500 14px var(--mono);letter-spacing:.04em}
+    .facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;margin:0;padding:16px 0 0;list-style:none;border-top:1.5px solid var(--ink)}
+    .facts li{display:grid;align-content:start;gap:3px}
+    .facts b{margin-bottom:9px;font:500 13px var(--mono)}
+    .facts span{font:800 18px/1.2 var(--sans);letter-spacing:-.005em;text-transform:uppercase}
+    .facts em{font:500 16px/1.35 var(--sans);font-style:normal;color:rgb(18 17 16 / .78)}
+    .name{margin:96px 0 34px;font:800 180px/.8 var(--sans);letter-spacing:-.058em;text-transform:uppercase}
+    .name span{display:block;width:max-content;white-space:nowrap}
+    .foot{display:flex;align-items:flex-end;justify-content:space-between;gap:32px;padding-top:20px;border-top:1.5px solid var(--ink)}
+    .line{margin:0;font:700 38px/1.06 var(--sans);letter-spacing:-.03em}
+    .cta{display:flex;gap:10px}
+    .btn{display:inline-flex;align-items:center;gap:10px;height:50px;padding:0 22px;border-radius:50px;font:700 17px var(--sans);border:1.5px solid var(--ink);white-space:nowrap}
+    .btn.solid{background:var(--ink);color:var(--white)}
+    .btn svg{width:16px;height:16px}
 
-    /* ---------- Selected work: four tiles in a row, drawn narrower so the text stays readable ---------- */
-    #work{width:1240px;padding:44px 40px 40px}
-    .strip-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:26px}
-    .strip-head .label{display:block;margin-bottom:14px}
-    #work h2{font-size:48px}
-    .strip-head p{margin:0 0 4px;font-size:18px;color:var(--muted);text-align:right}
-    .tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-    .tile{background:var(--card);border-radius:24px;padding:9px;box-shadow:0 0 0 1px var(--line),0 24px 40px -34px rgba(60,30,10,.4)}
-    .panel{position:relative;height:190px;border-radius:17px;overflow:hidden;background:var(--bg)}
-    .panel .wide{position:absolute;left:50%;top:24px;width:90%;transform:translateX(-50%);border-radius:10px;box-shadow:0 20px 34px -18px rgba(20,10,0,.45),0 0 0 1px rgba(17,16,20,.08)}
-    .panel .tall{position:absolute;top:22px;width:40%;border-radius:14px;box-shadow:0 20px 34px -16px rgba(0,0,0,.45),0 0 0 1px rgba(17,16,20,.08)}
-    .panel .t1{left:8%;transform:rotate(-5deg)}
-    .panel .t2{right:8%;top:36px;transform:rotate(5deg)}
-    .info{padding:16px 9px 9px}
-    .row{display:flex;align-items:center;gap:10px}
-    .row img{width:36px;height:36px;border-radius:10px}
-    .row h3{font-size:25px;font-weight:500;letter-spacing:-.02em;margin:0;line-height:1}
-    .row .pill{margin-left:auto;height:28px;font-size:13px;padding:0 11px}
-    .pill.live{background:var(--ink);color:#fff;border-color:var(--ink)}
-    .pill.test{background:var(--butter);border-color:#e9d58a}
-    .kind{font-size:12px;letter-spacing:1.4px;text-transform:uppercase;color:var(--muted);margin:12px 0 0}
-    .proof{font-size:19px;line-height:1.4;color:var(--ink-2);margin:8px 0 0}
+    /* ---------- The numbers, on black with flip digits ---------- */
+    .numbers{background:var(--ink);color:var(--white);display:grid;grid-template-columns:repeat(4,1fr);gap:28px;padding:38px var(--g) 42px}
+    .num .digits{display:flex;gap:6px;margin-bottom:22px}
+    .num .digits i{position:relative;display:grid;place-items:center;width:64px;height:84px;border-radius:9px;background:#26241f;font:800 60px/1 var(--sans);font-style:normal;letter-spacing:-.03em;color:var(--white);box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}
+    .num .digits i:after{content:'';position:absolute;left:0;right:0;top:50%;height:2px;background:var(--ink)}
+    .num b{display:block;font:800 17px/1.2 var(--sans);text-transform:uppercase;letter-spacing:-.005em}
+    .num span{display:block;margin-top:8px;font:500 15.5px/1.4 var(--sans);color:rgb(251 250 246 / .62)}
+    .num small{display:block;margin-top:18px;font:500 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:rgb(251 250 246 / .42)}
+
+    /* ---------- Selected work, drawn narrower so the text stays readable ---------- */
+    #work{width:1240px;background:var(--paper);padding:34px 40px 38px}
+    .w-top{display:flex;justify-content:space-between;align-items:center;font:500 13px var(--mono);padding-bottom:14px;border-bottom:1.5px solid var(--ink)}
+    .w-head{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin:26px 0 28px}
+    .w-head h2{margin:0;font:800 88px/.84 var(--sans);letter-spacing:-.055em;text-transform:uppercase}
+    .w-head p{max-width:340px;margin:0 0 4px;font:500 17px/1.45 var(--sans);color:var(--fg-2)}
+    .tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .media{position:relative;height:210px;border-radius:8px;overflow:hidden;
+      background:radial-gradient(120% 100% at 28% 12%,color-mix(in srgb,var(--c) 64%,#15130F),color-mix(in srgb,var(--c) 20%,#0E0D0B) 78%)}
+    .media .n{position:absolute;left:12px;top:10px;font:500 11px var(--mono);color:rgb(251 250 246 / .7);z-index:2}
+    .media .wide{position:absolute;left:50%;top:40px;width:88%;transform:translateX(-50%);border-radius:6px;box-shadow:0 18px 30px -14px rgba(0,0,0,.6)}
+    .media .tall{position:absolute;left:50%;top:34px;width:46%;transform:translateX(-50%);border-radius:14px;box-shadow:0 0 0 4px #0b0a09,0 22px 34px -12px rgba(0,0,0,.6)}
+    .tile h3{margin:18px 0 0;font:800 30px/.95 var(--sans);letter-spacing:-.045em;text-transform:uppercase}
+    .tile p{min-height:72px;margin:10px 0 14px;font:500 17px/1.4 var(--sans);color:var(--fg-2)}
+    .spec{display:grid;grid-template-columns:auto 1fr;gap:0 14px;font:500 12.5px/1.2 var(--mono);text-transform:uppercase;letter-spacing:.03em}
+    .spec dt,.spec dd{margin:0;padding:9px 0;border-top:1px solid var(--rule)}
+    .spec dt{color:rgb(18 17 16 / .55)}
+    .spec dd.live{color:var(--ink)}
+    .spec dd.test{color:var(--accent)}
 
     /* ---------- Phones: drawn at 560 px, so the text stays readable at phone size ---------- */
     @media (max-width:900px){
-      :root{--pad:26px}
+      :root{--g:24px}
       body{gap:28px}
-      .card,.card:after{border-radius:28px}
-      .label{font-size:12px;letter-spacing:1.6px}
-      .pill{height:34px;font-size:13.5px;padding:0 13px}
-      .hero-top{flex-direction:column;align-items:flex-start;gap:14px}
-      .hero-top .label{font-size:11px;letter-spacing:1.2px;line-height:1.5}
-      .hero-main{grid-template-columns:1fr;gap:30px;padding:28px 0 34px}
-      .portrait{order:-1;width:250px}
-      .portrait figcaption{flex-direction:column;gap:4px}
-      .badge{width:96px;height:96px;right:-22px;top:-20px}
-      .badge text{font-size:10px}
-      .badge .logo{width:32px;height:32px}
-      #hero h1{font-size:50px}
-      .lede{font-size:19px;margin-top:22px}
-      .chips{gap:8px;margin-top:22px}
-      .chips span{font-size:12px;padding:8px 11px}
-      .band{grid-template-columns:1fr 1fr}
-      .stat{border-right:0;margin-right:0;padding:24px 14px 26px 0;border-bottom:1px solid rgba(17,16,20,.18)}
-      .stat:nth-child(odd){border-right:1px solid rgba(17,16,20,.18);margin-right:16px}
-      .stat:nth-last-child(-n+2){border-bottom:0}
-      .stat b{font-size:62px}
-      .stat span{font-size:15px;margin-top:10px}
-      #work{width:100%;padding:30px 20px 22px}
-      .strip-head{flex-direction:column;align-items:flex-start;gap:8px;margin-bottom:20px}
-      #work h2{font-size:34px}
-      .strip-head p{text-align:left;font-size:15px}
-      .tiles{grid-template-columns:1fr 1fr;gap:12px}
-      .panel{height:150px}
-      .row h3{font-size:20px}
-      .row img{width:30px;height:30px;border-radius:8px}
-      .row .pill{height:24px;font-size:11px;padding:0 8px}
-      .kind{font-size:10.5px}
-      .proof{font-size:15.5px}
+      .card{border-radius:20px}
+      .poster{padding:22px var(--g) 30px}
+      .marks{inset:12px;--l:12px;--o:16px}
+      .top{margin:6px 0 18px}
+      .wordmark{font-size:14px}
+      .site{font-size:12px}
+      .facts{grid-template-columns:1fr 1fr;gap:18px 18px;padding-top:12px}
+      .facts b{font-size:11px;margin-bottom:5px}
+      .facts span{font-size:14.5px}
+      .facts em{font-size:13.5px}
+      .name{margin:54px 0 24px}
+      .foot{flex-direction:column;align-items:flex-start;gap:18px;padding-top:16px}
+      .line{font-size:28px}
+      .cta{flex-wrap:wrap;gap:8px}
+      .btn{height:40px;padding:0 15px;font-size:14px}
+      .numbers{grid-template-columns:1fr 1fr;gap:26px 18px;padding:26px var(--g) 30px}
+      .num .digits{gap:4px;margin-bottom:14px}
+      .num .digits i{width:42px;height:56px;font-size:40px;border-radius:7px}
+      .num b{font-size:14px}
+      .num span{font-size:13px}
+      .num small{display:none}
+      #work{width:100%;padding:22px 20px 24px}
+      .w-top{font-size:11px;padding-bottom:10px}
+      .w-top span:last-child{display:none}
+      .w-head{flex-direction:column;align-items:flex-start;gap:12px;margin:18px 0 20px}
+      .w-head h2{font-size:58px}
+      .w-head p{font-size:15px}
+      .tiles{grid-template-columns:1fr 1fr;gap:14px}
+      .media{height:170px}
+      .tile h3{font-size:23px;margin-top:14px}
+      .tile p{font-size:14.5px;margin:8px 0 10px;min-height:82px}
+      .spec{font-size:10.5px}
     }
   </style>
 </head>
 <body>
-  <svg width="0" height="0" style="position:absolute">
-    <defs>
-      <linearGradient id="sunG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb27a"/><stop offset=".5" stop-color="#ff8a4c"/><stop offset="1" stop-color="#ff6f6f"/></linearGradient>
-      <clipPath id="logoClip"><path d="M4.5 22.5a11.5 11.5 0 0 1 23 0Z"/></clipPath>
-      <symbol id="logo" viewBox="0 0 32 32"><g clip-path="url(#logoClip)"><rect x="0" y="9" width="32" height="8.4" fill="url(#sunG)"/><rect x="0" y="18.4" width="32" height="1.7" fill="url(#sunG)"/><rect x="0" y="21.1" width="32" height="1.4" fill="url(#sunG)"/></g><path d="M2.5 25.5h27" stroke="#111014" stroke-width="2" stroke-linecap="round" fill="none"/></symbol>
-    </defs>
-  </svg>
-
-  <!-- Hero -->
+  <!-- Hero: the poster and the numbers -->
   <section class="card" id="hero">
-    <svg class="silk" data-silk aria-hidden="true"></svg>
-    <div class="hero-top">
-      <span class="label">Yuvaraj Vodiboina / Software engineer / Hyderabad, India</span>
-      <span class="pill ink">On-site in Hyderabad or remote</span>
-    </div>
-    <div class="hero-main">
-      <div>
-        <h1>Hi, I'm Yuvaraj.<br><em>I make the whole thing.</em></h1>
-        <p class="lede">Software engineer building web apps, Chrome extensions and Android apps end to end. Most recently a Frontend Engineer at Truedune Beauty.</p>
-        <div class="chips"><span>React</span><span>Next.js</span><span>TypeScript</span><span>Kotlin</span><span>Jetpack Compose</span><span>Manifest V3</span></div>
+    <div class="poster">
+      <span class="marks" aria-hidden="true"></span>
+      <div class="top"><span class="wordmark">Yuvaraj<br>Vodiboina</span><span class="site">yuvarajvodiboina.in</span></div>
+      <ul class="facts">
+        <li><b>(01)</b><span>Software engineer</span><em>Web, browser and Android</em></li>
+        <li><b>(02)</b><span>Founder of CodeHorizon</span><em>Five Chrome extensions, four Android apps</em></li>
+        <li><b>(03)</b><span>Based in Hyderabad</span><em>On-site in Hyderabad or remote</em></li>
+        <li><b>(04)</b><span>Most recently</span><em>Frontend Engineer, Truedune Beauty</em></li>
+      </ul>
+      <h1 class="name" data-fit><span>Yuvaraj</span><span>Vodiboina</span></h1>
+      <div class="foot">
+        <p class="line">I build for the browser<br>and the pocket.</p>
+        <div class="cta">
+          <span class="btn solid">Open to work
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          <span class="btn">Résumé</span>
+        </div>
       </div>
-      <figure class="portrait">
-        <div class="photo"><img src="../../codehorizon/public/assets/img/founder.webp" alt=""></div>
-        <span class="badge">
-          <svg class="ring" viewBox="0 0 120 120"><defs><path id="badgeRing" d="M60 60m-45 0a45 45 0 1 1 90 0a45 45 0 1 1-90 0"/></defs><text><textPath href="#badgeRing" textLength="282">Engineer · Designer · Founder ·</textPath></text></svg>
-          <svg class="logo"><use href="#logo"/></svg>
-        </span>
-        <figcaption><span>Yuvaraj Vodiboina</span><span>Founder, CodeHorizon</span></figcaption>
-      </figure>
     </div>
-    <div class="band">
-      <div class="stat"><b>6</b><span>Live products on the Chrome Web Store and Google Play</span></div>
-      <div class="stat"><b>18</b><span>Releases in the last twelve months</span></div>
-      <div class="stat"><b>542</b><span>Automated tests behind ShopGrade</span></div>
-      <div class="stat"><b>2024</b><span>Shipping my own products since</span></div>
+    <div class="numbers">
+      <div class="num"><div class="digits"><i>6</i></div><b>Live products</b><span>On the Chrome Web Store and Google Play</span><small>CodeHorizon</small></div>
+      <div class="num"><div class="digits"><i>1</i><i>8</i></div><b>Releases</b><span>Launches and updates in the last twelve months</span><small>The changelog</small></div>
+      <div class="num"><div class="digits"><i>5</i><i>4</i><i>2</i></div><b>Automated tests</b><span>Behind ShopGrade's reports and billing</span><small>ShopGrade</small></div>
+      <div class="num"><div class="digits"><i>9</i></div><b>Products built</b><span>Designed, engineered and published by me</span><small>Since 2024</small></div>
     </div>
   </section>
 
   <!-- Selected work -->
   <section class="card" id="work">
-    <div class="strip-head">
-      <div><span class="label">Selected work</span><h2>Four products I built <em>and shipped.</em></h2></div>
-      <p>Case studies on yuvarajvodiboina.in</p>
+    <div class="w-top"><span>(02)&nbsp;&nbsp;&nbsp;Selected work</span><span>Case studies at yuvarajvodiboina.in/work</span></div>
+    <div class="w-head">
+      <h2>Selected<br>work</h2>
+      <p>Four of my own products, from the Figma file to the store listing, each with a full case study.</p>
     </div>
     <div class="tiles">
-      <article class="tile" style="--bg:#ffe4d4">
-        <div class="panel"><img class="wide" src="../../codehorizon/public/assets/img/shots/shopgrade/shopgrade-1.webp" alt=""></div>
-        <div class="info">
-          <div class="row"><img src="../../codehorizon/public/assets/img/icons/shopgrade.png" alt=""><h3>ShopGrade</h3><span class="pill live">Live</span></div>
-          <p class="kind">Chrome extension + web app</p>
-          <p class="proof">Shopify store audits. Each credit spent in one transaction, 542 tests.</p>
-        </div>
+      <article class="tile" style="--c:#E8336D">
+        <div class="media"><span class="n">01 / 04</span><img class="wide" src="../../../yuvaraj-portfolio/assets/screens/shopgrade.webp" alt=""></div>
+        <h3>ShopGrade</h3>
+        <p>Shopify store audits. Each credit spent in one transaction; 542 tests.</p>
+        <dl class="spec"><dt>Platform</dt><dd>Chrome + web</dd><dt>Status</dt><dd class="live">Live</dd></dl>
       </article>
-      <article class="tile" style="--bg:#101b33">
-        <div class="panel"><img class="tall t1" src="../../codehorizon/public/assets/img/shots/securevault/securevault-7.10-1.webp" alt=""><img class="tall t2" src="../../codehorizon/public/assets/img/shots/securevault/securevault-7.10-2.webp" alt=""></div>
-        <div class="info">
-          <div class="row"><img src="../../codehorizon/public/assets/img/icons/securevault.png" alt=""><h3>SecureVault</h3><span class="pill live">Live</span></div>
-          <p class="kind">Android app</p>
-          <p class="proof">A vault behind a working calculator. AES-256-GCM, Android Keystore.</p>
-        </div>
+      <article class="tile" style="--c:#4C7DFF">
+        <div class="media"><span class="n">02 / 04</span><img class="tall" src="../../../yuvaraj-portfolio/assets/screens/securevault.webp" alt=""></div>
+        <h3>SecureVault</h3>
+        <p>An encrypted vault behind a working calculator. AES-256-GCM, Keystore.</p>
+        <dl class="spec"><dt>Platform</dt><dd>Android</dd><dt>Status</dt><dd class="live">Live on Google Play</dd></dl>
       </article>
-      <article class="tile" style="--bg:#e4eec2">
-        <div class="panel"><img class="wide" src="../../codehorizon/public/assets/img/shots/tubefocus/7.0.2-01-focus-recipes-1280x800.webp" alt=""></div>
-        <div class="info">
-          <div class="row"><img src="../../codehorizon/public/assets/img/icons/tubefocus-7.0.2.png" alt=""><h3>TubeFocus</h3><span class="pill live">Live</span></div>
-          <p class="kind">Chrome extension</p>
-          <p class="proof">YouTube focus timers that survive service-worker suspension.</p>
-        </div>
+      <article class="tile" style="--c:#E5322D">
+        <div class="media"><span class="n">03 / 04</span><img class="wide" src="../../../yuvaraj-portfolio/assets/screens/tubefocus.webp" alt=""></div>
+        <h3>TubeFocus</h3>
+        <p>YouTube focus timers that survive service-worker suspension.</p>
+        <dl class="spec"><dt>Platform</dt><dd>Chrome</dd><dt>Status</dt><dd class="live">Live</dd></dl>
       </article>
-      <article class="tile" style="--bg:#d9f0c9">
-        <div class="panel"><img class="tall t1" src="../../codehorizon/public/assets/img/shots/nicked/nicked-0.3.0-1.webp" alt=""><img class="tall t2" src="../../codehorizon/public/assets/img/shots/nicked/nicked-0.3.0-2.webp" alt=""></div>
-        <div class="info">
-          <div class="row"><img src="../../codehorizon/public/assets/img/icons/nicked.png" alt=""><h3>Nicked</h3><span class="pill test">Testing</span></div>
-          <p class="kind">Android game</p>
-          <p class="proof">Daily cricket quiz over 403 players, on a deterministic schedule.</p>
-        </div>
+      <article class="tile" style="--c:#1F9D5C">
+        <div class="media"><span class="n">04 / 04</span><img class="tall" src="../../../yuvaraj-portfolio/assets/screens/nicked.webp" alt=""></div>
+        <h3>Nicked</h3>
+        <p>A daily cricket quiz over 403 players, each checked against a source.</p>
+        <dl class="spec"><dt>Platform</dt><dd>Android</dd><dt>Status</dt><dd class="test">In closed testing</dd></dl>
       </article>
     </div>
   </section>
 
   <script>
-    // A still frame of the CodeHorizon "silk horizon": threads of a twisting ribbon in sunrise colours.
-    for (const svg of document.querySelectorAll('[data-silk]')) {
-      const card = svg.parentElement, w = card.offsetWidth, h = card.offsetHeight, ns = 'http://www.w3.org/2000/svg';
-      svg.setAttribute('viewBox', `0 0 ${w} ${h}`);
-      svg.innerHTML = `<defs><linearGradient id="silkG" x1="0" x2="1" y1="0" y2="0">
-        <stop offset="0" stop-color="#ffb27a" stop-opacity="0"/><stop offset=".18" stop-color="#ffb27a"/><stop offset=".45" stop-color="#ff7a45"/>
-        <stop offset=".7" stop-color="#ff6f8a"/><stop offset=".92" stop-color="#a98bff"/><stop offset="1" stop-color="#a98bff" stop-opacity="0"/></linearGradient></defs>`;
-      const mobile = w < 900, threads = 72, y0 = h * (mobile ? .5 : .52), amp = h * (mobile ? .07 : .1);
-      for (let i = 0; i < threads; i++) {
-        const t = i / (threads - 1) - .5;
-        let d = '';
-        for (let x = -40; x <= w + 40; x += 8) {
-          const p = x / w;
-          const twist = Math.sin(p * Math.PI * 2.1 + .4);
-          const y = y0 + amp * Math.sin(p * Math.PI * 1.6 + .9) + t * (mobile ? 120 : 170) * twist + t * t * 40 * Math.sin(p * 9);
-          d += (x === -40 ? 'M' : 'L') + x.toFixed(1) + ' ' + y.toFixed(1);
-        }
-        const path = document.createElementNS(ns, 'path');
-        path.setAttribute('d', d);
-        path.setAttribute('fill', 'none');
-        path.setAttribute('stroke', 'url(#silkG)');
-        path.setAttribute('stroke-width', '1.1');
-        path.setAttribute('opacity', (.22 + .4 * (1 - Math.abs(t) * 2)).toFixed(2));
-        svg.append(path);
+    // My name, as on the portfolio: both lines the same size, as big as the sheet allows.
+    document.fonts.ready.then(() => {
+      for (const el of document.querySelectorAll('[data-fit]')) {
+        const room = el.parentElement.clientWidth - parseFloat(getComputedStyle(el.parentElement).paddingLeft) * 2;
+        const widest = Math.max(...[...el.children].map(s => s.getBoundingClientRect().width));
+        el.style.fontSize = (parseFloat(getComputedStyle(el).fontSize) * room / widest * .995) + 'px';
       }
-    }
+      document.documentElement.dataset.ready = '1';
+    });
   </script>
 </body>
 </html>
