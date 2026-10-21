@@ -1,86 +1,49 @@
+<a href="https://yuvarajvodiboina.in/">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v9/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v9/header-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v9/header-dark.svg" alt="Yuvaraj Vodiboina. Software engineer and independent product developer. Web interfaces, Chrome extensions, and Android apps." width="100%">
-</picture>
-
-<p align="center">
-  <a href="https://yuvarajvodiboina.in/"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/icon-web.svg" width="18" height="18" alt=""> <b>Portfolio</b></a> &nbsp; / &nbsp;
-  <a href="https://codehorizon.in/"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/icon-horizon.svg" width="18" height="18" alt=""> <b>CodeHorizon</b></a> &nbsp; / &nbsp;
-  <a href="https://www.linkedin.com/in/yuvarajvodiboina/"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/icon-network.svg" width="18" height="18" alt=""> <b>LinkedIn</b></a> &nbsp; / &nbsp;
-  <a href="mailto:yvodiboina@gmail.com"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v2/icon-mail.svg" width="18" height="18" alt=""> <b>Email</b></a>
-</p>
-
-I'm Yuvaraj, a software engineer building web products, Chrome extensions, and Android apps at **[CodeHorizon](https://codehorizon.in/)**. My work spans design, platform integration, and releases.
-
-<a href="https://codehorizon.in/products/">
-<picture>
-  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/proof-mobile-dark.svg">
-  <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/proof-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/proof-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/proof-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/proof-dark.svg" alt="Seven released products. Nicked in testing. Web and mobile engineering." width="100%">
+  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v10/hero-mobile.webp">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v10/hero.webp" alt="Hi, I'm Yuvaraj. I make the whole thing. Yuvaraj Vodiboina, software engineer in Hyderabad, India, open to remote. I build web apps, Chrome extensions and Android apps end to end, from the Figma file to the store listing. 6 live products on the Chrome Web Store and Google Play, 18 releases in the last twelve months, 542 automated tests behind ShopGrade, shipping my own products since 2024." width="100%">
 </picture>
 </a>
 
-Released work includes past projects. **Notilo is no longer live**; its [engineering case study](https://codehorizon.in/products/notilo/) remains available.
-
-## Selected work
-
-<picture>
-  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/selected-work-mobile-dark.svg">
-  <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/selected-work-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/selected-work-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/selected-work-light.svg">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/selected-work-dark.svg" alt="ShopGrade: I made report credits and audit access atomic, so retried requests cannot charge twice or leave paid reports half provisioned. Nicked: I froze the daily answer schedule to keep puzzles consistent across releases, persisted game state, and paused Run Chase when backgrounded. SecureVault: I used AES-256-GCM and Android Keystore to protect files, with biometric unlock, passcode fallback, and automatic locking after inactivity. TubeFocus: To survive closed popups and YouTube navigation, I stored the session end time in Chrome storage and reapplied hiding rules." width="100%">
-</picture>
-
 <p align="center">
-  <a href="https://codehorizon.in/products/shopgrade/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/link-shopgrade-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/link-shopgrade-light.svg"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/link-shopgrade-dark.svg" alt="Open ShopGrade" width="145" height="30"></picture></a>
-  <a href="https://codehorizon.in/products/nicked/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/link-nicked-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/link-nicked-light.svg"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/link-nicked-dark.svg" alt="Open Nicked" width="145" height="30"></picture></a>
-  <a href="https://codehorizon.in/products/securevault/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/link-securevault-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/link-securevault-light.svg"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/link-securevault-dark.svg" alt="Open SecureVault" width="145" height="30"></picture></a>
-  <a href="https://codehorizon.in/products/tubefocus/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/link-tubefocus-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/link-tubefocus-light.svg"><img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v8/link-tubefocus-dark.svg" alt="Open TubeFocus" width="145" height="30"></picture></a>
+  <a href="https://yuvarajvodiboina.in/"><b>Portfolio</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://yuvarajvodiboina.in/Yuvaraj_Resume.pdf"><b>Résumé&nbsp;(PDF)</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.linkedin.com/in/yuvarajvodiboina/">LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:yvodiboina@gmail.com">Email</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://codehorizon.in/">CodeHorizon</a>
 </p>
 
-**[Read the engineering case studies](https://github.com/yuvarajvodiboina/engineering-case-studies)** · Architecture, tradeoffs, and verification.
+I'm a software engineer in Hyderabad, India, open to remote roles. I build web apps, Chrome extensions and native Android apps end to end in React, Next.js, TypeScript, Kotlin and Jetpack Compose. Most recently I was a Frontend Engineer at Truedune Beauty, and I run [CodeHorizon](https://codehorizon.in/), where I've shipped nine products of my own, six of them live on the Chrome Web Store and Google Play.
 
-<details id="project-notes">
-<summary><b>Project notes and availability</b></summary>
+<a href="https://yuvarajvodiboina.in/work/">
+<picture>
+  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v10/work-mobile.webp">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v10/work.webp" alt="Selected work. ShopGrade, a live Chrome extension and web app: audits any public Shopify store; one server function gates every report and spends a credit in a single database transaction; 542 automated tests. SecureVault, a live Android app: an encrypted vault behind a working calculator, with AES-256-GCM keys in the Android Keystore. TubeFocus, a live Chrome extension: timers keep running after Chrome suspends the service worker; 39 regression tests and 24 checks in real Chrome. Nicked, an Android game in closed testing: a daily cricket quiz over 403 cricketers with a SplitMix64 schedule checked by a golden test. Also shipped: CSS Class Highlighter, Companion AI, Speaker Cleaner and the Kalpa Corporate Artz website." width="100%">
+</picture>
+</a>
 
-- **ShopGrade**: released Chrome extension with an Appwrite backend. [Chrome Web Store](https://chromewebstore.google.com/detail/shopgrade/aenccbnkkimncdjikjgapconaegnmbeo) · [Case study](https://github.com/yuvarajvodiboina/engineering-case-studies/blob/main/case-studies/shopgrade.md).
-- **Nicked**: Android game in testing. Daily answers use a frozen schedule and version-stable shuffle; daily game progress is saved with DataStore. [Project page](https://codehorizon.in/products/nicked/) · [Case study](https://github.com/yuvarajvodiboina/engineering-case-studies/blob/main/case-studies/nicked.md).
-- **SecureVault**: released Android app with encrypted file storage and biometric or passcode unlock. [Google Play](https://play.google.com/store/apps/details?id=com.codehorizon.calculator) · [Case study](https://github.com/yuvarajvodiboina/engineering-case-studies/blob/main/case-studies/securevault.md).
-- **TubeFocus**: released Chrome extension. Session end times persist in Chrome storage and hiding rules are reapplied during YouTube navigation. [Chrome Web Store](https://chromewebstore.google.com/detail/ghmoajebamiileeffdiplohlbgnhnadl).
+**Case studies:** [ShopGrade](https://yuvarajvodiboina.in/work/shopgrade/) · [SecureVault](https://yuvarajvodiboina.in/work/securevault/) · [TubeFocus](https://yuvarajvodiboina.in/work/tubefocus/) · [Nicked](https://yuvarajvodiboina.in/work/nicked/) · [all work](https://yuvarajvodiboina.in/work/) · [engineering notes on GitHub](https://github.com/yuvarajvodiboina/engineering-case-studies)<br>
+**Try them:** [ShopGrade](https://chromewebstore.google.com/detail/shopgrade/aenccbnkkimncdjikjgapconaegnmbeo) and [TubeFocus](https://chromewebstore.google.com/detail/ghmoajebamiileeffdiplohlbgnhnadl) on the Chrome Web Store · [SecureVault](https://play.google.com/store/apps/details?id=com.codehorizon.calculator) on Google Play · [Nicked trailer](https://youtu.be/oFikiJFPoco)
 
-- **Notilo**: a past Chrome extension I built and published for web highlights and local notes. No longer live or available for new installations. [Case study](https://codehorizon.in/products/notilo/).
+<a href="https://yuvarajvodiboina.in/Yuvaraj_Resume.pdf">
+<picture>
+  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v10/experience-mobile.webp">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v10/experience.webp" alt="Experience. Founder and Software Engineer, CodeHorizon, October 2024 to present. Frontend Engineer, Truedune Beauty, full-time in Bengaluru, October 2025 to August 2026. Web Developer, Kalpa Corporate Artz, contract, September to November 2025. Frontend Engineer Intern, Intern Stump, May to October 2024. Web Development Intern, MSsquare Technologies, April to September 2023. Education: B.Tech in Computer Science and Engineering, Avanthi Institute of Engineering and Technology, JNTU-GV, 2019 to 2024. Certificates: Google UX Design, January 2025; Docker Foundations, October 2025. Research: published paper on UI/UX and user trust. Based in Hyderabad, India, open to remote roles." width="100%">
+</picture>
+</a>
 
-</details>
+<picture>
+  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v10/stack-mobile.webp">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v10/stack.webp" alt="Toolkit. Languages: TypeScript, JavaScript, Kotlin, Java, Python, SQL. Web: React, Next.js, Node.js, React Native, Tailwind CSS, Shopify Liquid. Android: Jetpack Compose, Coroutines, Hilt, Room, WorkManager, Keystore. Browser: Manifest V3, service workers, content scripts, Chrome APIs, Shadow DOM, Web Store. Backend: Appwrite, Firebase, Cloudflare Workers, PostgreSQL, Flask, Docker. Quality and design: Jest, Playwright, Lighthouse, GitHub Actions, WCAG, Figma." width="100%">
+</picture>
 
-## More work
+### Open source
 
-| Project | Engineering focus |
-| :--- | :--- |
-| [TabCluster](https://codehorizon.in/products/tabcluster/) · [Web Store](https://chromewebstore.google.com/detail/faligjbhpbmnajkdpcefhebinddmbmbo) | Saved workspaces, domain grouping, and a preview before changes. |
-| [Notilo case study](https://codehorizon.in/products/notilo/) · Not currently live | I built cross-node text selections, saved notes and restored highlights. Previously published as a Chrome extension. |
-| [Companion AI](https://codehorizon.in/products/companion-ai/) · [Google Play](https://play.google.com/store/apps/details?id=com.codehorizon.companion) | Room-backed offline content and cached WorkManager reminders. |
-| [Kalpa Corporate Artz](https://kalpacorporateartz.com/) | Figma to Next.js, artwork browsing, and consultation enquiries. |
-| [Speaker Cleaner](https://codehorizon.in/products/speaker-cleaner/) · [Google Play](https://play.google.com/store/apps/details?id=com.speakercleaner.watereject.fixsound) | Tone generation, haptics, and volume restoration. |
+- **[AxionAOSP for Xiaomi Pad 6](https://github.com/yuvarajvodiboina/axion-pipa)**: an Android 15 community build, with device integration notes, downloads and install guides.
+- **Device trees and recovery**: [Xiaomi Pad 6](https://github.com/yuvarajvodiboina/android_device_xiaomi_pipa), [POCO X2 / Redmi K30](https://github.com/yuvarajvodiboina/device_xiaomi_phoenix) and [TWRP](https://github.com/yuvarajvodiboina/twrp_device_xiaomi_phoenix).
+- **Earlier projects**: [Chat Room](https://github.com/yuvarajvodiboina/Chat_Room) (Flask, Socket.IO), [IdentiFlash](https://github.com/yuvarajvodiboina/identi_flash) (Java, Android), [Space Shooter](https://github.com/yuvarajvodiboina/Space-Shooter), [Flappy Bird](https://github.com/yuvarajvodiboina/flappy_bird) and [Pencil Sketch](https://github.com/yuvarajvodiboina/pencil_sketch) (Python).
 
-## Public work
+<a href="mailto:yvodiboina@gmail.com">
+<picture>
+  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v10/contact-mobile.webp">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v10/contact.webp" alt="Open to remote software engineering roles. Email yvodiboina@gmail.com. Portfolio yuvarajvodiboina.in, one-page résumé PDF, LinkedIn in/yuvarajvodiboina, studio codehorizon.in. I read every message myself and reply within a day or two." width="100%">
+</picture>
+</a>
 
-- **[AxionAOSP for Xiaomi Pad 6](https://github.com/yuvarajvodiboina/axion-pipa)**: Android 15 community build, device integration notes, downloads, and installation documentation with upstream credits.
-- **Device and recovery configurations**: [Xiaomi Pad 6](https://github.com/yuvarajvodiboina/android_device_xiaomi_pipa), [POCO X2 / Redmi K30](https://github.com/yuvarajvodiboina/device_xiaomi_phoenix), and [TWRP recovery](https://github.com/yuvarajvodiboina/twrp_device_xiaomi_phoenix).
-- **[Chat Room](https://github.com/yuvarajvodiboina/Chat_Room)**: Flask and Socket.IO chat. **[IdentiFlash](https://github.com/yuvarajvodiboina/identi_flash)**: Java Android utility with a downloadable demo.
-
-<details>
-<summary><b>Earlier experiments and experience</b></summary>
-
-Python projects: [Space Shooter](https://github.com/yuvarajvodiboina/Space-Shooter), [Flappy Bird](https://github.com/yuvarajvodiboina/flappy_bird), [pencil sketches](https://github.com/yuvarajvodiboina/pencil_sketch), [calendar GUI](https://github.com/yuvarajvodiboina/calender_gui), [messaging automation](https://github.com/yuvarajvodiboina/whats_automate), and [country/carrier lookup](https://github.com/yuvarajvodiboina/country_carrier).
-
-Previously a frontend engineer at Truedune Beauty, working on e-commerce interfaces and integrations.
-
-</details>
-
-**Tools across these projects:** React, Next.js, TypeScript, Figma, Chrome APIs, Kotlin, Jetpack Compose, Appwrite.
-
-<p align="center"><sub><a href="https://codehorizon.in/products/">Product catalogue</a> / <a href="https://codehorizon.in/changelog/">Release history</a> / <a href="https://yuvarajvodiboina.in/">Portfolio</a></sub></p>
+<p align="center"><sub><a href="mailto:yvodiboina@gmail.com">yvodiboina@gmail.com</a> / <a href="https://yuvarajvodiboina.in/">yuvarajvodiboina.in</a> / <a href="https://yuvarajvodiboina.in/Yuvaraj_Resume.pdf">Résumé</a> / <a href="https://www.linkedin.com/in/yuvarajvodiboina/">LinkedIn</a></sub></p>
