@@ -1,5 +1,6 @@
 // Draws the profile README images: opens tools/profile-art.html in headless Chrome at desktop and
-// phone widths and saves every card to assets/v10/ as WebP (Chrome encodes them, so no packages).
+// phone widths and saves every card to assets/v11/ as WebP (Chrome encodes them, so no packages).
+// A new version folder per redesign keeps GitHub's image cache from serving the old pictures.
 // usage: node tools/capture.mjs   (set CHROME to the browser binary if it is not in the usual place)
 import { spawn } from 'node:child_process';
 import { existsSync, mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
@@ -8,12 +9,13 @@ import { join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
 const ROOT = resolve(import.meta.dirname, '..');
-const OUT = join(ROOT, 'assets/v10');
+const OUT = join(ROOT, 'assets/v11');
 const PAGE = pathToFileURL(join(ROOT, 'tools/profile-art.html')).href;
-const CARDS = ['hero', 'work', 'experience', 'stack', 'contact'];
-// Both come out 1800 px wide. Phones get a narrower page, so their text is drawn larger relative
-// to the image and stays readable once GitHub shrinks it to the screen.
-const SIZES = [{ suffix: '', width: 1600, scale: 1.125 }, { suffix: '-mobile', width: 560, scale: 3.2142857 }];
+const CARDS = ['hero', 'work'];
+// Every card comes out 1800 px wide, whatever width it is drawn at: rendered at `scale`, then shrunk
+// to fit. Phones get a narrower page, so their text is drawn larger relative to the image.
+const WIDTH = 1800;
+const SIZES = [{ suffix: '', width: 1600, scale: 2 }, { suffix: '-mobile', width: 560, scale: 4 }];
 const DEVTOOLS = 9339;
 
 const CHROME = process.env.CHROME || ['/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', '/usr/bin/google-chrome', '/usr/bin/chromium'].find(existsSync);
@@ -60,11 +62,12 @@ try {
     await send('Emulation.setDeviceMetricsOverride', { width: size.width, height, deviceScaleFactor: size.scale, mobile: false });
     await sleep(500);
     for (const card of CARDS) {
-      const clip = await run(`(({ x, y, width, height }) => ({ x, y, width, height, scale: 1 }))(document.getElementById('${card}').getBoundingClientRect())`);
+      const clip = await run(`(({ x, y, width, height }) => ({ x, y, width, height }))(document.getElementById('${card}').getBoundingClientRect())`);
+      clip.scale = WIDTH / (clip.width * size.scale);
       const { data } = await send('Page.captureScreenshot', { format: 'webp', quality: 88, clip });
       const name = `${card}${size.suffix}.webp`;
       writeFileSync(join(OUT, name), Buffer.from(data, 'base64'));
-      console.log(`assets/v10/${name}  ${Math.round(Buffer.byteLength(data, 'base64') / 1024)} KB`);
+      console.log(`assets/v11/${name}  ${Math.round(Buffer.byteLength(data, 'base64') / 1024)} KB`);
     }
   }
   ws.close();
