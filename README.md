@@ -23,9 +23,9 @@ I'm a software engineer in Hyderabad who builds web apps, Chrome extensions and 
 **Where's all the code?** In private repos, mostly: about 98% of my contributions this past year. Code written for employers and clients stays with them, and CodeHorizon's products are closed source, so think of this page as the trailer. The case studies are the film, and I'm happy to walk through real code in an interview.
 
 **Experience**
-- **Founder and Software Engineer, CodeHorizon** · Oct 2024 to now. Nine products designed, built and published, with payments, ads and store releases.
+- **Founder and Software Engineer, CodeHorizon** · Oct 2024 to now. Nine products designed, built and published, with payments, ads and store releases. Also the QA team, support desk and release manager, depending on the hour.
 - **Frontend Engineer, Truedune Beauty** · Bengaluru, Oct 2025 to Aug 2026. React, Next.js and TypeScript storefront, a reworked single-click checkout and six A/B tests.
 - **Web Developer, Kalpa Corporate Artz** · contract, 2025. Earlier, frontend internships at Intern Stump and MSsquare Technologies.
 
 **Education:** B.Tech in Computer Science and Engineering, JNTU-GV (2024) · Google UX Design and Docker Foundations certificates · a published paper on UI/UX and user trust.<br>
-**Open source:** [AxionAOSP](https://github.com/yuvarajvodiboina/axion-pipa), an Android 15 build for the Xiaomi Pad 6, plus device trees for the [Pad 6](https://github.com/yuvarajvodiboina/android_device_xiaomi_pipa) and [POCO X2](https://github.com/yuvarajvodiboina/device_xiaomi_phoenix), and [TWRP](https://github.com/yuvarajvodiboina/twrp_device_xiaomi_phoenix).
+**Open source:** [AxionAOSP](https://github.com/yuvarajvodiboina/axion-pipa), an Android 15 build for the Xiaomi Pad 6, plus device trees for the [Pad 6](https://github.com/yuvarajvodiboina/android_device_xiaomi_pipa) and [POCO X2](https://github.com/yuvarajvodiboina/device_xiaomi_phoenix), and [TWRP](https://github.com/yuvarajvodiboina/twrp_device_xiaomi_phoenix). My idea of a quiet weekend is fixing a boot loop.
