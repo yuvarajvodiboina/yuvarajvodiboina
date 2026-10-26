@@ -20,6 +20,8 @@ I'm a software engineer in Hyderabad who builds web apps, Chrome extensions and 
 
 **Case studies:** [ShopGrade](https://yuvarajvodiboina.in/work/shopgrade/) · [SecureVault](https://yuvarajvodiboina.in/work/securevault/) · [TubeFocus](https://yuvarajvodiboina.in/work/tubefocus/) · [Nicked](https://yuvarajvodiboina.in/work/nicked/) · [engineering notes](https://github.com/yuvarajvodiboina/engineering-case-studies)
 
+**Writing:** [Insights](https://codehorizon.in/insights/), sourced and animated explainers on this year's Android, Chrome, Shopify and Search changes.
+
 **Where's all the code?** In private repos, mostly: about 98% of my contributions this past year. Code written for employers and clients stays with them, and CodeHorizon's products are closed source, so think of this page as the trailer. The case studies are the film, and I'm happy to walk through real code in an interview.
 
 **Experience**
