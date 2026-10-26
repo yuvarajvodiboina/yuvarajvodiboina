@@ -1,7 +1,7 @@
 <a href="https://yuvarajvodiboina.in/">
 <picture>
-  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v12/hero-mobile.webp">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v12/hero.webp" alt="Yuvaraj Vodiboina. Software engineer for web, browser and Android. Founder of CodeHorizon: five Chrome extensions and four Android apps. Based in Hyderabad, open to on-site roles in Hyderabad or remote. Most recently a Frontend Engineer at Truedune Beauty. I build for the browser and the pocket. 6 live products on the Chrome Web Store and Google Play, 18 releases in the last twelve months, 542 automated tests behind ShopGrade, 9 products built since 2024." width="100%">
+  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v13/hero-mobile.webp">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v13/hero.webp" alt="Yuvaraj Vodiboina. Software engineer for web, browser and Android. Founder of CodeHorizon: five Chrome extensions and four Android apps. Based in Hyderabad, open to on-site roles in Hyderabad or remote. Most recently a Frontend Engineer at Truedune Beauty. I build for the browser and the pocket. 6 live products on the Chrome Web Store and Google Play, 18 releases in the last twelve months, 542 automated tests behind ShopGrade, 9 products built since 2024." width="100%">
 </picture>
 </a>
 
@@ -13,8 +13,8 @@ I'm a software engineer in Hyderabad who builds web apps, Chrome extensions and 
 
 <a href="https://yuvarajvodiboina.in/work/">
 <picture>
-  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v12/work-mobile.webp">
-  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v12/work.webp" alt="Selected work. ShopGrade, live on Chrome and the web: Shopify store audits, each credit spent in one transaction, 542 tests. SecureVault, live on Google Play: an encrypted vault behind a working calculator, AES-256-GCM and Android Keystore. TubeFocus, a live Chrome extension: YouTube focus timers that survive service-worker suspension. Nicked, an Android game in closed testing: a daily cricket quiz over 403 players, each checked against a source." width="100%">
+  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v13/work-mobile.webp">
+  <img src="https://raw.githubusercontent.com/yuvarajvodiboina/yuvarajvodiboina/main/assets/v13/work.webp" alt="Selected work. ShopGrade, live on Chrome and the web: Shopify store audits, each credit spent in one transaction, 542 tests. SecureVault, live on Google Play: an encrypted vault behind a working calculator, AES-256-GCM and Android Keystore. TubeFocus, a live Chrome extension: YouTube focus timers that survive service-worker suspension. Nicked, live on Google Play: a daily cricket quiz over 403 players, each checked against a source." width="100%">
 </picture>
 </a>
 

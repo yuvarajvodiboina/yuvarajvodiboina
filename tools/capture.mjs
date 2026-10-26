@@ -1,5 +1,5 @@
 // Draws the profile README images: opens tools/profile-art.html in headless Chrome at desktop and
-// phone widths and saves every card to assets/v12/ as WebP (Chrome encodes them, so no packages).
+// phone widths and saves every card to assets/v13/ as WebP (Chrome encodes them, so no packages).
 // A new version folder per redesign keeps GitHub's image cache from serving the old pictures.
 // usage: node tools/capture.mjs   (set CHROME to the browser binary if it is not in the usual place)
 import { spawn } from 'node:child_process';
@@ -9,7 +9,7 @@ import { join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
 const ROOT = resolve(import.meta.dirname, '..');
-const OUT = join(ROOT, 'assets/v12');
+const OUT = join(ROOT, 'assets/v13');
 const PAGE = pathToFileURL(join(ROOT, 'tools/profile-art.html')).href;
 const CARDS = ['hero', 'work'];
 // Every card comes out 1800 px wide, whatever width it is drawn at: rendered at `scale`, then shrunk
@@ -68,7 +68,7 @@ try {
       const { data } = await send('Page.captureScreenshot', { format: 'webp', quality: 88, clip });
       const name = `${card}${size.suffix}.webp`;
       writeFileSync(join(OUT, name), Buffer.from(data, 'base64'));
-      console.log(`assets/v12/${name}  ${Math.round(Buffer.byteLength(data, 'base64') / 1024)} KB`);
+      console.log(`assets/v13/${name}  ${Math.round(Buffer.byteLength(data, 'base64') / 1024)} KB`);
     }
   }
   ws.close();
