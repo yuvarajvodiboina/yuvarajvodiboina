@@ -1,14 +1,6 @@
-<h1 align="center">Hi, I'm Yuvaraj 👋</h1>
-
-<p align="center">
-  <strong>Independent Software Engineer at CodeHorizon</strong><br>
-  Web products · Chrome extensions · Native Android apps<br>
-  Hyderabad, India · Open to engineering roles in Hyderabad or remote
-</p>
-
-<p align="center">
-  <a href="mailto:yvodiboina@gmail.com?subject=Software%20Engineering%20Opportunity"><img src="https://img.shields.io/badge/Open_to_work-Engineering_roles-34d399?style=for-the-badge&amp;labelColor=0f172a" alt="Open to engineering roles in Hyderabad or remote"></a>
-</p>
+<a href="https://yuvarajvodiboina.in/">
+  <img src="./assets/engineering-banner.svg" width="100%" alt="Yuvaraj Vodiboina — Independent Software Engineer. From idea to shipped software. 11 products built, 8 live products, 4 merged Wikimedia Commons Android pull requests.">
+</a>
 
 <p align="center">
   <a href="https://yuvarajvodiboina.in/"><img src="https://img.shields.io/badge/Portfolio-38bdf8?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=0f172a" alt="Explore my portfolio"></a>
@@ -17,44 +9,70 @@
   <a href="mailto:yvodiboina@gmail.com?subject=Software%20Engineering%20Opportunity"><img src="https://img.shields.io/badge/Let's_talk-0f172a?style=for-the-badge&amp;logo=gmail&amp;logoColor=38bdf8" alt="Email me about an engineering opportunity"></a>
 </p>
 
-I build and maintain software from the interface design through the store release. At [CodeHorizon](https://codehorizon.in/), I've built six Chrome extensions and five Android apps. Previously, I worked on React, Next.js and Shopify storefronts at Truedune Beauty. I also contribute to Wikimedia Commons Android.
 
 <p align="center">
-  <a href="https://codehorizon.in/products/"><img src="https://img.shields.io/badge/Products_built-11-38bdf8?style=for-the-badge&amp;labelColor=0f172a" alt="11 products built"></a>
-  <a href="https://codehorizon.in/products/"><img src="https://img.shields.io/badge/Live_products-8-a78bfa?style=for-the-badge&amp;labelColor=0f172a" alt="8 live products"></a>
-  <a href="https://github.com/commons-app/apps-android-commons/pulls?q=is%3Apr+is%3Amerged+author%3Ayuvarajvodiboina"><img src="https://img.shields.io/badge/Commons_PRs_merged-4-34d399?style=for-the-badge&amp;labelColor=0f172a" alt="4 merged Wikimedia Commons Android pull requests"></a>
+  <a href="#01--selected-work">SELECTED WORK</a> &nbsp; / &nbsp;
+  <a href="#02--open-source-in-production">OPEN SOURCE</a> &nbsp; / &nbsp;
+  <a href="#03--tools-i-build-with">TECH STACK</a> &nbsp; / &nbsp;
+  <a href="#04--github-activity">GITHUB ACTIVITY</a>
 </p>
 
-## Tech stack
+I take software from **interface design to production releases**. At [CodeHorizon](https://codehorizon.in/), I've built six Chrome extensions and five Android apps. Previously, I built React, Next.js and Shopify storefronts at **Truedune Beauty**. I also contribute to **Wikimedia Commons Android**.
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,html,css,kotlin,androidstudio,java,firebase,appwrite,python,flask,postgres,docker,git,githubactions,figma&amp;perline=10&amp;theme=light">
-    <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,html,css,kotlin,androidstudio,java,firebase,appwrite,python,flask,postgres,docker,git,githubactions,figma&amp;perline=10&amp;theme=dark" width="560" alt="TypeScript, JavaScript, React, Next.js, Tailwind CSS, Node.js, HTML, CSS, Kotlin, Android Studio, Java, Firebase, Appwrite, Python, Flask, PostgreSQL, Docker, Git, GitHub Actions and Figma">
-  </picture>
-</p>
+## 01 / Selected work
 
-- **Web and extensions** — React, Next.js, TypeScript, Node.js, Manifest V3, Chrome APIs and Shopify Liquid.
-- **Android** — Kotlin, Jetpack Compose, Coroutines, Room, DataStore, WorkManager, Hilt and Android Keystore.
-- **Backend and quality** — Appwrite, Firebase, Python, Flask, SQL, Cloudflare, Jest, Playwright, GitHub Actions and Figma.
+A few things I've designed, engineered and released. Open a case study for the architecture, tradeoffs and release history.
 
-## Selected work
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <p align="center"><a href="https://yuvarajvodiboina.in/work/shopgrade/"><img src="https://yuvarajvodiboina.in/assets/screens/shopgrade.webp" height="230" alt="ShopGrade product interface"></a></p>
+      <p><sub>01 · CHROME EXTENSION + WEB · LIVE</sub></p>
+      <h3><a href="https://yuvarajvodiboina.in/work/shopgrade/">ShopGrade ↗</a></h3>
+      <p><strong>Shopify audits, with evidence behind every finding.</strong></p>
+      <p>One transaction spends a credit and grants the report entitlements, protecting against crashes and concurrent requests.</p>
+      <p><sub>React · TypeScript · Appwrite</sub></p>
+      <p><a href="https://yuvarajvodiboina.in/work/shopgrade/"><strong>Explore the case study →</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <p align="center"><a href="https://yuvarajvodiboina.in/work/securevault/"><img src="https://yuvarajvodiboina.in/assets/shots/securevault/02.webp" height="230" alt="SecureVault calculator interface"> <img src="https://yuvarajvodiboina.in/assets/shots/securevault/03.webp" height="230" alt="SecureVault password protection interface"></a></p>
+      <p><sub>02 · NATIVE ANDROID · LIVE</sub></p>
+      <h3><a href="https://yuvarajvodiboina.in/work/securevault/">SecureVault ↗</a></h3>
+      <p><strong>An encrypted file vault behind a working calculator.</strong></p>
+      <p>AES-256-GCM encryption, biometric unlock and keys held in Android Keystore.</p>
+      <p><sub>Kotlin · Jetpack Compose · Android Keystore</sub></p>
+      <p><a href="https://yuvarajvodiboina.in/work/securevault/"><strong>Explore the case study →</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p align="center"><a href="https://yuvarajvodiboina.in/work/tubefocus/"><img src="https://yuvarajvodiboina.in/assets/screens/tubefocus.webp" height="230" alt="TubeFocus product interface"></a></p>
+      <p><sub>03 · CHROME EXTENSION · LIVE</sub></p>
+      <h3><a href="https://yuvarajvodiboina.in/work/tubefocus/">TubeFocus ↗</a></h3>
+      <p><strong>YouTube focus sessions that survive browser lifecycle changes.</strong></p>
+      <p>Timers survive service-worker suspension. Serialized settings writes keep state consistent.</p>
+      <p><sub>Manifest V3 · Chrome APIs · JavaScript</sub></p>
+      <p><a href="https://yuvarajvodiboina.in/work/tubefocus/"><strong>Explore the case study →</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <p align="center"><a href="https://yuvarajvodiboina.in/work/keeptake/"><img src="https://yuvarajvodiboina.in/assets/screens/keeptake.webp" height="230" alt="Keeptake product interface"></a></p>
+      <p><sub>04 · CHROME EXTENSION · LIVE</sub></p>
+      <h3><a href="https://yuvarajvodiboina.in/work/keeptake/">Keeptake ↗</a></h3>
+      <p><strong>Screen, webcam and audio recording, with local recovery.</strong></p>
+      <p>Recording chunks persist locally for crash recovery, with webcam compositing and MP4 export.</p>
+      <p><sub>MediaRecorder · IndexedDB · OffscreenCanvas</sub></p>
+      <p><a href="https://yuvarajvodiboina.in/work/keeptake/"><strong>Explore the case study →</strong></a></p>
+    </td>
+  </tr>
+</table>
 
-| Project | What I built | Engineering detail |
-| --- | --- | --- |
-| **[ShopGrade](https://yuvarajvodiboina.in/work/shopgrade/)**<br>Chrome + web | Audits public Shopify storefronts and prioritizes fixes. | React, TypeScript and Appwrite. Server-side eligibility checks and credit metering in one transaction. |
-| **[SecureVault](https://yuvarajvodiboina.in/work/securevault/)**<br>Android | An encrypted file vault behind a working calculator. | Kotlin, Jetpack Compose, AES-256-GCM, Android Keystore and biometric unlock. |
-| **[TubeFocus](https://yuvarajvodiboina.in/work/tubefocus/)**<br>Chrome | Focus controls for YouTube, with timed sessions and a temporary Peek. | Manifest V3 timers that survive service-worker suspension, with serialized settings writes. |
-| **[Keeptake](https://yuvarajvodiboina.in/work/keeptake/)**<br>Chrome | A screen recorder with webcam and audio, local recovery and MP4 export. | MediaRecorder chunks saved to IndexedDB and webcam compositing on OffscreenCanvas. |
-| **[Nicked](https://yuvarajvodiboina.in/work/nicked/)**<br>Android | A daily cricket puzzle built around 403 verified players. | A stable daily schedule across app versions, serialized DataStore saves and lifecycle-aware timing. |
+**Also shipped:** [Nicked](https://yuvarajvodiboina.in/work/nicked/), a daily cricket puzzle with 403 verified players, a stable daily schedule and serialized DataStore saves. [Companion AI](https://yuvarajvodiboina.in/work/companion/), [Speaker Cleaner](https://yuvarajvodiboina.in/work/speaker/) and [CSS Class Highlighter](https://yuvarajvodiboina.in/work/cssclass/) are live too. [Compass](https://yuvarajvodiboina.in/work/compass/) is in Google Play testing.
 
-All five are live. More work includes [Companion AI](https://yuvarajvodiboina.in/work/companion/), [Speaker Cleaner](https://yuvarajvodiboina.in/work/speaker/) and [CSS Class Highlighter](https://yuvarajvodiboina.in/work/cssclass/). [Compass](https://yuvarajvodiboina.in/work/compass/) is in Google Play testing.
+[**All 11 products and their release history →**](https://codehorizon.in/products/) &nbsp; · &nbsp; [**Public engineering case studies →**](https://github.com/yuvarajvodiboina/engineering-case-studies)
 
-[All projects and release history →](https://codehorizon.in/products/)
+## 02 / Open source, in production
 
-## Open source
-
-### Wikimedia Commons Android
+### Wikimedia Commons Android · 4 merged contributions
 
 Four maintainer-merged pull requests, with regression tests using **Kotlin, Robolectric and Mockito**.
 
@@ -71,7 +89,20 @@ Four maintainer-merged pull requests, with regression tests using **Kotlin, Robo
 
 I published an unofficial **[AxionAOSP Android 15 build for Xiaomi Pad 6](https://github.com/yuvarajvodiboina/axion-pipa)** and worked on device trees for [Pad 6](https://github.com/yuvarajvodiboina/android_device_xiaomi_pipa), [POCO X2](https://github.com/yuvarajvodiboina/device_xiaomi_phoenix) and [TWRP](https://github.com/yuvarajvodiboina/twrp_device_xiaomi_phoenix).
 
-## GitHub activity
+## 03 / Tools I build with
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,html,css,kotlin,androidstudio,java,firebase,appwrite,python,flask,postgres,docker,git,githubactions,figma&amp;perline=10&amp;theme=light">
+    <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,html,css,kotlin,androidstudio,java,firebase,appwrite,python,flask,postgres,docker,git,githubactions,figma&amp;perline=10&amp;theme=dark" width="560" alt="TypeScript, JavaScript, React, Next.js, Tailwind CSS, Node.js, HTML, CSS, Kotlin, Android Studio, Java, Firebase, Appwrite, Python, Flask, PostgreSQL, Docker, Git, GitHub Actions and Figma">
+  </picture>
+</p>
+
+- **Web and extensions** — React, Next.js, TypeScript, Node.js, Manifest V3, Chrome APIs and Shopify Liquid.
+- **Android** — Kotlin, Jetpack Compose, Coroutines, Room, DataStore, WorkManager, Hilt and Android Keystore.
+- **Backend and quality** — Appwrite, Firebase, Python, Flask, SQL, Cloudflare, Jest, Playwright, GitHub Actions and Figma.
+
+## 04 / GitHub activity
 
 <p align="center">
   <a href="https://github.com/yuvarajvodiboina?tab=overview">
@@ -110,8 +141,12 @@ Earlier public projects include a [Flask and Socket.IO chat app](https://github.
 
 ---
 
+<h2 align="center">Let's build the next thing.</h2>
 <p align="center">
-  <strong>Have an engineering role in mind?</strong><br>
-  React, Next.js, TypeScript, Chrome extensions and native Android.<br>
-  <a href="mailto:yvodiboina@gmail.com?subject=Software%20Engineering%20Opportunity">Let's talk</a> · <a href="https://yuvarajvodiboina.in/">Explore my work</a>
+  I'm interested in <strong>frontend and software engineering roles</strong> in Hyderabad or remote.<br>
+  React · Next.js · TypeScript · Chrome extensions · Native Android
+</p>
+<p align="center">
+  <a href="mailto:yvodiboina@gmail.com?subject=Software%20Engineering%20Opportunity"><img src="https://img.shields.io/badge/Discuss_a_role-5ee7f5?style=for-the-badge&amp;logo=gmail&amp;logoColor=10182c" alt="Discuss an engineering role by email"></a>
+  <a href="https://yuvarajvodiboina.in/Yuvaraj_Resume.pdf"><img src="https://img.shields.io/badge/Read_my_resume-b399ff?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=10182c" alt="Read my resume"></a>
 </p>
