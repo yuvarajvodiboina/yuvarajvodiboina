@@ -9,17 +9,19 @@
 <td width="420" valign="top">
 <p align="center"><a href="https://yuvarajvodiboina.in/work/shopgrade/"><img src="https://yuvarajvodiboina.in/assets/screens/shopgrade.webp" height="150" alt="ShopGrade auditing a Shopify storefront"></a></p>
 <strong><a href="https://yuvarajvodiboina.in/work/shopgrade/">ShopGrade ↗</a></strong><br>
-Shopify audits backed by clear evidence.<br><br>
+Shopify storefront audits with server-side quotas and atomic credit spending.<br><br>
 React · TypeScript · Appwrite
 </td>
 <td width="420" valign="top">
-<p align="center"><a href="https://yuvarajvodiboina.in/work/securevault/"><img src="https://yuvarajvodiboina.in/assets/shots/securevault/02.webp" height="150" alt="SecureVault calculator interface"> <img src="https://yuvarajvodiboina.in/assets/shots/securevault/03.webp" height="150" alt="SecureVault password protection"></a></p>
-<strong><a href="https://yuvarajvodiboina.in/work/securevault/">SecureVault ↗</a></strong><br>
-Encrypted Android files with biometric unlock.<br><br>
-Kotlin · Jetpack Compose · Android Keystore
+<p align="center"><a href="https://yuvarajvodiboina.in/work/keeptake/"><img src="https://yuvarajvodiboina.in/assets/screens/keeptake.webp" height="150" alt="Keeptake screen and webcam recorder"></a></p>
+<strong><a href="https://yuvarajvodiboina.in/work/keeptake/">Keeptake ↗</a></strong><br>
+Screen recording with crash recovery and MP4 export. 207 browser checks.<br><br>
+WebCodecs · IndexedDB · Playwright
 </td>
 </tr>
 </table>
+
+**Also built:** [SecureVault](https://yuvarajvodiboina.in/work/securevault/) — an encrypted Android vault with biometric unlock and Android Keystore.
 
 [Explore all 11 products →](https://codehorizon.in/products/) &nbsp; · &nbsp; [Engineering case studies →](https://github.com/yuvarajvodiboina/engineering-case-studies)
 
@@ -37,18 +39,11 @@ Android lifecycle fixes, upload notifications and tested refactors. Kotlin · Ro
 
 ## GitHub activity
 
-<a href="https://github.com/yuvarajvodiboina?tab=overview">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yuvarajvodiboina&amp;name=Yuvaraj%20Vodiboina&amp;theme=default&amp;title_color=202124&amp;text_color=5f6368&amp;bg_color=ffffff&amp;border_color=dadce0&amp;chart_color=4285f4&amp;animation=draw&amp;duration=2">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yuvarajvodiboina&amp;name=Yuvaraj%20Vodiboina&amp;theme=github_dark&amp;title_color=f0f6fc&amp;text_color=a6b2c1&amp;bg_color=0d1117&amp;border_color=30363d&amp;chart_color=8ab4f8&amp;animation=draw&amp;duration=2" width="100%" alt="Live GitHub overview and contribution history over the past year">
-</picture>
-</a>
+<a href="https://github.com/yuvarajvodiboina?tab=overview"><img src="./assets/github-stats.svg" width="100%" alt="GitHub calendar snapshot, 8 November 2026. 2,262 contributions over the displayed 365 days, current streak 4 days, longest streak 25 days. Weekly contribution chart. Open for current GitHub activity."></a>
 
 <details>
-<summary><strong>Experience, contributions and more stats</strong></summary>
+<summary><strong>Experience and contributions</strong></summary>
 
-<p>  <a href="https://github.com/yuvarajvodiboina?tab=overview"><img src="https://streak-stats.demolab.com/?user=yuvarajvodiboina&amp;background=10182C&amp;border=334155&amp;stroke=334155&amp;ring=67E8F9&amp;fire=B399FF&amp;currStreakNum=F1F5F9&amp;sideNums=F1F5F9&amp;currStreakLabel=67E8F9&amp;sideLabels=CBD5E1&amp;dates=94A3B8&amp;border_radius=10&amp;disable_animations=false" width="600" alt="Animated GitHub contribution totals, current streak and longest streak"></a>
-</p>
 
 | Role | Work |
 | --- | --- |
