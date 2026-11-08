@@ -1,55 +1,54 @@
-<a href="https://yuvarajvodiboina.in/"><img src="./assets/engineering-banner.svg" width="100%" alt="Yuvaraj Vodiboina — Independent Software Engineer. Web, Chrome extensions and Android. 11 products built, 8 live, 4 merged Commons PRs. Open to Hyderabad or remote roles."></a>
+<a href="https://yuvarajvodiboina.in/"><img src="./assets/engineering-banner.svg" width="100%" alt="Yuvaraj Vodiboina — Independent Software Engineer at CodeHorizon. Web, Chrome extensions and Android. 11 products built, 8 live products, 4 merged Commons PRs. Open to engineering roles in Hyderabad or remote."></a>
 
-<p align="center">
-  <a href="https://yuvarajvodiboina.in/"><img src="https://img.shields.io/badge/Portfolio-38bdf8?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=0f172a" alt="Explore my portfolio"></a>
-  <a href="https://yuvarajvodiboina.in/Yuvaraj_Resume.pdf"><img src="https://img.shields.io/badge/Resume-a78bfa?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=0f172a" alt="Read my resume"></a>
-  <a href="https://www.linkedin.com/in/yuvarajvodiboina/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="Connect on LinkedIn"></a>
-  <a href="mailto:yvodiboina@gmail.com?subject=Software%20Engineering%20Opportunity"><img src="https://img.shields.io/badge/Let's_talk-0f172a?style=for-the-badge&amp;logo=gmail&amp;logoColor=38bdf8" alt="Email me about an engineering opportunity"></a>
-</p>
+[**Portfolio ↗**](https://yuvarajvodiboina.in/) &nbsp; · &nbsp; [**Résumé**](https://yuvarajvodiboina.in/Yuvaraj_Resume.pdf) &nbsp; · &nbsp; [**LinkedIn**](https://www.linkedin.com/in/yuvarajvodiboina/) &nbsp; · &nbsp; [**Email**](mailto:yvodiboina@gmail.com?subject=Software%20Engineering%20Opportunity)
 
 ## Selected work
 
 <table align="center">
 <tr>
-<td width="420" valign="top" align="center">
-<a href="https://yuvarajvodiboina.in/work/shopgrade/"><img src="https://yuvarajvodiboina.in/assets/screens/shopgrade.webp" height="145" alt="ShopGrade Shopify audit interface"></a><br>
-<strong><a href="https://yuvarajvodiboina.in/work/shopgrade/">ShopGrade ↗</a></strong> · Chrome + web<br>
-<sub>Shopify audits with atomic credit metering.<br>React · TypeScript · Appwrite</sub>
+<td width="420" valign="top">
+<p align="center"><a href="https://yuvarajvodiboina.in/work/shopgrade/"><img src="https://yuvarajvodiboina.in/assets/screens/shopgrade.webp" height="150" alt="ShopGrade auditing a Shopify storefront"></a></p>
+<strong><a href="https://yuvarajvodiboina.in/work/shopgrade/">ShopGrade ↗</a></strong><br>
+Shopify audits backed by clear evidence.<br><br>
+React · TypeScript · Appwrite
 </td>
-<td width="420" valign="top" align="center">
-<a href="https://yuvarajvodiboina.in/work/securevault/"><img src="https://yuvarajvodiboina.in/assets/shots/securevault/02.webp" height="145" alt="SecureVault calculator interface"> <img src="https://yuvarajvodiboina.in/assets/shots/securevault/03.webp" height="145" alt="SecureVault password protection"></a><br>
-<strong><a href="https://yuvarajvodiboina.in/work/securevault/">SecureVault ↗</a></strong> · Android<br>
-<sub>Encrypted files, biometric unlock, Android Keystore.<br>Kotlin · Jetpack Compose · AES-256-GCM</sub>
+<td width="420" valign="top">
+<p align="center"><a href="https://yuvarajvodiboina.in/work/securevault/"><img src="https://yuvarajvodiboina.in/assets/shots/securevault/02.webp" height="150" alt="SecureVault calculator interface"> <img src="https://yuvarajvodiboina.in/assets/shots/securevault/03.webp" height="150" alt="SecureVault password protection"></a></p>
+<strong><a href="https://yuvarajvodiboina.in/work/securevault/">SecureVault ↗</a></strong><br>
+Encrypted Android files with biometric unlock.<br><br>
+Kotlin · Jetpack Compose · Android Keystore
 </td>
 </tr>
 </table>
 
-[**All 11 products →**](https://codehorizon.in/products/) · [TubeFocus](https://yuvarajvodiboina.in/work/tubefocus/) · [Keeptake](https://yuvarajvodiboina.in/work/keeptake/) · [Nicked](https://yuvarajvodiboina.in/work/nicked/)
+[Explore all 11 products →](https://codehorizon.in/products/) &nbsp; · &nbsp; [Engineering case studies →](https://github.com/yuvarajvodiboina/engineering-case-studies)
 
 ## Open source
 
-**Wikimedia Commons Android — [4 merged PRs](https://github.com/commons-app/apps-android-commons/pulls?q=is%3Apr+is%3Amerged+author%3Ayuvarajvodiboina).** Android lifecycle fixes, upload notifications and tested refactors using Kotlin, Robolectric and Mockito. [See the contributions →](https://yuvarajvodiboina.in/work/wikimedia-commons/)
+**[Wikimedia Commons Android](https://yuvarajvodiboina.in/work/wikimedia-commons/)** · [4 merged pull requests](https://github.com/commons-app/apps-android-commons/pulls?q=is%3Apr+is%3Amerged+author%3Ayuvarajvodiboina)  
+Android lifecycle fixes, upload notifications and tested refactors. Kotlin · Robolectric · Mockito.
 
 ## Tech stack
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,html,css,kotlin,androidstudio,java,firebase,appwrite,python,flask,postgres,docker,git,githubactions,figma&amp;perline=10&amp;theme=light">
-    <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,html,css,kotlin,androidstudio,java,firebase,appwrite,python,flask,postgres,docker,git,githubactions,figma&amp;perline=10&amp;theme=dark" width="560" alt="TypeScript, JavaScript, React, Next.js, Tailwind CSS, Node.js, HTML, CSS, Kotlin, Android Studio, Java, Firebase, Appwrite, Python, Flask, PostgreSQL, Docker, Git, GitHub Actions and Figma">
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,kotlin,androidstudio,firebase,appwrite&amp;perline=10&amp;theme=light">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,kotlin,androidstudio,firebase,appwrite&amp;perline=10&amp;theme=dark" width="500" alt="TypeScript, JavaScript, React, Next.js, Tailwind CSS, Node.js, Kotlin, Android Studio, Firebase and Appwrite">
+</picture>
 
+## GitHub activity
 
-## GitHub pulse
-
-<p align="center">
-  <a href="https://github.com/yuvarajvodiboina?tab=overview"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yuvarajvodiboina&amp;name=Yuvaraj%20Vodiboina&amp;theme=github_dark&amp;title_color=67e8f9&amp;text_color=cbd5e1&amp;bg_color=10182c&amp;border_color=334155&amp;chart_color=a78bfa&amp;animation=draw&amp;duration=3" width="58%" alt="GitHub profile overview with an animated contribution history graph"></a>
-  <a href="https://github.com/yuvarajvodiboina?tab=overview"><img src="https://streak-stats.demolab.com/?user=yuvarajvodiboina&amp;background=10182C&amp;border=334155&amp;stroke=334155&amp;ring=67E8F9&amp;fire=B399FF&amp;currStreakNum=F1F5F9&amp;sideNums=F1F5F9&amp;currStreakLabel=67E8F9&amp;sideLabels=CBD5E1&amp;dates=94A3B8&amp;border_radius=10&amp;disable_animations=false" width="40%" alt="Animated GitHub contribution totals, current streak and longest streak"></a>
-</p>
-<p align="center"><sub>Live GitHub data · contribution history + streaks</sub></p>
+<a href="https://github.com/yuvarajvodiboina?tab=overview">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yuvarajvodiboina&amp;name=Yuvaraj%20Vodiboina&amp;theme=default&amp;title_color=202124&amp;text_color=5f6368&amp;bg_color=ffffff&amp;border_color=dadce0&amp;chart_color=4285f4&amp;animation=draw&amp;duration=2">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yuvarajvodiboina&amp;name=Yuvaraj%20Vodiboina&amp;theme=github_dark&amp;title_color=f0f6fc&amp;text_color=a6b2c1&amp;bg_color=0d1117&amp;border_color=30363d&amp;chart_color=8ab4f8&amp;animation=draw&amp;duration=2" width="100%" alt="Live GitHub overview and contribution history over the past year">
+</picture>
+</a>
 
 <details>
-<summary><strong>Experience, community work and engineering notes</strong></summary>
+<summary><strong>Experience, contributions and more stats</strong></summary>
+
+<p>  <a href="https://github.com/yuvarajvodiboina?tab=overview"><img src="https://streak-stats.demolab.com/?user=yuvarajvodiboina&amp;background=10182C&amp;border=334155&amp;stroke=334155&amp;ring=67E8F9&amp;fire=B399FF&amp;currStreakNum=F1F5F9&amp;sideNums=F1F5F9&amp;currStreakLabel=67E8F9&amp;sideLabels=CBD5E1&amp;dates=94A3B8&amp;border_radius=10&amp;disable_animations=false" width="600" alt="Animated GitHub contribution totals, current streak and longest streak"></a>
+</p>
 
 | Role | Work |
 | --- | --- |
@@ -85,4 +84,4 @@ Earlier public projects include a [Flask and Socket.IO chat app](https://github.
 </details>
 
 
-<p align="center"><strong>Hiring for frontend or software engineering?</strong> <a href="mailto:yvodiboina@gmail.com?subject=Software%20Engineering%20Opportunity">Let's talk →</a></p>
+**Open to frontend and software engineering roles** in Hyderabad or remote. [Get in touch →](mailto:yvodiboina@gmail.com?subject=Software%20Engineering%20Opportunity)
