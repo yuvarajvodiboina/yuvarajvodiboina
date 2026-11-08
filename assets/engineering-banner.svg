@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">Yuvaraj Vodiboina — from idea to shipped software</title>
+  <desc id="desc">Independent Software Engineer. Web products, Chrome extensions and Android. Eleven products built, eight live products and four merged Wikimedia Commons Android pull requests.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10182c"/><stop offset="1" stop-color="#090d18"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#5ee7f5"/><stop offset="1" stop-color="#b399ff"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#6366f1" stop-opacity=".22"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#a5b4fc" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect width="1600" height="620" rx="26" fill="url(#bg)"/>
+  <rect width="1600" height="620" rx="26" fill="url(#grid)"/>
+  <ellipse cx="1250" cy="230" rx="480" ry="410" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1598" height="618" rx="25" fill="none" stroke="#334155"/>
+  <rect x="62" y="62" width="5" height="27" rx="2" fill="#67e8f9"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="84" y="83" font-size="22" letter-spacing="3" fill="#b8c7e0">YUVARAJ VODIBOINA</text>
+    <text x="62" y="184" font-size="76" font-weight="700" letter-spacing="-3" fill="#f1f5ff">From idea</text>
+    <text x="62" y="274" font-size="76" font-weight="700" letter-spacing="-3" fill="url(#accent)">to shipped software.</text>
+    <text x="65" y="334" font-size="25" fill="#d2dcee">Independent Software Engineer · CodeHorizon</text>
+    <text x="65" y="377" font-size="22" fill="#90a2c0">Web products / Chrome extensions / Native Android</text>
+    <rect x="65" y="410" width="524" height="38" rx="19" fill="#123431" stroke="#22554c"/>
+    <circle cx="86" cy="429" r="5" fill="#69e5bd"/>
+    <text x="103" y="436" font-size="18" fill="#96f0d1">Open to engineering roles · Hyderabad / Remote</text>
+  </g>
+  <!-- A stylized engineering workspace, rather than a product screenshot. -->
+  <g transform="translate(930 65)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="0" y="0" width="586" height="366" rx="18" fill="#111b2f" stroke="#3a4762"/>
+    <path d="M1 46H585" stroke="#334155"/>
+    <circle cx="24" cy="23" r="5" fill="#fb7185"/><circle cx="43" cy="23" r="5" fill="#fbbf24"/><circle cx="62" cy="23" r="5" fill="#5ee7b9"/>
+    <text x="90" y="29" font-size="15" fill="#9caec9" font-family="monospace">engineering / product-to-release</text>
+    <text x="29" y="91" font-size="14" letter-spacing="2" fill="#758bab">DESIGN → BUILD → TEST → SHIP</text>
+    <rect x="27" y="117" width="246" height="90" rx="11" fill="#172b3c" stroke="#2a6876"/>
+    <text x="46" y="148" font-size="14" fill="#62d9eb">WEB + EXTENSIONS</text>
+    <text x="46" y="179" font-size="24" font-weight="700" fill="#edf6ff">ShopGrade</text>
+    <rect x="293" y="117" width="266" height="90" rx="11" fill="#25233e" stroke="#65548a"/>
+    <text x="312" y="148" font-size="14" fill="#c0a7ff">NATIVE ANDROID</text>
+    <text x="312" y="179" font-size="24" font-weight="700" fill="#edf6ff">SecureVault</text>
+    <path d="M150 208v28h275v-28M288 236v28" fill="none" stroke="#6780a4" stroke-width="2" stroke-dasharray="5 5"/>
+    <rect x="27" y="264" width="532" height="71" rx="11" fill="#102d2c" stroke="#28615a"/>
+    <circle cx="56" cy="299" r="14" fill="#1d5147"/><path d="m49 299 5 5 9-10" fill="none" stroke="#7af0c5" stroke-width="3" stroke-linecap="round"/>
+    <text x="82" y="292" font-size="14" fill="#8ee9cf">OPEN SOURCE · WIKIMEDIA COMMONS ANDROID</text>
+    <text x="82" y="317" font-size="19" fill="#e5f9f3">4 pull requests merged by maintainers</text>
+  </g>
+  <path d="M62 483H1538" stroke="#2a364e"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="65" y="552" font-size="46" font-weight="700" fill="#67e8f9">11</text><text x="133" y="549" font-size="20" fill="#a7b6cf">PRODUCTS BUILT</text>
+    <path d="M477 516V571" stroke="#2a364e"/>
+    <text x="533" y="552" font-size="46" font-weight="700" fill="#baa4ff">08</text><text x="611" y="549" font-size="20" fill="#a7b6cf">LIVE PRODUCTS</text>
+    <path d="M940 516V571" stroke="#2a364e"/>
+    <text x="997" y="552" font-size="46" font-weight="700" fill="#75e6bf">04</text><text x="1075" y="549" font-size="20" fill="#a7b6cf">MERGED COMMONS PRs</text>
+  </g>
+</svg>
