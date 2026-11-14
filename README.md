@@ -1,82 +1,16 @@
-<a href="https://yuvarajvodiboina.in/"><img src="./assets/engineering-banner.svg" width="100%" alt="Yuvaraj Vodiboina — Independent Software Engineer at CodeHorizon. Web, Chrome extensions and Android. 11 products built, 8 live products, 4 merged Commons PRs. Open to engineering roles in Hyderabad or remote."></a>
+<a href="https://yuvarajvodiboina.in/"><img src="./assets/profile/hero.svg" width="100%" alt="Yuvaraj Vodiboina, software engineer in Hyderabad, India, open to roles. I build for the browser and the pocket. 11 products shipped, 8 live on Chrome and Google Play, 9 merged open-source pull requests, 2,297 GitHub contributions this year."></a>
 
-[**Portfolio ↗**](https://yuvarajvodiboina.in/) &nbsp; · &nbsp; [**Résumé**](https://yuvarajvodiboina.in/Yuvaraj_Resume.pdf) &nbsp; · &nbsp; [**LinkedIn**](https://www.linkedin.com/in/yuvarajvodiboina/) &nbsp; · &nbsp; [**Email**](mailto:yvodiboina@gmail.com?subject=Software%20Engineering%20Opportunity)
+<p align="center">
+<a href="https://yuvarajvodiboina.in/"><img src="./assets/profile/link-portfolio.svg" width="23%" alt="Portfolio"></a>
+<a href="https://yuvarajvodiboina.in/Yuvaraj_Resume.pdf"><img src="./assets/profile/link-resume.svg" width="23%" alt="Résumé"></a>
+<a href="https://www.linkedin.com/in/yuvarajvodiboina/"><img src="./assets/profile/link-linkedin.svg" width="23%" alt="LinkedIn"></a>
+<a href="mailto:yvodiboina@gmail.com?subject=Software%20Engineering%20Opportunity"><img src="./assets/profile/link-email.svg" width="23%" alt="Email"></a>
+</p>
 
-## Selected work
+<a href="https://yuvarajvodiboina.in/#work"><img src="./assets/profile/work.svg" width="100%" alt="Selected work, 4 of 11 products. ShopGrade: Shopify audits, 542 tests. SecureVault: Android vault, AES-256 encryption. Keeptake: screen recorder, 207 end-to-end checks. TubeFocus: YouTube focus, 63 checks."></a>
 
-<table align="center">
-<tr>
-<td width="420" valign="top">
-<p align="center"><a href="https://yuvarajvodiboina.in/work/shopgrade/"><img src="https://yuvarajvodiboina.in/assets/screens/shopgrade.webp" height="150" alt="ShopGrade auditing a Shopify storefront"></a></p>
-<strong><a href="https://yuvarajvodiboina.in/work/shopgrade/">ShopGrade ↗</a></strong><br>
-Shopify storefront audits with server-side quotas and atomic credit spending.<br><br>
-React · TypeScript · Appwrite
-</td>
-<td width="420" valign="top">
-<p align="center"><a href="https://yuvarajvodiboina.in/work/keeptake/"><img src="https://yuvarajvodiboina.in/assets/screens/keeptake.webp" height="150" alt="Keeptake screen and webcam recorder"></a></p>
-<strong><a href="https://yuvarajvodiboina.in/work/keeptake/">Keeptake ↗</a></strong><br>
-Screen recording with crash recovery and MP4 export. 207 browser checks.<br><br>
-WebCodecs · IndexedDB · Playwright
-</td>
-</tr>
-</table>
+<img src="./assets/profile/toolkit.svg" width="100%" alt="Toolkit. Languages: TypeScript, JavaScript, Kotlin, Java, Python, SQL. Web: React, Next.js, React Native, Node.js, Tailwind CSS, Shopify Liquid. Android: Jetpack Compose, Coroutines, Hilt, Room, WorkManager, Keystore. Platform: Manifest V3, Appwrite, Firebase, Cloudflare, Docker, Vercel. Quality: Playwright, Jest, Robolectric, GitHub Actions, Figma.">
 
-**Also built:** [SecureVault](https://yuvarajvodiboina.in/work/securevault/) — an encrypted Android vault with biometric unlock and Android Keystore.
+<a href="https://github.com/yuvarajvodiboina?tab=overview"><img src="./assets/profile/activity.svg" width="100%" alt="2,297 GitHub contributions this year, 585 in the busiest week, 25-day longest streak. Snapshot from 14 November 2026."></a>
 
-[Explore all 11 products →](https://codehorizon.in/products/) &nbsp; · &nbsp; [Engineering case studies →](https://github.com/yuvarajvodiboina/engineering-case-studies)
-
-## Open source
-
-**[Wikimedia Commons Android](https://yuvarajvodiboina.in/work/wikimedia-commons/)** · [4 merged pull requests](https://github.com/commons-app/apps-android-commons/pulls?q=is%3Apr+is%3Amerged+author%3Ayuvarajvodiboina)  
-Android lifecycle fixes, upload notifications and tested refactors. Kotlin · Robolectric · Mockito.
-
-## Tech stack
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,kotlin,androidstudio,firebase,appwrite&amp;perline=10&amp;theme=light">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,nodejs,kotlin,androidstudio,firebase,appwrite&amp;perline=10&amp;theme=dark" width="500" alt="TypeScript, JavaScript, React, Next.js, Tailwind CSS, Node.js, Kotlin, Android Studio, Firebase and Appwrite">
-</picture>
-
-## GitHub activity
-
-<a href="https://github.com/yuvarajvodiboina?tab=overview"><img src="./assets/github-stats.svg" width="100%" alt="GitHub calendar snapshot, 8 November 2026. 2,262 contributions over the displayed 365 days, current streak 4 days, longest streak 25 days. Weekly contribution chart. Open for current GitHub activity."></a>
-
-<details>
-<summary><strong>Experience and contributions</strong></summary>
-
-
-| Role | Work |
-| --- | --- |
-| **Independent Software Engineer · CodeHorizon**<br>Oct 2024–present | Product design, development, testing, store releases and maintenance across Chrome and Android. |
-| **Frontend Engineer · Truedune Beauty**<br>Oct 2025–Aug 2026 | React, Next.js and TypeScript storefronts, Shopify Liquid, checkout improvements, six A/B tests and React Native contributions. |
-| **Web Developer · Kalpa Corporate Artz**<br>Sep–Nov 2025 · Contract | Figma to a production Next.js website, with GitHub Actions and Cloudflare Pages. |
-| **Frontend Engineer Intern · Intern Stump**<br>May–Oct 2024 | Accessible React and TypeScript components, Jest tests and frontend performance work. |
-| **Web Development Intern · MSsquare Technologies**<br>Apr–Sep 2023 | HTML, CSS, JavaScript, Bootstrap, page speed and technical SEO. |
-
-| Pull request | Contribution |
-| --- | --- |
-| [#7252](https://github.com/commons-app/apps-android-commons/pull/7252) | Preserved photo edits and fixed a location picker crash when Android recreates the upload screen. |
-| [#7071](https://github.com/commons-app/apps-android-commons/pull/7071) | Moved upload progress to a silent notification channel while preserving completion alerts. |
-| [#7184](https://github.com/commons-app/apps-android-commons/pull/7184) | Split the achievements screen into the screen and two tested helpers. |
-| [#7069](https://github.com/commons-app/apps-android-commons/pull/7069) | Skipped unsupported shared files before copying, avoiding a 12.6 MB RAW-file copy in testing. |
-
-[Read the contribution case study →](https://yuvarajvodiboina.in/work/wikimedia-commons/)
-
-### Android community work
-
-I published an unofficial **[AxionAOSP Android 15 build for Xiaomi Pad 6](https://github.com/yuvarajvodiboina/axion-pipa)** and worked on device trees for [Pad 6](https://github.com/yuvarajvodiboina/android_device_xiaomi_pipa), [POCO X2](https://github.com/yuvarajvodiboina/device_xiaomi_phoenix) and [TWRP](https://github.com/yuvarajvodiboina/twrp_device_xiaomi_phoenix).
-
-
-B.Tech in Computer Science and Engineering, Avanthi Institute of Engineering & Technology, JNTU-GV (2024). Google UX Design and Docker Foundations certifications.
-
-
-
-
-CodeHorizon product repositories are private. I document their architecture, testing and release decisions in [engineering case studies](https://github.com/yuvarajvodiboina/engineering-case-studies) and [my portfolio](https://yuvarajvodiboina.in/). I also write technical explainers at [CodeHorizon Insights](https://codehorizon.in/insights/).
-
-Earlier public projects include a [Flask and Socket.IO chat app](https://github.com/yuvarajvodiboina/Chat_Room) and [IdentiFlash, an Android flashlight app in Java](https://github.com/yuvarajvodiboina/identi_flash).
-
-</details>
-
-
-**Open to frontend and software engineering roles** in Hyderabad or remote. [Get in touch →](mailto:yvodiboina@gmail.com?subject=Software%20Engineering%20Opportunity)
+<a href="mailto:yvodiboina@gmail.com?subject=Software%20Engineering%20Opportunity"><img src="./assets/profile/closing.svg" width="100%" alt="Next station: open to frontend, Android or full-stack software engineering roles, on-site in Hyderabad or remote. Email yvodiboina@gmail.com."></a>
