@@ -376,7 +376,7 @@ LATEST = [
     ("23 NOV", "codehorizon.in", "Page changes now sweep a curved stroke across the screen, in each product’s colour.", PEACH),
     ("18 NOV", "Open source", "Two more fixes merged into Wikimedia Commons: shared photos and failed previews.", MINT),
     ("17 NOV", "Promo films", "Animated films for eight products, on YouTube, Google Play and codehorizon.in.", LILAC),
-    ("3 NOV", "Keeptake", "A free screen recorder that saves as it goes, live on the Chrome Web Store.", BUTTER),
+    ("6 NOV", "Feathervid", "Free video and audio tools that run in the browser, live at feathervid.com.", BUTTER),
 ]
 
 
