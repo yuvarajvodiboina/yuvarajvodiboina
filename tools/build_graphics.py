@@ -306,6 +306,61 @@ def work():
         "\n".join(body), css)
 
 
+# ------------------------------------------------------------------ open source
+# Merged pull requests to commons-app/apps-android-commons, newest first. Check the list with:
+#   gh search prs --author yuvarajvodiboina --merged --json repository,title,closedAt,url
+OSS = [
+    (7360, "18 Nov", "Previews keep their shape on a failed load"),
+    (7345, "18 Nov", "Shared photos can keep their location"),
+    (7337, "15 Nov", "Samsung motion-photo clips removed"),
+    (7325, "13 Nov", "Photo EXIF dates written in Western digits"),
+    (7318, "12 Nov", "Long files explain their Detekt exceptions"),
+    (7312, "12 Nov", "An unused Nearby map check removed"),
+    (7296, "10 Nov", "Upload count shows 1000+ at the cap"),
+    (7284, "10 Nov", "Wikitext dates written in Western digits"),
+    (7252, "6 Nov", "Photo edits survive a rebuilt upload screen"),
+    (7071, "2 Nov", "Silent upload progress, a bug from 2019"),
+    (7184, "27 Oct", "Achievements screen split for Detekt"),
+    (7069, "24 Oct", "Unsupported shared files skipped early"),
+]
+
+
+def open_source():
+    n = len(OSS)
+    W, PY, ROWH, PAD = 1600, 352, 64, 20
+    rows = math.ceil(n / 2)
+    PH = rows * ROWH + 2 * PAD
+    H = PY + PH + 32
+    body = [eyebrow(64, 84, "(02)", "OPEN SOURCE", f"{n} MERGED SINCE OCT 2026")]
+    nw = width(str(n), 168, "Bold", -16)
+    body.append(text(54, 262, str(n), 168, "Bold", SUN, track=-16, cls="rise"))
+    body.append(rich(54 + nw + 34, 190, [("pull requests merged into the", "Regular", INK)], 46,
+                     cls="rise", style="animation-delay:.1s"))
+    body.append(rich(54 + nw + 34, 252, [("Wikimedia Commons", "Bold", INK), (" Android app.", "Regular", INK)], 46,
+                     cls="rise", style="animation-delay:.15s"))
+    sub = "Kotlin. Each one fixes an open issue, comes with new Robolectric and Mockito tests, and was merged by the maintainer."
+    assert width(sub, 26) < W - 128, "subline too wide"
+    body.append(text(64, 312, sub, 26, "Regular", MUTED, cls="fade"))
+    body.append(f'<rect x="32" y="{PY}" width="{W - 64}" height="{PH}" rx="22" fill="{TOP}" stroke="{LINE}" stroke-width="1.5"/>')
+    body.append(f'<line x1="{W / 2}" y1="{PY + 24}" x2="{W / 2}" y2="{PY + PH - 24}" stroke="{LINE}" stroke-width="1.5"/>')
+    colw = (W - 64) / 2 - 72
+    for i, (num, date, title) in enumerate(OSS):
+        col, row = divmod(i, rows)
+        cx = 32 + 36 + col * (W - 64) / 2
+        y = PY + PAD + row * ROWH
+        if row:
+            body.append(f'<line x1="{cx:.0f}" y1="{y}" x2="{cx + colw:.0f}" y2="{y}" stroke="{LINE}" stroke-width="1"/>')
+        assert width(title, 26) <= colw - 112 - 86, title
+        body.append(f'<g class="rise" style="animation-delay:{.25 + i * .06:.2f}s">'
+                    + text(cx, y + 42, f"#{num}", 26, "Medium", SUN_TEXT)
+                    + text(cx + 112, y + 42, title, 26, "Regular", INK)
+                    + text(cx + colw, y + 42, date, 22, "Regular", MUTED, "end") + "</g>")
+    svg("open-source.svg", W, H, f"{n} pull requests merged into Wikimedia Commons",
+        f"Open source: {n} pull requests merged into the Wikimedia Commons Android app since October 2026, each "
+        f"fixing an open issue with new tests. " + " ".join(f"#{a}, {d}: {t}." for a, d, t in OSS),
+        "\n".join(body))
+
+
 # ------------------------------------------------------------------ toolkit keyboard
 KEYS = [
     ("LANGUAGES", ["TypeScript", "JavaScript", "Kotlin", "Java", "Python", "SQL"], {0, 2}),
@@ -430,5 +485,6 @@ if __name__ == "__main__":
     for slug, label, primary in LINKS:
         link_pill(slug, label, primary)
     work()
+    open_source()
     toolkit()
     closing()
