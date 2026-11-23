@@ -361,6 +361,35 @@ def open_source():
         "\n".join(body))
 
 
+# ------------------------------------------------------------------ latest
+# The newest entries of the shipping log, from codehorizon's changelog and git history.
+LATEST = [
+    ("23 NOV", "codehorizon.in", "Page changes now sweep a curved stroke across the screen, in each product’s colour.", PEACH),
+    ("18 NOV", "Open source", "Two more fixes merged into Wikimedia Commons: shared photos and failed previews.", MINT),
+    ("17 NOV", "Promo films", "Animated films for eight products, on YouTube, Google Play and codehorizon.in.", LILAC),
+    ("3 NOV", "Keeptake", "A free screen recorder that saves as it goes, live on the Chrome Web Store.", BUTTER),
+]
+
+
+def latest():
+    W, H = 1600, 494
+    GAP, X0, ty, th = 22, 32, 124, 338
+    tw = (W - 2 * X0 - 3 * GAP) / 4
+    body = [eyebrow(64, 84, "(03)", "LATEST", "FROM THE SHIPPING LOG")]
+    for i, (date, name, line, tint) in enumerate(LATEST):
+        x = X0 + i * (tw + GAP)
+        lines = wrap(line, 27, "Regular", tw - 52)
+        assert len(lines) <= 4 and width(name, 40, "Bold", -8) < tw - 48, name
+        g = [f'<rect x="{x:.1f}" y="{ty}" width="{tw:.1f}" height="{th}" rx="24" fill="{tint}"/>',
+             text(x + 26, ty + 58, date, 24, "Medium", SUN_TEXT, track=110),
+             text(x + 24, ty + 122, name, 40, "Bold", INK, track=-8)]
+        g += [text(x + 26, ty + 176 + k * 37, ln, 27, "Regular", MUTED) for k, ln in enumerate(lines)]
+        body.append(f'<g class="rise" style="animation-delay:{i * .1:.1f}s">{"".join(g)}</g>')
+    svg("latest.svg", W, H, "Latest from the shipping log",
+        "Latest from the shipping log. " + " ".join(f"{d.title()} 2026, {n}: {l}" for d, n, l, _ in LATEST),
+        "\n".join(body))
+
+
 # ------------------------------------------------------------------ toolkit keyboard
 KEYS = [
     ("LANGUAGES", ["TypeScript", "JavaScript", "Kotlin", "Java", "Python", "SQL"], {0, 2}),
@@ -486,5 +515,6 @@ if __name__ == "__main__":
         link_pill(slug, label, primary)
     work()
     open_source()
+    latest()
     toolkit()
     closing()
