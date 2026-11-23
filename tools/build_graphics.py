@@ -9,7 +9,8 @@ Needs: pip install fonttools uharfbuzz, and Google Sans in ~/Library/Fonts.
     python tools/build_graphics.py <screenshots dir> <contributions.json>
 
 The screenshots dir holds shopgrade/keeptake/securevault/tubefocus .webp
-(from yuvarajvodiboina.in/assets/screens/). The JSON is the output of:
+(from yuvarajvodiboina.in/assets/screens/) and feathervid.webp (feathervid.com in
+light mode at 1440 px, banner cropped off, scaled to 1320x844). The JSON is the output of:
     gh api graphql -f query='{user(login:"yuvarajvodiboina"){contributionsCollection{
       contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}}}}'
 """
@@ -226,7 +227,7 @@ def hero(total):
     body.append(rich(64, 316, [("I build for the ", "Regular", MUTED), ("browser", "MediumItalic", SUN_TEXT),
                                (" and the ", "Regular", MUTED), ("pocket.", "MediumItalic", SUN_TEXT)], 44,
                      cls="rise", style="animation-delay:.3s"))
-    stats = [("11", "products shipped"), ("8", "live on Chrome and Play"),
+    stats = [(str(PRODUCTS), "products shipped"), (str(LIVE), "live on Chrome, Play and web"),
              (str(len(OSS)), "merged open-source PRs"), (f"{total:,}", "contributions this year")]
     py, ph = 460, 116
     body.append(f'<rect x="32" y="{py}" width="{W - 64}" height="{ph}" rx="22" fill="{TOP}" stroke="{LINE}" stroke-width="1.5"/>')
@@ -240,7 +241,7 @@ def hero(total):
                     + text(x, py + 94, lab, 24, "Regular", MUTED) + "</g>")
     svg("hero.svg", W, H, "Yuvaraj Vodiboina, software engineer",
         f"Yuvaraj Vodiboina, software engineer in Hyderabad, India, open to roles. I build for the browser and the "
-        f"pocket. 11 products shipped, 8 live on Chrome and Google Play, {len(OSS)} merged open-source pull requests, "
+        f"pocket. {PRODUCTS} products shipped, {LIVE} live on Chrome, Google Play and the web, {len(OSS)} merged open-source pull requests, "
         f"{total:,} GitHub contributions this year.", "\n".join(body), css)
 
 
@@ -262,9 +263,15 @@ def link_pill(slug, label, primary):
 
 
 # ------------------------------------------------------------------ work
+# CodeHorizon's products (codehorizon.in lists 11: 8 live, 1 in testing, 2 retired) plus Feathervid,
+# the web app at feathervid.com, live since 6 Nov 2026.
+PRODUCTS, LIVE = 12, 9
+FEATHER = "#ffe2d4"  # Feathervid's own soft accent
+
 WORK = [
     ("shopgrade", "ShopGrade", PEACH, "542", "tests", "Shopify audits"),
-    ("securevault", "SecureVault", MINT, "AES-256", "encryption", "Android vault"),
+    ("securevault", "SecureVault", MINT, "AES-256", "", "Android vault"),
+    ("feathervid", "Feathervid", FEATHER, "15", "browser tools", "Video and audio"),
     ("keeptake", "Keeptake", LILAC, "207", "E2E checks", "Screen recorder"),
     ("tubefocus", "TubeFocus", BUTTER, "63", "checks", "YouTube focus"),
 ]
@@ -273,13 +280,14 @@ WORK = [
 def work():
     W, H = 1600, 550
     GAP, X0 = 22, 32
-    tw = (W - 2 * X0 - 3 * GAP) / 4
+    n = len(WORK)
+    tw = (W - 2 * X0 - (n - 1) * GAP) / n
     ty, th, ih = 124, 404, 214
     css = """
 @keyframes float { 0%,100% { transform:translateY(0) } 50% { transform:translateY(-7px) } }
 .float { animation: float 6s ease-in-out infinite }
 """
-    body = [eyebrow(64, 84, "(01)", "SELECTED WORK", "11 PRODUCTS, 8 LIVE"),
+    body = [eyebrow(64, 84, "(01)", "SELECTED WORK", f"{PRODUCTS} PRODUCTS, {LIVE} LIVE"),
             '<filter id="sh" x="-10%" y="-10%" width="120%" height="140%">'
             '<feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#2a1510" flood-opacity=".16"/></filter>']
     for i, (slug, name, tint, metric, mlabel, kind) in enumerate(WORK):
@@ -292,16 +300,17 @@ def work():
                    f'preserveAspectRatio="xMidYMid meet" href="{shot(slug)}"/>')
         else:
             img = (f'<image x="{fx:.1f}" y="{fy}" width="{fw:.1f}" height="{ih}" '
-                   f'preserveAspectRatio="xMidYMin slice" href="{shot(slug)}"/>')
+                   f'preserveAspectRatio="{"xMinYMin" if slug == "feathervid" else "xMidYMin"} slice" href="{shot(slug)}"/>')
         body.append(f'<g class="float" style="animation-delay:{i * .6:.1f}s">'
                     f'<rect x="{fx:.1f}" y="{fy}" width="{fw:.1f}" height="{ih}" rx="14" fill="{TOP}" filter="url(#sh)"/>'
                     f'<g clip-path="url(#s{i})">{img}</g></g>')
         body.append(text(x + 22, ty + 296, name, 40, "Bold", INK, track=-8))
         body.append(text(x + 24, ty + 334, kind, 24, "Regular", MUTED))
         parts = [(metric, "Bold", SUN_TEXT)] + ([(" " + mlabel, "Medium", SUN_TEXT)] if mlabel else [])
+        assert sum(width(t, 28, w) for t, w, _ in parts) < tw - 40 and width(name, 40, "Bold", -8) < tw - 40, name
         body.append(rich(x + 24, ty + 378, parts, 28))
     svg("work.svg", W, H, "Selected work",
-        "Selected work, 4 of 11 products. " + " ".join(
+        f"Selected work, {n} of {PRODUCTS} products. " + " ".join(
             f"{n}: {k.lower()}, {m} {l}." .replace("  ", " ") for _, n, _, m, l, k in WORK),
         "\n".join(body), css)
 
