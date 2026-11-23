@@ -227,7 +227,7 @@ def hero(total):
                                (" and the ", "Regular", MUTED), ("pocket.", "MediumItalic", SUN_TEXT)], 44,
                      cls="rise", style="animation-delay:.3s"))
     stats = [("11", "products shipped"), ("8", "live on Chrome and Play"),
-             ("9", "merged open-source PRs"), (f"{total:,}", "contributions this year")]
+             (str(len(OSS)), "merged open-source PRs"), (f"{total:,}", "contributions this year")]
     py, ph = 460, 116
     body.append(f'<rect x="32" y="{py}" width="{W - 64}" height="{ph}" rx="22" fill="{TOP}" stroke="{LINE}" stroke-width="1.5"/>')
     cw = (W - 64) / 4
@@ -240,7 +240,7 @@ def hero(total):
                     + text(x, py + 94, lab, 24, "Regular", MUTED) + "</g>")
     svg("hero.svg", W, H, "Yuvaraj Vodiboina, software engineer",
         f"Yuvaraj Vodiboina, software engineer in Hyderabad, India, open to roles. I build for the browser and the "
-        f"pocket. 11 products shipped, 8 live on Chrome and Google Play, 9 merged open-source pull requests, "
+        f"pocket. 11 products shipped, 8 live on Chrome and Google Play, {len(OSS)} merged open-source pull requests, "
         f"{total:,} GitHub contributions this year.", "\n".join(body), css)
 
 
@@ -409,7 +409,7 @@ def toolkit():
 @keyframes press { 0%,6%,100% { transform:none } 2% { transform:translateY(7px) } }
 .key { animation: press 9s ease-in-out infinite }
 """
-    body = [eyebrow(64, 84, "(02)", "TOOLKIT", "WHAT I SHIP WITH")]
+    body = [eyebrow(64, 84, "(04)", "TOOLKIT", "WHAT I SHIP WITH")]
     kx0, kx1 = 330, W - 64
     n = 0
     for r, (cat, keys, hot) in enumerate(KEYS):
@@ -449,7 +449,7 @@ def activity(cal):
 .bar { transform-box:fill-box; transform-origin:50% 100%; animation: grow .9s cubic-bezier(.2,.7,.2,1) both }
 """
     last = dt.date.fromisoformat(days[-1]["date"])
-    body = [eyebrow(64, 84, "(03)", "ACTIVITY", f"SNAPSHOT {last.day} {last.strftime('%b').upper()} {last.year}")]
+    body = [eyebrow(64, 84, "(05)", "ACTIVITY", f"SNAPSHOT {last.day} {last.strftime('%b').upper()} {last.year}")]
     figures = [(f"{total:,}", "contributions this year", INK), (str(peak), "in the busiest week", SUN),
                (str(best), "day longest streak", INK)]
     x = 64
@@ -491,7 +491,7 @@ def closing():
 .sun { animation: sunrise 3s cubic-bezier(.16,.8,.2,1) .3s both }
 """
     body = [f'<g class="sun">{striped_sun(1360, H + 30, 250, "#ff7a45", SUN, 7)}</g>',
-            eyebrow(64, 84, "(04)", "NEXT STATION", color=PEACH, numcolor=TOP),
+            eyebrow(64, 84, "(06)", "NEXT STATION", color=PEACH, numcolor=TOP),
             rich(58, 196, [("Open to software ", "Bold", TOP), ("engineering roles.", "BoldItalic", INK)], 76,
                  cls="rise", style="animation-delay:.1s"),
             text(64, 252, "Frontend, Android or full stack, on-site in Hyderabad or remote.", 29, "Regular", PEACH,
