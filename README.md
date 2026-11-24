@@ -1,10 +1,11 @@
 <a href="https://yuvarajvodiboina.in/"><img src="./assets/profile/hero.svg" width="100%" alt="Yuvaraj Vodiboina, software engineer in Hyderabad, India, open to roles. I build for the browser and the pocket. 12 products shipped, 9 live on Chrome, Google Play and the web, 12 merged open-source pull requests, 2,375 GitHub contributions this year."></a>
 
 <p align="center">
-<a href="https://yuvarajvodiboina.in/"><img src="./assets/profile/link-portfolio.svg" width="23%" alt="Portfolio"></a>
-<a href="https://yuvarajvodiboina.in/Yuvaraj_Resume.pdf"><img src="./assets/profile/link-resume.svg" width="23%" alt="Résumé"></a>
-<a href="https://www.linkedin.com/in/yuvarajvodiboina/"><img src="./assets/profile/link-linkedin.svg" width="23%" alt="LinkedIn"></a>
-<a href="mailto:yvodiboina@gmail.com?subject=Software%20Engineering%20Opportunity"><img src="./assets/profile/link-email.svg" width="23%" alt="Email"></a>
+<a href="https://yuvarajvodiboina.in/"><img src="./assets/profile/link-portfolio.svg" width="18.5%" alt="Portfolio"></a>
+<a href="https://yuvarajvodiboina.in/Yuvaraj_Resume.pdf"><img src="./assets/profile/link-resume.svg" width="18.5%" alt="Résumé"></a>
+<a href="https://www.linkedin.com/in/yuvarajvodiboina/"><img src="./assets/profile/link-linkedin.svg" width="18.5%" alt="LinkedIn"></a>
+<a href="https://leetcode.com/u/yuvarajvodiboina/"><img src="./assets/profile/link-leetcode.svg" width="18.5%" alt="LeetCode, 100+ problems solved"></a>
+<a href="mailto:yvodiboina@gmail.com?subject=Software%20Engineering%20Opportunity"><img src="./assets/profile/link-email.svg" width="18.5%" alt="Email"></a>
 </p>
 
 <a href="https://yuvarajvodiboina.in/#work"><img src="./assets/profile/work.svg" width="100%" alt="Selected work, 5 of 12 products. ShopGrade: Shopify audits, 542 tests. SecureVault: Android vault, AES-256 encryption. Feathervid: video and audio, 15 browser tools. Keeptake: screen recorder, 207 end-to-end checks. TubeFocus: YouTube focus, 63 checks."></a>
