@@ -247,7 +247,7 @@ def hero(total):
 
 # ------------------------------------------------------------------ links
 LINKS = [("portfolio", "Portfolio", True), ("resume", "Résumé", False),
-         ("linkedin", "LinkedIn", False), ("email", "Email", False)]
+         ("linkedin", "LinkedIn", False), ("leetcode", "LeetCode", False), ("email", "Email", False)]
 
 
 def link_pill(slug, label, primary):
